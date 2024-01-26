@@ -1,7 +1,7 @@
 # Project Plan
 
 ## Name: Oscar Hui
-## Project Title: 
+## Project Title: Investigating the feasibility of using machine learning to predict housing price and index prediction
 ## Supervisor: Mr. Vadgama Nikhil
 ## Aims and Objectives:
 “To learn about the trends of pricing within housing industry within London"
@@ -35,9 +35,9 @@ your	supervisor)	to	solve	your	project’s	underlying	problem
 - A	design	specification	for	a	software	application	or	equivalent	specification	
 for	relevant	deliverables.
 
-- A	fully	documented	and	functional	piece	of	software	or	equivalent.
+- A	fully documented and functional	piece of software or equivalent.
 
-- A	strategy	for	testing	and	evaluating	your	software	or	equivalent
+- A	strategy for testing and evaluating	your software or equivalent
 
 ## Work Plan
 - Project	start	to	end of	October	(4	weeks)	Literature	search	and	review
