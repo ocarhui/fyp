@@ -1,70 +1,74 @@
 import pandas as pd
-def process_and_save_by_postcode_prefix(file_path, year):
 
-    data = pd.read_csv(file_path)
+file_paths = {
+    '1995': './data/pp-cleaned1995.csv',
+    '1996': './data/pp-cleaned1996.csv',
+    '1997': './data/pp-cleaned1997.csv',
+    '1998': './data/pp-cleaned1998.csv',
+    '1999': './data/pp-cleaned1999.csv',
+    '2000': './data/pp-cleaned2000.csv',
+    '2001': './data/pp-cleaned2001.csv',
+    '2002': './data/pp-cleaned2002.csv',
+    '2003': './data/pp-cleaned2003.csv',
+    '2004': './data/pp-cleaned2004.csv',
+    '2005': './data/pp-cleaned2005.csv',
+    '2006': './data/pp-cleaned2006.csv',
+    '2007': './data/pp-cleaned2007.csv',
+    '2008': './data/pp-cleaned2008.csv',
+    '2009': './data/pp-cleaned2009.csv',
+    '2010': './data/pp-cleaned2010.csv',
+    '2011': './data/pp-cleaned2011.csv',
+    '2012': './data/pp-cleaned2012.csv',
+    '2013': './data/pp-cleaned2013.csv',
+    '2014': './data/pp-cleaned2014.csv',
+    '2015': './data/pp-cleaned2015.csv',
+    '2016': './data/pp-cleaned2016.csv',
+    '2017': './data/pp-cleaned2017.csv',
+    '2018': './data/pp-cleaned2018.csv',
+    '2019': './data/pp-cleaned2019.csv',
+    '2020': './data/pp-cleaned2020.csv',
+    '2021': './data/pp-cleaned2021.csv'
+}
+
+# Initialize an empty dataframe to hold all combined data
+combined_data = pd.DataFrame()
+
+# Process each file
+for year, path in file_paths.items():
+    # Load the data
+    data = pd.read_csv(path)
+    
     # Extract postcode prefix
     data['Postcode Prefix'] = data['Postcode'].apply(lambda x: x.split(' ')[0])
     
-    # Unique list of postcode prefixes
-    postcode_prefixes = data['Postcode Prefix'].unique()
+    # Add the year column to distinguish entries from different years
+    data['Year'] = year
     
-    # Dictionary to store file paths for each prefix
-    saved_files = {}
+    # Append to the combined dataframe
+    combined_data = combined_data._append(data, ignore_index=True)
+
+# Now, combined_data contains all entries from 2019, 2020, and 2021 with postcode prefixes extracted
+# Next, we'll group by postcode prefix and save to CSVs
+
+# Unique list of postcode prefixes
+postcode_prefixes_combined = combined_data['Postcode Prefix'].unique()
+
+# Dictionary to store file paths for each combined prefix
+saved_files_combined = {}
+
+for prefix in postcode_prefixes_combined:
+    # Filter data for the current prefix
+    filtered_data = combined_data[combined_data['Postcode Prefix'] == prefix]
     
-    for prefix in postcode_prefixes:
-        # Filter data for the current prefix
-        filtered_data = data[data['Postcode Prefix'] == prefix]
-        
-        # Define file name based on postcode prefix and year
-        save_file_path = f'./data/{prefix}_{year}.csv'
-        
-        # Save to CSV
-        filtered_data.to_csv(save_file_path, index=False)
-        
-        # Store the file path
-        saved_files[prefix] = save_file_path
+    # Define file name based on postcode prefix
+    save_file_path_combined = f'./data/{prefix}_combined.csv'
     
-    return saved_files
+    # Save to CSV
+    filtered_data.to_csv(save_file_path_combined, index=False)
+    
+    # Store the file path
+    saved_files_combined[prefix] = save_file_path_combined
 
-   
-DATA_DIR = "./data"
-DATA_1995_CSV = DATA_DIR + "/pp-cleaned1995.csv"
-DATA_1996_CSV = DATA_DIR + "/pp-cleaned1996.csv"
-DATA_1997_CSV = DATA_DIR + "/pp-cleaned1997.csv"
-DATA_1998_CSV = DATA_DIR + "/pp-cleaned1998.csv"
-DATA_1999_CSV = DATA_DIR + "/pp-cleaned1999.csv"
-DATA_2000_CSV = DATA_DIR + "/pp-cleaned2000.csv"
-DATA_2001_CSV = DATA_DIR + "/pp-cleaned2001.csv"
-DATA_2002_CSV = DATA_DIR + "/pp-cleaned2002.csv"
-DATA_2003_CSV = DATA_DIR + "/pp-cleaned2003.csv"
-DATA_2004_CSV = DATA_DIR + "/pp-cleaned2004.csv"
-DATA_2005_CSV = DATA_DIR + "/pp-cleaned2005.csv"
-DATA_2006_CSV = DATA_DIR + "/pp-cleaned2006.csv"
-DATA_2007_CSV = DATA_DIR + "/pp-cleaned2007.csv"
-DATA_2008_CSV = DATA_DIR + "/pp-cleaned2008.csv"
-DATA_2009_CSV = DATA_DIR + "/pp-cleaned2009.csv"
-DATA_2010_CSV = DATA_DIR + "/pp-cleaned2010.csv"
-DATA_2011_CSV = DATA_DIR + "/pp-cleaned2011.csv"
-DATA_2012_CSV = DATA_DIR + "/pp-cleaned2012.csv"
-DATA_2013_CSV = DATA_DIR + "/pp-cleaned2013.csv"
-DATA_2014_CSV = DATA_DIR + "/pp-cleaned2014.csv"
-DATA_2015_CSV = DATA_DIR + "/pp-cleaned2015.csv"
-DATA_2016_CSV = DATA_DIR + "/pp-cleaned2016.csv"
-DATA_2017_CSV = DATA_DIR + "/pp-cleaned2017.csv"
-DATA_2018_CSV = DATA_DIR + "/pp-cleaned2018.csv"
-DATA_2019_CSV = DATA_DIR + "/pp-cleaned2019.csv"
-DATA_2020_CSV = DATA_DIR + "/pp-cleaned2020.csv"
-DATA_2021_CSV = DATA_DIR + "/pp-cleaned2021.csv"
-
-year = 1995
-
-# Process and save files for 2019
-dataList = [DATA_1995_CSV, DATA_1996_CSV, DATA_1997_CSV, DATA_1998_CSV, DATA_1999_CSV, DATA_2000_CSV, DATA_2001_CSV,
-            DATA_2002_CSV, DATA_2003_CSV, DATA_2004_CSV, DATA_2005_CSV, DATA_2006_CSV, DATA_2007_CSV, DATA_2008_CSV,
-            DATA_2009_CSV, DATA_2010_CSV, DATA_2011_CSV, DATA_2012_CSV, DATA_2013_CSV, DATA_2014_CSV, DATA_2015_CSV,
-            DATA_2016_CSV, DATA_2017_CSV, DATA_2018_CSV, DATA_2019_CSV, DATA_2020_CSV, DATA_2021_CSV]
-
-for data in dataList:
-    saved_files = process_and_save_by_postcode_prefix(data, str(year))
-    year += 1
+# Display a sample of the saved file paths for combined data
+list(saved_files_combined.items())[:5]
     
