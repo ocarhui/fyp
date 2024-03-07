@@ -1,0 +1,2688 @@
+Key: E6
+Test Statistic                 -18.966213
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: E1
+Test Statistic                -1.649015e+01
+p-value                        2.196173e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: W1G
+Test Statistic                -1.733253e+01
+p-value                        5.399280e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.780000e+02
+Critical Value (1%)           -3.454094e+00
+Critical Value (5%)           -2.871993e+00
+Critical Value (10%)          -2.572340e+00
+dtype: float64
+
+Key: IG8
+Test Statistic                 -21.118809
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N15
+Test Statistic                 -21.378180
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: SW9
+Test Statistic                 -19.735864
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N12
+Test Statistic                 -22.887702
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: KT6
+Test Statistic                 -22.296582
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: EC3N
+Test Statistic                -7.314855e+00
+p-value                        1.236929e-10
+#Lags Used                     1.000000e+00
+Number of Observations Used    6.000000e+01
+Critical Value (1%)           -3.544369e+00
+Critical Value (5%)           -2.911073e+00
+Critical Value (10%)          -2.593190e+00
+dtype: float64
+
+Key: W7
+Test Statistic                 -19.707103
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Insufficient data for ADF test after differencing for WD6.
+
+Key: KT1
+Test Statistic                 -21.821391
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N9
+Test Statistic                 -23.269100
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: DA17
+Test Statistic                 -20.564843
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: DA6
+Test Statistic                -1.832960e+01
+p-value                        2.257237e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.790000e+02
+Critical Value (1%)           -3.454008e+00
+Critical Value (5%)           -2.871956e+00
+Critical Value (10%)          -2.572320e+00
+dtype: float64
+
+Key: SW1Y
+Test Statistic                -7.467738e+00
+p-value                        5.150985e-11
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.030000e+02
+Critical Value (1%)           -3.495493e+00
+Critical Value (5%)           -2.890037e+00
+Critical Value (10%)          -2.581971e+00
+dtype: float64
+
+Insufficient data for ADF test after differencing for KT22.
+
+Key: RM7
+Test Statistic                 -21.891453
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: WC2R
+Test Statistic                -7.098127e+00
+p-value                        4.236630e-10
+#Lags Used                     1.000000e+00
+Number of Observations Used    4.600000e+01
+Critical Value (1%)           -3.581258e+00
+Critical Value (5%)           -2.926785e+00
+Critical Value (10%)          -2.601541e+00
+dtype: float64
+
+Key: BR4
+Test Statistic                 -19.989496
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    296.000000
+Critical Value (1%)             -3.452637
+Critical Value (5%)             -2.871354
+Critical Value (10%)            -2.571999
+dtype: float64
+
+Key: SE18
+Test Statistic                -1.765550e+01
+p-value                        3.703016e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: DA1
+Test Statistic                 -21.643620
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    293.000000
+Critical Value (1%)             -3.452867
+Critical Value (5%)             -2.871455
+Critical Value (10%)            -2.572053
+dtype: float64
+
+Key: EC1R
+Test Statistic                -1.845435e+01
+p-value                        2.151429e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.790000e+02
+Critical Value (1%)           -3.454008e+00
+Critical Value (5%)           -2.871956e+00
+Critical Value (10%)          -2.572320e+00
+dtype: float64
+
+Key: BR3
+Test Statistic                 -21.074685
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE8
+Test Statistic                 -19.527995
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: TW9
+Test Statistic                 -19.907518
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: EC1M
+Test Statistic                 -21.084423
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    239.000000
+Critical Value (1%)             -3.458011
+Critical Value (5%)             -2.873710
+Critical Value (10%)            -2.573256
+dtype: float64
+
+Key: SW1A
+Test Statistic                -8.079296e+00
+p-value                        1.476203e-12
+#Lags Used                     1.000000e+00
+Number of Observations Used    6.600000e+01
+Critical Value (1%)           -3.533560e+00
+Critical Value (5%)           -2.906444e+00
+Critical Value (10%)          -2.590724e+00
+dtype: float64
+
+Key: CR5
+Test Statistic                -1.851426e+01
+p-value                        2.112634e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.690000e+02
+Critical Value (1%)           -3.454896e+00
+Critical Value (5%)           -2.872345e+00
+Critical Value (10%)          -2.572528e+00
+dtype: float64
+
+Key: SM6
+Test Statistic                -1.861691e+01
+p-value                        2.062844e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: EN8
+Test Statistic                 -1.915542
+p-value                         0.324785
+#Lags Used                      1.000000
+Number of Observations Used    65.000000
+Critical Value (1%)            -3.535217
+Critical Value (5%)            -2.907154
+Critical Value (10%)           -2.591103
+dtype: float64
+
+ADF test could not be performed for EC3V due to: maxlag must be less than (nobs/2 - 1 - ntrend) where n trend is the number of included deterministic regressors
+
+Key: RM12
+Test Statistic                 -20.439299
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    315.000000
+Critical Value (1%)             -3.451281
+Critical Value (5%)             -2.870760
+Critical Value (10%)            -2.571682
+dtype: float64
+
+Key: CR2
+Test Statistic                 -24.092587
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SM1
+Test Statistic                -1.761075e+01
+p-value                        3.880708e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: UB8
+Test Statistic                 -19.081129
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: DA16
+Test Statistic                 -23.490752
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: N8
+Test Statistic                 -21.325974
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: W6
+Test Statistic                -1.790844e+01
+p-value                        2.935641e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+ADF test could not be performed for TN14 due to: maxlag must be less than (nobs/2 - 1 - ntrend) where n trend is the number of included deterministic regressors
+
+Key: SE9
+Test Statistic                -1.876858e+01
+p-value                        2.025466e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: BR2
+Test Statistic                -1.760242e+01
+p-value                        3.915478e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: RM1
+Test Statistic                 -19.909644
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: EC4V
+Test Statistic                -1.383481e+01
+p-value                        7.477081e-26
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.580000e+02
+Critical Value (1%)           -3.472431e+00
+Critical Value (5%)           -2.880013e+00
+Critical Value (10%)          -2.576619e+00
+dtype: float64
+
+Key: SE19
+Test Statistic                 -20.041800
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW1X
+Test Statistic                 -23.214525
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: DA7
+Test Statistic                 -20.856962
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: BR5
+Test Statistic                 -19.894363
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    315.000000
+Critical Value (1%)             -3.451281
+Critical Value (5%)             -2.870760
+Critical Value (10%)            -2.571682
+dtype: float64
+
+Key: RM6
+Test Statistic                -1.697057e+01
+p-value                        9.165440e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: W1F
+Test Statistic                -9.642898e+00
+p-value                        1.504282e-16
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.180000e+02
+Critical Value (1%)           -3.487022e+00
+Critical Value (5%)           -2.886363e+00
+Critical Value (10%)          -2.580009e+00
+dtype: float64
+
+Key: E7
+Test Statistic                 -23.774928
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: EC2M
+Test Statistic                 -2.635647
+p-value                         0.085851
+#Lags Used                      1.000000
+Number of Observations Used    14.000000
+Critical Value (1%)            -4.012034
+Critical Value (5%)            -3.104184
+Critical Value (10%)           -2.690987
+dtype: float64
+
+Key: N13
+Test Statistic                 -21.291197
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: SW8
+Test Statistic                -1.686759e+01
+p-value                        1.087402e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: N14
+Test Statistic                 -20.466139
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: IG9
+Test Statistic                 -4.852789
+p-value                         0.000043
+#Lags Used                      1.000000
+Number of Observations Used    43.000000
+Critical Value (1%)            -3.592504
+Critical Value (5%)            -2.931550
+Critical Value (10%)           -2.604066
+dtype: float64
+
+Key: UB9
+Test Statistic                -1.683325e+01
+p-value                        1.153496e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.210000e+02
+Critical Value (1%)           -3.460291e+00
+Critical Value (5%)           -2.874709e+00
+Critical Value (10%)          -2.573789e+00
+dtype: float64
+
+Key: N22
+Test Statistic                 -19.937501
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: RM14
+Test Statistic                 -25.175570
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    311.000000
+Critical Value (1%)             -3.451553
+Critical Value (5%)             -2.870879
+Critical Value (10%)            -2.571746
+dtype: float64
+
+Insufficient data for ADF test after differencing for CR3.
+
+Key: RM13
+Test Statistic                 -21.054730
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    305.000000
+Critical Value (1%)             -3.451974
+Critical Value (5%)             -2.871063
+Critical Value (10%)            -2.571844
+dtype: float64
+
+Insufficient data for ADF test after differencing for SM7.
+
+Key: CR4
+Test Statistic                -1.737079e+01
+p-value                        5.139170e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+ADF test could not be performed for EC2R due to: Invalid input, x is constant
+
+Key: TW8
+Test Statistic                 -19.350207
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    315.000000
+Critical Value (1%)             -3.451281
+Critical Value (5%)             -2.870760
+Critical Value (10%)            -2.571682
+dtype: float64
+
+Key: SE28
+Test Statistic                -1.762016e+01
+p-value                        3.842095e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.010000e+02
+Critical Value (1%)           -3.452263e+00
+Critical Value (5%)           -2.871191e+00
+Critical Value (10%)          -2.571912e+00
+dtype: float64
+
+Key: WC1R
+Test Statistic                -6.370177e+00
+p-value                        2.355648e-08
+#Lags Used                     1.000000e+00
+Number of Observations Used    5.500000e+01
+Critical Value (1%)           -3.555273e+00
+Critical Value (5%)           -2.915731e+00
+Critical Value (10%)          -2.595670e+00
+dtype: float64
+
+Key: E18
+Test Statistic                 -21.684391
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: TW5
+Test Statistic                -1.760986e+01
+p-value                        3.884384e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.880000e+02
+Critical Value (1%)           -3.453262e+00
+Critical Value (5%)           -2.871628e+00
+Critical Value (10%)          -2.572146e+00
+dtype: float64
+
+Key: E12
+Test Statistic                 -22.666286
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    302.000000
+Critical Value (1%)             -3.452190
+Critical Value (5%)             -2.871158
+Critical Value (10%)            -2.571895
+dtype: float64
+
+Key: WC1X
+Test Statistic                -1.567523e+01
+p-value                        1.495718e-28
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.650000e+02
+Critical Value (1%)           -3.455270e+00
+Critical Value (5%)           -2.872509e+00
+Critical Value (10%)          -2.572615e+00
+dtype: float64
+
+Key: W1S
+Test Statistic                 -3.327908
+p-value                         0.013676
+#Lags Used                      1.000000
+Number of Observations Used    33.000000
+Critical Value (1%)            -3.646135
+Critical Value (5%)            -2.954127
+Critical Value (10%)           -2.615968
+dtype: float64
+
+Key: SE22
+Test Statistic                 -21.416754
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: TW2
+Test Statistic                 -21.079372
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: E15
+Test Statistic                -1.691169e+01
+p-value                        1.009532e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: W1T
+Test Statistic                -1.432593e+01
+p-value                        1.120709e-26
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.630000e+02
+Critical Value (1%)           -3.455461e+00
+Critical Value (5%)           -2.872593e+00
+Critical Value (10%)          -2.572660e+00
+dtype: float64
+
+Key: SE25
+Test Statistic                -1.836757e+01
+p-value                        2.221272e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.190000e+02
+Critical Value (1%)           -3.451017e+00
+Critical Value (5%)           -2.870643e+00
+Critical Value (10%)          -2.571620e+00
+dtype: float64
+
+Key: SW10
+Test Statistic                -1.881721e+01
+p-value                        2.022266e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: WC2A
+Test Statistic                 -4.906788
+p-value                         0.000034
+#Lags Used                      1.000000
+Number of Observations Used    31.000000
+Critical Value (1%)            -3.661429
+Critical Value (5%)            -2.960525
+Critical Value (10%)           -2.619319
+dtype: float64
+
+Key: NW11
+Test Statistic                 -21.298911
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    318.000000
+Critical Value (1%)             -3.451082
+Critical Value (5%)             -2.870672
+Critical Value (10%)            -2.571636
+dtype: float64
+
+Key: SW17
+Test Statistic                 -20.717739
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: EC1A
+Test Statistic                -1.697578e+01
+p-value                        9.088709e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.100000e+02
+Critical Value (1%)           -3.461879e+00
+Critical Value (5%)           -2.875404e+00
+Critical Value (10%)          -2.574159e+00
+dtype: float64
+
+Key: EN3
+Test Statistic                -1.825786e+01
+p-value                        2.334812e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: UB4
+Test Statistic                 -21.896926
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: EN4
+Test Statistic                 -21.578534
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: UB3
+Test Statistic                 -19.903018
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: W1K
+Test Statistic                -1.836963e+01
+p-value                        2.219421e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.860000e+02
+Critical Value (1%)           -3.453423e+00
+Critical Value (5%)           -2.871699e+00
+Critical Value (10%)          -2.572183e+00
+dtype: float64
+
+Key: W11
+Test Statistic                 -21.848003
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: E1W
+Test Statistic                 -22.541145
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: IG3
+Test Statistic                 -20.465795
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    300.000000
+Critical Value (1%)             -3.452337
+Critical Value (5%)             -2.871223
+Critical Value (10%)            -2.571929
+dtype: float64
+
+Key: SW2
+Test Statistic                 -20.647457
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: IG4
+Test Statistic                -8.748175e+00
+p-value                        2.884480e-14
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.740000e+02
+Critical Value (1%)           -3.468502e+00
+Critical Value (5%)           -2.878298e+00
+Critical Value (10%)          -2.575704e+00
+dtype: float64
+
+Key: N1C
+Test Statistic                -7.348511e+00
+p-value                        1.020493e-10
+#Lags Used                     1.000000e+00
+Number of Observations Used    6.900000e+01
+Critical Value (1%)           -3.528890e+00
+Critical Value (5%)           -2.904440e+00
+Critical Value (10%)          -2.589656e+00
+dtype: float64
+
+Key: N19
+Test Statistic                 -22.833035
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW5
+Test Statistic                 -20.478276
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N5
+Test Statistic                 -21.113175
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: N2
+Test Statistic                 -20.678745
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: NW1
+Test Statistic                 -23.432268
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA6
+Test Statistic                 -20.613125
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: TW11
+Test Statistic                 -21.007187
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE13
+Test Statistic                 -19.949559
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE4
+Test Statistic                 -22.822589
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: EC1Y
+Test Statistic                -1.657055e+01
+p-value                        1.871962e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.380000e+02
+Critical Value (1%)           -3.458128e+00
+Critical Value (5%)           -2.873762e+00
+Critical Value (10%)          -2.573283e+00
+dtype: float64
+
+Insufficient data for ADF test after differencing for BR8.
+
+Key: NW6
+Test Statistic                 -23.552188
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA1
+Test Statistic                 -19.552788
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE3
+Test Statistic                 -24.630634
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE14
+Test Statistic                 -22.706192
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW16
+Test Statistic                 -19.799504
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: NW10
+Test Statistic                 -20.269785
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW11
+Test Statistic                 -21.278264
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: UB2
+Test Statistic                 -19.224837
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    313.000000
+Critical Value (1%)             -3.451416
+Critical Value (5%)             -2.870819
+Critical Value (10%)            -2.571714
+dtype: float64
+
+Key: EN5
+Test Statistic                 -20.014420
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: CR8
+Test Statistic                 -22.987561
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: UB5
+Test Statistic                 -20.915000
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: EN2
+Test Statistic                 -20.777702
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE24
+Test Statistic                 -22.782629
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: W1U
+Test Statistic                -1.765931e+01
+p-value                        3.688567e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: E14
+Test Statistic                 -19.657303
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: TW3
+Test Statistic                -1.685267e+01
+p-value                        1.115512e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: EC2Y
+Test Statistic                 -20.213345
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    294.000000
+Critical Value (1%)             -3.452790
+Critical Value (5%)             -2.871422
+Critical Value (10%)            -2.572035
+dtype: float64
+
+Key: SE23
+Test Statistic                 -20.080919
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: E13
+Test Statistic                -1.729249e+01
+p-value                        5.693316e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.060000e+02
+Critical Value (1%)           -3.451902e+00
+Critical Value (5%)           -2.871032e+00
+Critical Value (10%)          -2.571827e+00
+dtype: float64
+
+ADF test could not be performed for KT19 due to: maxlag must be less than (nobs/2 - 1 - ntrend) where n trend is the number of included deterministic regressors
+
+Key: TW4
+Test Statistic                 -20.308696
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    301.000000
+Critical Value (1%)             -3.452263
+Critical Value (5%)             -2.871191
+Critical Value (10%)            -2.571912
+dtype: float64
+
+Key: N3
+Test Statistic                 -20.737908
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: N4
+Test Statistic                 -20.422145
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE15
+Test Statistic                 -20.840707
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE2
+Test Statistic                -1.697858e+01
+p-value                        9.047704e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.500000e+02
+Critical Value (1%)           -3.456781e+00
+Critical Value (5%)           -2.873172e+00
+Critical Value (10%)          -2.572969e+00
+dtype: float64
+
+Key: NW7
+Test Statistic                 -19.585776
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA0
+Test Statistic                 -20.994129
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: SE5
+Test Statistic                 -20.699262
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE12
+Test Statistic                 -21.242718
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: TW10
+Test Statistic                 -19.302798
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA7
+Test Statistic                 -23.257305
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: EC2A
+Test Statistic                -1.447556e+01
+p-value                        6.498350e-27
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.950000e+02
+Critical Value (1%)           -3.464337e+00
+Critical Value (5%)           -2.876479e+00
+Critical Value (10%)          -2.574733e+00
+dtype: float64
+
+Key: W10
+Test Statistic                 -23.311649
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: W1J
+Test Statistic                -1.474362e+01
+p-value                        2.548108e-27
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.250000e+02
+Critical Value (1%)           -3.459752e+00
+Critical Value (5%)           -2.874473e+00
+Critical Value (10%)          -2.573663e+00
+dtype: float64
+
+Key: WC1A
+Test Statistic                -5.959766e+00
+p-value                        2.052255e-07
+#Lags Used                     1.000000e+00
+Number of Observations Used    6.100000e+01
+Critical Value (1%)           -3.542413e+00
+Critical Value (5%)           -2.910236e+00
+Critical Value (10%)          -2.592745e+00
+dtype: float64
+
+Key: SW20
+Test Statistic                 -20.491486
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: SW4
+Test Statistic                 -22.512797
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N18
+Test Statistic                -1.724696e+01
+p-value                        6.057187e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.990000e+02
+Critical Value (1%)           -3.452411e+00
+Critical Value (5%)           -2.871255e+00
+Critical Value (10%)          -2.571947e+00
+dtype: float64
+
+Key: IG5
+Test Statistic                -1.778635e+01
+p-value                        3.261101e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.520000e+02
+Critical Value (1%)           -3.456569e+00
+Critical Value (5%)           -2.873079e+00
+Critical Value (10%)          -2.572919e+00
+dtype: float64
+
+Key: SW3
+Test Statistic                 -23.791992
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: IG2
+Test Statistic                 -20.544467
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    309.000000
+Critical Value (1%)             -3.451691
+Critical Value (5%)             -2.870939
+Critical Value (10%)            -2.571778
+dtype: float64
+
+Key: UB7
+Test Statistic                 -19.323561
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW13
+Test Statistic                 -19.907719
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: WC2B
+Test Statistic                -1.323539e+01
+p-value                        9.401591e-25
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.790000e+02
+Critical Value (1%)           -3.467420e+00
+Critical Value (5%)           -2.877826e+00
+Critical Value (10%)          -2.575452e+00
+dtype: float64
+
+Key: SW14
+Test Statistic                 -23.141161
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    315.000000
+Critical Value (1%)             -3.451281
+Critical Value (5%)             -2.870760
+Critical Value (10%)            -2.571682
+dtype: float64
+
+Key: WC2E
+Test Statistic                -6.467209e+00
+p-value                        1.395641e-08
+#Lags Used                     1.000000e+00
+Number of Observations Used    6.300000e+01
+Critical Value (1%)           -3.538695e+00
+Critical Value (5%)           -2.908645e+00
+Critical Value (10%)          -2.591897e+00
+dtype: float64
+
+Key: E11
+Test Statistic                 -20.130819
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE21
+Test Statistic                 -21.754049
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: E16
+Test Statistic                 -21.731172
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: TW1
+Test Statistic                -1.826932e+01
+p-value                        2.321532e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.190000e+02
+Critical Value (1%)           -3.451017e+00
+Critical Value (5%)           -2.870643e+00
+Critical Value (10%)          -2.571620e+00
+dtype: float64
+
+Key: SE26
+Test Statistic                 -19.594019
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: W1W
+Test Statistic                -1.778612e+01
+p-value                        3.261793e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.840000e+02
+Critical Value (1%)           -3.453587e+00
+Critical Value (5%)           -2.871771e+00
+Critical Value (10%)          -2.572222e+00
+dtype: float64
+
+Key: NW2
+Test Statistic                -1.812138e+01
+p-value                        2.521023e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: TW12
+Test Statistic                 -20.197862
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA5
+Test Statistic                 -21.625860
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: E20
+Test Statistic                -6.189259e+00
+p-value                        6.179926e-08
+#Lags Used                     1.000000e+00
+Number of Observations Used    4.700000e+01
+Critical Value (1%)           -3.577848e+00
+Critical Value (5%)           -2.925338e+00
+Critical Value (10%)          -2.600774e+00
+dtype: float64
+
+Key: SE10
+Test Statistic                 -19.458578
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE7
+Test Statistic                -1.841133e+01
+p-value                        2.183972e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.110000e+02
+Critical Value (1%)           -3.451553e+00
+Critical Value (5%)           -2.870879e+00
+Critical Value (10%)          -2.571746e+00
+dtype: float64
+
+Key: NW5
+Test Statistic                 -22.792147
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: RM8
+Test Statistic                -1.778549e+01
+p-value                        3.263668e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.940000e+02
+Critical Value (1%)           -3.452790e+00
+Critical Value (5%)           -2.871422e+00
+Critical Value (10%)          -2.572035e+00
+dtype: float64
+
+Insufficient data for ADF test after differencing for TW15.
+
+Key: SW1V
+Test Statistic                 -22.732045
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA2
+Test Statistic                 -20.065194
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE17
+Test Statistic                 -22.016755
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: W8
+Test Statistic                 -18.885680
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: DA18
+Test Statistic                 -4.450525
+p-value                         0.000241
+#Lags Used                      1.000000
+Number of Observations Used    35.000000
+Critical Value (1%)            -3.632743
+Critical Value (5%)            -2.948510
+Critical Value (10%)           -2.613017
+dtype: float64
+
+Key: N6
+Test Statistic                 -21.280695
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N1
+Test Statistic                 -19.293267
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: EC3A
+Test Statistic                 0.297488
+p-value                        0.977229
+#Lags Used                     1.000000
+Number of Observations Used    6.000000
+Critical Value (1%)           -5.354256
+Critical Value (5%)           -3.646238
+Critical Value (10%)          -2.901198
+dtype: float64
+
+Key: KT9
+Test Statistic                 -19.777612
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    311.000000
+Critical Value (1%)             -3.451553
+Critical Value (5%)             -2.870879
+Critical Value (10%)            -2.571746
+dtype: float64
+
+Key: IG7
+Test Statistic                -1.753274e+01
+p-value                        4.228581e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.200000e+02
+Critical Value (1%)           -3.460428e+00
+Critical Value (5%)           -2.874769e+00
+Critical Value (10%)          -2.573821e+00
+dtype: float64
+
+Key: SW6
+Test Statistic                 -21.175241
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: W1H
+Test Statistic                 -22.063307
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: W12
+Test Statistic                -1.768927e+01
+p-value                        3.578446e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: E9
+Test Statistic                 -20.052906
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE27
+Test Statistic                 -23.416761
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: E17
+Test Statistic                 -21.749688
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE20
+Test Statistic                 -20.458834
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: TW7
+Test Statistic                 -21.997041
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: E10
+Test Statistic                 -20.095573
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: UB1
+Test Statistic                -1.506194e+01
+p-value                        8.978309e-28
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.910000e+02
+Critical Value (1%)           -3.453023e+00
+Critical Value (5%)           -2.871524e+00
+Critical Value (10%)          -2.572090e+00
+dtype: float64
+
+Insufficient data for ADF test after differencing for CM13.
+
+Key: UB6
+Test Statistic                 -19.412682
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: EN1
+Test Statistic                 -20.745287
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW15
+Test Statistic                 -19.769790
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW12
+Test Statistic                 -18.983556
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW1H
+Test Statistic                -9.979204e+00
+p-value                        2.136955e-17
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.550000e+02
+Critical Value (1%)           -3.473259e+00
+Critical Value (5%)           -2.880374e+00
+Critical Value (10%)          -2.576812e+00
+dtype: float64
+
+Key: EC4A
+Test Statistic                -1.050754e+01
+p-value                        1.044796e-18
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.200000e+02
+Critical Value (1%)           -3.486056e+00
+Critical Value (5%)           -2.885943e+00
+Critical Value (10%)          -2.579785e+00
+dtype: float64
+
+Key: SW7
+Test Statistic                 -22.036902
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: IG6
+Test Statistic                 -19.469574
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: IG1
+Test Statistic                 -22.058180
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: W14
+Test Statistic                -1.592609e+01
+p-value                        7.824431e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Insufficient data for ADF test after differencing for W1N.
+
+Key: WC1E
+Test Statistic                -1.124139e+01
+p-value                        1.803409e-20
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.420000e+02
+Critical Value (1%)           -3.477262e+00
+Critical Value (5%)           -2.882118e+00
+Critical Value (10%)          -2.577743e+00
+dtype: float64
+
+Key: E8
+Test Statistic                 -21.445752
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: W13
+Test Statistic                 -22.689880
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: WC1B
+Test Statistic                -9.118401e+00
+p-value                        3.254914e-15
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.400000e+02
+Critical Value (1%)           -3.477945e+00
+Critical Value (5%)           -2.882416e+00
+Critical Value (10%)          -2.577902e+00
+dtype: float64
+
+Key: SE16
+Test Statistic                 -22.109983
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE1
+Test Statistic                -1.654264e+01
+p-value                        1.977481e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: RM9
+Test Statistic                -1.639176e+01
+p-value                        2.689899e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.550000e+02
+Critical Value (1%)           -3.456257e+00
+Critical Value (5%)           -2.872942e+00
+Critical Value (10%)          -2.572846e+00
+dtype: float64
+
+Key: NW4
+Test Statistic                 -21.464075
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA3
+Test Statistic                 -21.807740
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: DA8
+Test Statistic                 -19.121010
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SW1W
+Test Statistic                -1.545235e+01
+p-value                        2.773544e-28
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: TW14
+Test Statistic                -1.682283e+01
+p-value                        1.174568e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.070000e+02
+Critical Value (1%)           -3.451831e+00
+Critical Value (5%)           -2.871001e+00
+Critical Value (10%)          -2.571811e+00
+dtype: float64
+
+Key: SE6
+Test Statistic                 -19.158444
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: SE11
+Test Statistic                 -24.671548
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: EC4Y
+Test Statistic                 -2.220342
+p-value                         0.198945
+#Lags Used                      1.000000
+Number of Observations Used    18.000000
+Critical Value (1%)            -3.859073
+Critical Value (5%)            -3.042046
+Critical Value (10%)           -2.660906
+dtype: float64
+
+Key: NW3
+Test Statistic                 -21.755911
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA4
+Test Statistic                 -19.553164
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: TW13
+Test Statistic                -1.782999e+01
+p-value                        3.136142e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: SW1P
+Test Statistic                 -21.551167
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: KT8
+Test Statistic                 -1.611179
+p-value                         0.477357
+#Lags Used                      1.000000
+Number of Observations Used    13.000000
+Critical Value (1%)            -4.068854
+Critical Value (5%)            -3.127149
+Critical Value (10%)           -2.701730
+dtype: float64
+
+Key: N7
+Test Statistic                 -19.060504
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: W9
+Test Statistic                 -22.517924
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Insufficient data for ADF test after differencing for TW19.
+
+Key: DA5
+Test Statistic                -1.686926e+01
+p-value                        1.084311e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.390000e+02
+Critical Value (1%)           -3.458011e+00
+Critical Value (5%)           -2.873710e+00
+Critical Value (10%)          -2.573256e+00
+dtype: float64
+
+Key: NW9
+Test Statistic                 -19.033939
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: BR7
+Test Statistic                -1.836876e+01
+p-value                        2.220202e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.130000e+02
+Critical Value (1%)           -3.451416e+00
+Critical Value (5%)           -2.870819e+00
+Critical Value (10%)          -2.571714e+00
+dtype: float64
+
+ADF test could not be performed for RM4 due to: Invalid input, x is constant
+
+Key: EC1V
+Test Statistic                 -26.334642
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    313.000000
+Critical Value (1%)             -3.451416
+Critical Value (5%)             -2.870819
+Critical Value (10%)            -2.571714
+dtype: float64
+
+Key: HA9
+Test Statistic                -1.845237e+01
+p-value                        2.152841e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: RM3
+Test Statistic                -1.877626e+01
+p-value                        2.024680e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: TN16
+Test Statistic                 -19.932856
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    282.000000
+Critical Value (1%)             -3.453754
+Critical Value (5%)             -2.871844
+Critical Value (10%)            -2.572261
+dtype: float64
+
+Key: W3
+Test Statistic                 -21.894933
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: KT5
+Test Statistic                 -21.558936
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: W4
+Test Statistic                 -21.584581
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: KT2
+Test Statistic                -1.812627e+01
+p-value                        2.513387e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: DA14
+Test Statistic                 -20.419552
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Insufficient data for ADF test after differencing for WD23.
+
+Key: N16
+Test Statistic                 -20.463604
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N11
+Test Statistic                 -22.013789
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: E5
+Test Statistic                 -20.838033
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: WC1H
+Test Statistic                 -20.969182
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    312.000000
+Critical Value (1%)             -3.451484
+Critical Value (5%)             -2.870849
+Critical Value (10%)            -2.571730
+dtype: float64
+
+Insufficient data for ADF test after differencing for W1C.
+
+Key: E2
+Test Statistic                -1.820475e+01
+p-value                        2.400917e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: W1D
+Test Statistic                -6.618495e+00
+p-value                        6.121006e-09
+#Lags Used                     1.000000e+00
+Number of Observations Used    6.500000e+01
+Critical Value (1%)           -3.535217e+00
+Critical Value (5%)           -2.907154e+00
+Critical Value (10%)          -2.591103e+00
+dtype: float64
+
+Key: SM5
+Test Statistic                 -22.549095
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Insufficient data for ADF test after differencing for CR6.
+
+Key: RM11
+Test Statistic                 -21.766011
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    311.000000
+Critical Value (1%)             -3.451553
+Critical Value (5%)             -2.870879
+Critical Value (10%)            -2.571746
+dtype: float64
+
+Key: SM2
+Test Statistic                 -20.898441
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N20
+Test Statistic                 -22.392513
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    314.000000
+Critical Value (1%)             -3.451349
+Critical Value (5%)             -2.870789
+Critical Value (10%)            -2.571698
+dtype: float64
+
+Key: EC3R
+Test Statistic                  0.466006
+p-value                         0.983802
+#Lags Used                      1.000000
+Number of Observations Used    43.000000
+Critical Value (1%)            -3.592504
+Critical Value (5%)            -2.931550
+Critical Value (10%)           -2.604066
+dtype: float64
+
+Key: EC1N
+Test Statistic                -1.573384e+01
+p-value                        1.279850e-28
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.090000e+02
+Critical Value (1%)           -3.462032e+00
+Critical Value (5%)           -2.875471e+00
+Critical Value (10%)          -2.574195e+00
+dtype: float64
+
+Key: SW18
+Test Statistic                 -20.292148
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: WC2N
+Test Statistic                -9.112066e+00
+p-value                        3.378583e-15
+#Lags Used                     1.000000e+00
+Number of Observations Used    7.800000e+01
+Critical Value (1%)           -3.517114e+00
+Critical Value (5%)           -2.899375e+00
+Critical Value (10%)          -2.586955e+00
+dtype: float64
+
+Key: SW1E
+Test Statistic                -9.392270e+00
+p-value                        6.512983e-16
+#Lags Used                     1.000000e+00
+Number of Observations Used    1.230000e+02
+Critical Value (1%)           -3.484667e+00
+Critical Value (5%)           -2.885340e+00
+Critical Value (10%)          -2.579463e+00
+dtype: float64
+
+Key: IG11
+Test Statistic                 -19.029129
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: UB10
+Test Statistic                 -21.707501
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Insufficient data for ADF test after differencing for KT17.
+
+Key: N10
+Test Statistic                 -21.200045
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: N17
+Test Statistic                -1.796824e+01
+p-value                        2.801529e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: E3
+Test Statistic                 -19.851832
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: WC1N
+Test Statistic                -1.875503e+01
+p-value                        2.027109e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.740000e+02
+Critical Value (1%)           -3.454444e+00
+Critical Value (5%)           -2.872147e+00
+Critical Value (10%)          -2.572422e+00
+dtype: float64
+
+Key: W1B
+Test Statistic                -7.103509e+00
+p-value                        4.109765e-10
+#Lags Used                     1.000000e+00
+Number of Observations Used    7.800000e+01
+Critical Value (1%)           -3.517114e+00
+Critical Value (5%)           -2.899375e+00
+Critical Value (10%)          -2.586955e+00
+dtype: float64
+
+Key: E4
+Test Statistic                 -19.636881
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: HA8
+Test Statistic                 -21.376811
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: RM2
+Test Statistic                 -20.093161
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    312.000000
+Critical Value (1%)             -3.451484
+Critical Value (5%)             -2.870849
+Critical Value (10%)            -2.571730
+dtype: float64
+
+Key: BR1
+Test Statistic                 -22.734915
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: RM5
+Test Statistic                -1.772958e+01
+p-value                        3.439663e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.640000e+02
+Critical Value (1%)           -3.455365e+00
+Critical Value (5%)           -2.872551e+00
+Critical Value (10%)          -2.572638e+00
+dtype: float64
+
+Key: EC4R
+Test Statistic                -3.232640
+p-value                        0.018171
+#Lags Used                     1.000000
+Number of Observations Used    6.000000
+Critical Value (1%)           -5.354256
+Critical Value (5%)           -3.646238
+Critical Value (10%)          -2.901198
+dtype: float64
+
+Key: BR6
+Test Statistic                 -20.652393
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    315.000000
+Critical Value (1%)             -3.451281
+Critical Value (5%)             -2.870760
+Critical Value (10%)            -2.571682
+dtype: float64
+
+Key: NW8
+Test Statistic                 -24.142232
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: KT3
+Test Statistic                -1.875269e+01
+p-value                        2.027426e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: DA15
+Test Statistic                 -20.617914
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: W5
+Test Statistic                -1.831537e+01
+p-value                        2.271595e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: WD3
+Test Statistic                 -2.721485
+p-value                         0.070394
+#Lags Used                      1.000000
+Number of Observations Used    15.000000
+Critical Value (1%)            -3.964443
+Critical Value (5%)            -3.084908
+Critical Value (10%)           -2.681814
+dtype: float64
+
+Key: KT4
+Test Statistic                -1.777794e+01
+p-value                        3.286371e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.110000e+02
+Critical Value (1%)           -3.451553e+00
+Critical Value (5%)           -2.870879e+00
+Critical Value (10%)          -2.571746e+00
+dtype: float64
+
+Key: W2
+Test Statistic                 -21.374834
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: WC1V
+Test Statistic                 -1.617270
+p-value                         0.474161
+#Lags Used                      1.000000
+Number of Observations Used    14.000000
+Critical Value (1%)            -4.012034
+Critical Value (5%)            -3.104184
+Critical Value (10%)           -2.690987
+dtype: float64
+
+Insufficient data for ADF test after differencing for EC2V.
+
+Key: N21
+Test Statistic                 -19.917405
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
+Key: CR0
+Test Statistic                -1.840611e+01
+p-value                        2.188196e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.210000e+02
+Critical Value (1%)           -3.450887e+00
+Critical Value (5%)           -2.870586e+00
+Critical Value (10%)          -2.571590e+00
+dtype: float64
+
+Key: SM3
+Test Statistic                 -23.111730
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    319.000000
+Critical Value (1%)             -3.451017
+Critical Value (5%)             -2.870643
+Critical Value (10%)            -2.571620
+dtype: float64
+
+Key: RM10
+Test Statistic                -1.657817e+01
+p-value                        1.844361e-29
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.070000e+02
+Critical Value (1%)           -3.451831e+00
+Critical Value (5%)           -2.871001e+00
+Critical Value (10%)          -2.571811e+00
+dtype: float64
+
+Key: CR7
+Test Statistic                 -21.664319
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    317.000000
+Critical Value (1%)             -3.451148
+Critical Value (5%)             -2.870701
+Critical Value (10%)            -2.571651
+dtype: float64
+
+Key: SM4
+Test Statistic                -1.838740e+01
+p-value                        2.203830e-30
+#Lags Used                     1.000000e+00
+Number of Observations Used    3.170000e+02
+Critical Value (1%)           -3.451148e+00
+Critical Value (5%)           -2.870701e+00
+Critical Value (10%)          -2.571651e+00
+dtype: float64
+
+Key: EC4M
+Test Statistic                 -3.331727
+p-value                         0.013518
+#Lags Used                      1.000000
+Number of Observations Used    11.000000
+Critical Value (1%)            -4.223238
+Critical Value (5%)            -3.189369
+Critical Value (10%)           -2.729839
+dtype: float64
+
+Key: WC2H
+Test Statistic                -1.525325e+01
+p-value                        4.975633e-28
+#Lags Used                     1.000000e+00
+Number of Observations Used    2.200000e+02
+Critical Value (1%)           -3.460428e+00
+Critical Value (5%)           -2.874769e+00
+Critical Value (10%)          -2.573821e+00
+dtype: float64
+
+Key: SW19
+Test Statistic                 -19.442988
+p-value                          0.000000
+#Lags Used                       1.000000
+Number of Observations Used    321.000000
+Critical Value (1%)             -3.450887
+Critical Value (5%)             -2.870586
+Critical Value (10%)            -2.571590
+dtype: float64
+
