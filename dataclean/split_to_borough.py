@@ -61,7 +61,7 @@ for prefix in postcode_prefixes_combined:
     filtered_data = combined_data[combined_data['Postcode Prefix'] == prefix]
     
     # Define file name based on postcode prefix
-    save_file_path_combined = f'./data/{prefix}_combined.csv'
+    save_file_path_combined = f'/data/{prefix}_combined.csv'
     
     # Save to CSV
     filtered_data.to_csv(save_file_path_combined, index=False)
