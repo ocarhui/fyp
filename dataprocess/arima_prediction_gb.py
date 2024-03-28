@@ -20,34 +20,26 @@ def load_data(data_dir):
             borough_data[borough] = df
     return borough_data
 
-def prepare_data(borough_data):
-    last_real_value = {}
-
-    for borough in borough_data:
-        current_borough = borough_data[borough]
-        flats_data = current_borough[current_borough['Type'] == 'F'].copy()
-        flats_data['Date'] = pd.to_datetime(flats_data['Date'])
-        monthly_avg_price = flats_data.resample('M', on='Date')['Price'].mean().reset_index()
-
-        # Drop rows with NaN values in 'Price' column
-
-        monthly_avg_price['Price_Diff'] = monthly_avg_price['Price'].diff().dropna()
-        monthly_avg_price_cleaned = monthly_avg_price.dropna(subset=['Price_Diff']) 
-        last_real_value[borough] = monthly_avg_price['Price'].iloc[-2] 
-    
-    return monthly_avg_price_cleaned, last_real_value
-
 borough_data = load_data(DATA_DIR)
 
 arima_file_path = 'arima_params.csv'
 df = pd.read_csv(arima_file_path)
 arima_params = df.set_index('Borough').to_dict()['ARIMA_Params']
 
-monthly_avg_price_cleaned, last_real_values = prepare_data(borough_data)
-print(monthly_avg_price_cleaned.head())
+last_real_value = {}
 
-if monthly_avg_price_cleaned['Price_Diff'].nunique() > 1:
-    for borough in borough_data:
+for borough in borough_data:
+    current_borough = borough_data[borough]
+    flats_data = current_borough[current_borough['Type'] == 'F'].copy()
+    flats_data['Date'] = pd.to_datetime(flats_data['Date'])
+    monthly_avg_price = flats_data.resample('M', on='Date')['Price'].mean().reset_index()
+
+    # Drop rows with NaN values in 'Price' column
+
+    monthly_avg_price['Price_Diff'] = monthly_avg_price['Price'].diff().dropna()
+    monthly_avg_price_cleaned = monthly_avg_price.dropna(subset=['Price_Diff']) 
+
+    if monthly_avg_price_cleaned['Price_Diff'].nunique() > 1:
         current_borough = borough_data[borough]
         p_range = int(arima_params[borough][1])
         d_range = int(arima_params[borough][4])
@@ -63,9 +55,16 @@ if monthly_avg_price_cleaned['Price_Diff'].nunique() > 1:
 
         last_date = monthly_avg_price_cleaned['Date'].iloc[-1]
         last_month_mean = monthly_avg_price_cleaned[monthly_avg_price_cleaned['Date'].dt.month == last_date.month]['Price'].mean()
+        last_real_value = monthly_avg_price['Price'].iloc[-1] 
+
+        monthly_means = monthly_avg_price_cleaned.groupby(monthly_avg_price_cleaned['Date'].dt.to_period('M')).mean()
+
+        # Convert back to datetime for plotting
+        monthly_means.index = monthly_means.index.to_timestamp()
+
 
         cumulative_forecast = np.cumsum(forecast_mean)  # Cumulative sum of forecasted differences
-        absolute_forecast = last_month_mean + cumulative_forecast  # Add to last real value
+        absolute_forecast = last_real_value + cumulative_forecast  # Add to last real value
 
 
         
@@ -79,10 +78,10 @@ if monthly_avg_price_cleaned['Price_Diff'].nunique() > 1:
 
         
         plt.figure(figsize=(12, 6))
-        plt.plot(monthly_avg_price_cleaned['Date'], monthly_avg_price_cleaned['Price'], label='Historical Data')
-        plt.plot(forecast_dates, absolute_forecast, color='red', label='Forecast')  # Use absolute forecast
-        plt.fill_between(forecast_dates, forecast_conf_int.iloc[:, 0] + last_month_mean, 
-                         forecast_conf_int.iloc[:, 1] + last_month_mean, color='pink', alpha=0.5)  # Adjust confidence interval
+        plt.plot(monthly_means.index, monthly_means['Price'], label='Historical Monthly Mean Price', color='blue')
+        plt.plot(forecast_dates, absolute_forecast, color='red', label='Forecasted Monthly Mean Price')  # This is your forecast mean
+        plt.fill_between(forecast_dates, forecast_conf_int.iloc[:, 0] + last_real_value,
+                        forecast_conf_int.iloc[:, 1] + last_real_value, color='pink', alpha=0.5, label='Confidence Interval')
         plt.title(f'Forecast of Monthly Average Price of Flats in {borough}')
         plt.xlabel('Date')
         plt.ylabel('Price')
