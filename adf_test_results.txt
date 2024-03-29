@@ -15,7 +15,7 @@ ARIMA Model Summary for E6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -3681.632
 Date:                Thu, 28 Mar 2024   AIC                           7377.265
-Time:                        20:28:08   BIC                           7403.687
+Time:                        22:11:31   BIC                           7403.687
 Sample:                             0   HQIC                          7387.813
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -57,8 +57,8 @@ Monthly Average Price Data for E6:
 [323 rows x 3 columns]
 
 Key: E1
-Test Statistic                  -4.746457
-p-value                          0.000069
+Test Statistic                  -5.468189
+p-value                          0.000002
 #Lags Used                      17.000000
 Number of Observations Used    305.000000
 Critical Value (1%)             -3.451974
@@ -66,53 +66,53 @@ Critical Value (5%)             -2.871063
 Critical Value (10%)            -2.571844
 dtype: float64
 
-Best ARIMA(4, 0, 3) Model for E1 - AIC: 7915.680291025827
+Best ARIMA(4, 0, 3) Model for E1 - AIC: 7861.244639458175
 ARIMA Model Summary for E1:
                                SARIMAX Results                                
 ==============================================================================
 Dep. Variable:             Price_Diff   No. Observations:                  323
-Model:                 ARIMA(4, 0, 3)   Log Likelihood               -3948.840
-Date:                Thu, 28 Mar 2024   AIC                           7915.680
-Time:                        20:28:12   BIC                           7949.679
-Sample:                             0   HQIC                          7929.252
+Model:                 ARIMA(4, 0, 3)   Log Likelihood               -3921.622
+Date:                Thu, 28 Mar 2024   AIC                           7861.245
+Time:                        22:11:35   BIC                           7895.244
+Sample:                             0   HQIC                          7874.817
                                 - 323                                         
 Covariance Type:                  opg                                         
 ==============================================================================
                  coef    std err          z      P>|z|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const       1093.8489   1105.806      0.989      0.323   -1073.491    3261.189
-ar.L1          0.3202      0.119      2.681      0.007       0.086       0.554
-ar.L2          0.3275      0.151      2.164      0.030       0.031       0.624
-ar.L3         -0.3784      0.078     -4.847      0.000      -0.531      -0.225
-ar.L4         -0.3474      0.040     -8.647      0.000      -0.426      -0.269
-ma.L1         -0.9337      0.123     -7.561      0.000      -1.176      -0.692
-ma.L2         -0.2730      0.205     -1.334      0.182      -0.674       0.128
-ma.L3          0.5766      0.117      4.917      0.000       0.347       0.807
-sigma2      2.641e+09      0.000   5.99e+12      0.000    2.64e+09    2.64e+09
+const       1262.9922   1028.997      1.227      0.220    -753.805    3279.789
+ar.L1          0.3560      0.150      2.377      0.017       0.062       0.650
+ar.L2          0.3116      0.172      1.814      0.070      -0.025       0.648
+ar.L3         -0.3302      0.070     -4.684      0.000      -0.468      -0.192
+ar.L4         -0.3446      0.051     -6.772      0.000      -0.444      -0.245
+ma.L1         -0.9913      0.157     -6.315      0.000      -1.299      -0.684
+ma.L2         -0.1704      0.257     -0.664      0.507      -0.673       0.333
+ma.L3          0.5131      0.138      3.725      0.000       0.243       0.783
+sigma2      2.193e+09      0.000   2.14e+13      0.000    2.19e+09    2.19e+09
 ===================================================================================
-Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               115.12
-Prob(Q):                              0.97   Prob(JB):                         0.00
-Heteroskedasticity (H):              21.50   Skew:                            -0.16
-Prob(H) (two-sided):                  0.00   Kurtosis:                         5.91
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               202.01
+Prob(Q):                              0.95   Prob(JB):                         0.00
+Heteroskedasticity (H):              13.78   Skew:                             0.27
+Prob(H) (two-sided):                  0.00   Kurtosis:                         6.84
 ===================================================================================
 
 Warnings:
 [1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 6.13e+29. Standard errors may be unstable.
+[2] Covariance matrix is singular or near-singular, with condition number 2.17e+30. Standard errors may be unstable.
 
 Monthly Average Price Data for E1:
           Date          Price     Price_Diff
-1   1995-02-28   54312.500000   -3183.863636
-2   1995-03-31   45346.666667   -8965.833333
-3   1995-04-30   78211.428571   32864.761905
-4   1995-05-31   94438.076923   16226.648352
-5   1995-06-30   42939.000000  -51499.076923
+1   1995-02-28   96888.888889   35057.460317
+2   1995-03-31   76845.000000  -20043.888889
+3   1995-04-30   89492.222222   12647.222222
+4   1995-05-31   91296.714286    1804.492063
+5   1995-06-30   79972.272727  -11324.441558
 ..         ...            ...            ...
-319 2021-08-31  398000.000000    -902.777778
-320 2021-09-30  505019.603448  107019.603448
-321 2021-10-31  549204.761905   44185.158456
-322 2021-11-30  517782.750000  -31422.011905
-323 2021-12-31  410809.523810 -106973.226190
+319 2021-08-31  794387.037037  169378.108466
+320 2021-09-30  627588.021739 -166799.015298
+321 2021-10-31  578807.407407  -48780.614332
+322 2021-11-30  641765.277778   62957.870370
+323 2021-12-31  469777.777778 -171987.500000
 
 [323 rows x 3 columns]
 
@@ -133,7 +133,7 @@ ARIMA Model Summary for IG8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3874.869
 Date:                Thu, 28 Mar 2024   AIC                           7755.738
-Time:                        20:28:16   BIC                           7767.062
+Time:                        22:11:38   BIC                           7767.062
 Sample:                             0   HQIC                          7760.259
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -187,7 +187,7 @@ ARIMA Model Summary for N15:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(3, 0, 4)   Log Likelihood               -3698.227
 Date:                Thu, 28 Mar 2024   AIC                           7414.453
-Time:                        20:28:20   BIC                           7448.396
+Time:                        22:11:41   BIC                           7448.396
 Sample:                             0   HQIC                          7428.006
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -247,7 +247,7 @@ ARIMA Model Summary for SW9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3776.523
 Date:                Thu, 28 Mar 2024   AIC                           7567.046
-Time:                        20:28:25   BIC                           7593.468
+Time:                        22:11:44   BIC                           7593.468
 Sample:                             0   HQIC                          7577.595
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -305,7 +305,7 @@ ARIMA Model Summary for N12:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3815.609
 Date:                Thu, 28 Mar 2024   AIC                           7649.217
-Time:                        20:28:28   BIC                           7683.188
+Time:                        22:11:47   BIC                           7683.188
 Sample:                             0   HQIC                          7662.780
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -365,7 +365,7 @@ ARIMA Model Summary for KT6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3662.604
 Date:                Thu, 28 Mar 2024   AIC                           7331.207
-Time:                        20:28:33   BIC                           7342.531
+Time:                        22:11:51   BIC                           7342.531
 Sample:                             0   HQIC                          7335.728
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -419,7 +419,7 @@ ARIMA Model Summary for W7:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 4)   Log Likelihood               -3715.758
 Date:                Thu, 28 Mar 2024   AIC                           7441.516
-Time:                        20:28:37   BIC                           7460.326
+Time:                        22:11:54   BIC                           7460.326
 Sample:                             0   HQIC                          7449.029
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -475,7 +475,7 @@ ARIMA Model Summary for KT1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3928.388
 Date:                Thu, 28 Mar 2024   AIC                           7874.776
-Time:                        20:28:42   BIC                           7908.747
+Time:                        22:11:57   BIC                           7908.747
 Sample:                             0   HQIC                          7888.339
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -535,7 +535,7 @@ ARIMA Model Summary for N9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3556.140
 Date:                Thu, 28 Mar 2024   AIC                           7118.280
-Time:                        20:28:46   BIC                           7129.603
+Time:                        22:12:01   BIC                           7129.603
 Sample:                             0   HQIC                          7122.800
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -589,7 +589,7 @@ ARIMA Model Summary for DA17:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3500.276
 Date:                Thu, 28 Mar 2024   AIC                           7006.553
-Time:                        20:28:51   BIC                           7017.876
+Time:                        22:12:04   BIC                           7017.876
 Sample:                             0   HQIC                          7011.073
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -643,7 +643,7 @@ ARIMA Model Summary for DA6:
 Dep. Variable:             Price_Diff   No. Observations:                  281
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3244.180
 Date:                Thu, 28 Mar 2024   AIC                           6506.361
-Time:                        20:28:54   BIC                           6539.074
+Time:                        22:12:07   BIC                           6539.074
 Sample:                             0   HQIC                          6519.482
                                 - 281                                         
 Covariance Type:                  opg                                         
@@ -686,60 +686,6 @@ Monthly Average Price Data for DA6:
 
 [281 rows x 3 columns]
 
-Key: SW1Y
-Test Statistic                -1.586744e+01
-p-value                        9.063225e-29
-#Lags Used                     0.000000e+00
-Number of Observations Used    1.040000e+02
-Critical Value (1%)           -3.494850e+00
-Critical Value (5%)           -2.889758e+00
-Critical Value (10%)          -2.581822e+00
-dtype: float64
-
-Best ARIMA(1, 1, 1) Model for SW1Y - AIC: 3205.5337720664725
-ARIMA Model Summary for SW1Y:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  105
-Model:                 ARIMA(1, 1, 1)   Log Likelihood               -1599.767
-Date:                Thu, 28 Mar 2024   AIC                           3205.534
-Time:                        20:28:56   BIC                           3213.467
-Sample:                             0   HQIC                          3208.748
-                                - 105                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -0.4442      0.087     -5.104      0.000      -0.615      -0.274
-ma.L1         -0.9491      0.063    -15.047      0.000      -1.073      -0.825
-sigma2      1.588e+12   1.67e-14   9.49e+25      0.000    1.59e+12    1.59e+12
-===================================================================================
-Ljung-Box (L1) (Q):                   0.09   Jarque-Bera (JB):               861.04
-Prob(Q):                              0.77   Prob(JB):                         0.00
-Heteroskedasticity (H):              13.94   Skew:                            -2.07
-Prob(H) (two-sided):                  0.00   Kurtosis:                        16.47
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 2.49e+41. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1Y:
-          Date         Price    Price_Diff
-3   1995-06-30  5.900000e+04 -1.710000e+05
-6   1995-09-30  3.875000e+05  3.750000e+04
-7   1995-10-31  2.291750e+05 -1.583250e+05
-8   1995-11-30  2.475000e+05  1.832500e+04
-23  1997-02-28  2.236364e+05  5.413636e+04
-..         ...           ...           ...
-266 2017-05-31  4.747173e+06  1.032173e+06
-267 2017-06-30  8.640000e+05 -3.883173e+06
-288 2019-03-31  8.000000e+05 -2.350000e+06
-307 2020-10-31  8.750000e+05 -1.250000e+04
-313 2021-04-30  6.600000e+05 -6.900000e+05
-
-[105 rows x 3 columns]
-
 Key: RM7
 Test Statistic                -9.883587e+00
 p-value                        3.714311e-17
@@ -757,7 +703,7 @@ ARIMA Model Summary for RM7:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3499.556
 Date:                Thu, 28 Mar 2024   AIC                           7005.113
-Time:                        20:29:00   BIC                           7016.399
+Time:                        22:12:10   BIC                           7016.399
 Sample:                             0   HQIC                          7009.620
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -811,7 +757,7 @@ ARIMA Model Summary for BR4:
 Dep. Variable:             Price_Diff   No. Observations:                  298
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3654.194
 Date:                Thu, 28 Mar 2024   AIC                           7324.388
-Time:                        20:29:04   BIC                           7353.938
+Time:                        22:12:13   BIC                           7353.938
 Sample:                             0   HQIC                          7336.218
                                 - 298                                         
 Covariance Type:                  opg                                         
@@ -870,7 +816,7 @@ ARIMA Model Summary for SE18:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3822.936
 Date:                Thu, 28 Mar 2024   AIC                           7663.872
-Time:                        20:29:08   BIC                           7697.843
+Time:                        22:12:16   BIC                           7697.843
 Sample:                             0   HQIC                          7677.435
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -930,7 +876,7 @@ ARIMA Model Summary for EC4:
 Dep. Variable:             Price_Diff   No. Observations:                  253
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3435.064
 Date:                Thu, 28 Mar 2024   AIC                           6888.128
-Time:                        20:29:12   BIC                           6919.893
+Time:                        22:12:19   BIC                           6919.893
 Sample:                             0   HQIC                          6900.910
                                 - 253                                         
 Covariance Type:                  opg                                         
@@ -990,7 +936,7 @@ ARIMA Model Summary for DA1:
 Dep. Variable:             Price_Diff   No. Observations:                  295
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3287.223
 Date:                Thu, 28 Mar 2024   AIC                           6580.446
-Time:                        20:29:15   BIC                           6591.496
+Time:                        22:12:22   BIC                           6591.496
 Sample:                             0   HQIC                          6584.871
                                 - 295                                         
 Covariance Type:                  opg                                         
@@ -1044,7 +990,7 @@ ARIMA Model Summary for BR3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3656.301
 Date:                Thu, 28 Mar 2024   AIC                           7318.603
-Time:                        20:29:20   BIC                           7329.926
+Time:                        22:12:25   BIC                           7329.926
 Sample:                             0   HQIC                          7323.123
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1098,7 +1044,7 @@ ARIMA Model Summary for SE8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 3)   Log Likelihood               -3820.075
 Date:                Thu, 28 Mar 2024   AIC                           7652.150
-Time:                        20:29:24   BIC                           7674.798
+Time:                        22:12:29   BIC                           7674.798
 Sample:                             0   HQIC                          7661.192
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1155,7 +1101,7 @@ ARIMA Model Summary for EC3:
 Dep. Variable:             Price_Diff   No. Observations:                  130
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -1889.887
 Date:                Thu, 28 Mar 2024   AIC                           3795.773
-Time:                        20:29:26   BIC                           3818.652
+Time:                        22:12:30   BIC                           3818.652
 Sample:                             0   HQIC                          3805.069
                                 - 130                                         
 Covariance Type:                  opg                                         
@@ -1214,7 +1160,7 @@ ARIMA Model Summary for TW9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 4)   Log Likelihood               -3954.979
 Date:                Thu, 28 Mar 2024   AIC                           7921.958
-Time:                        20:29:30   BIC                           7944.605
+Time:                        22:12:34   BIC                           7944.605
 Sample:                             0   HQIC                          7930.999
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1254,66 +1200,6 @@ Monthly Average Price Data for TW9:
 
 [323 rows x 3 columns]
 
-Key: SW1A
-Test Statistic                -1.341934e+01
-p-value                        4.219997e-25
-#Lags Used                     0.000000e+00
-Number of Observations Used    6.700000e+01
-Critical Value (1%)           -3.531955e+00
-Critical Value (5%)           -2.905755e+00
-Critical Value (10%)          -2.590357e+00
-dtype: float64
-
-Best ARIMA(4, 1, 4) Model for SW1A - AIC: 2144.027556315285
-ARIMA Model Summary for SW1A:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                   68
-Model:                 ARIMA(4, 1, 4)   Log Likelihood               -1063.014
-Date:                Thu, 28 Mar 2024   AIC                           2144.028
-Time:                        20:29:31   BIC                           2163.870
-Sample:                             0   HQIC                          2151.879
-                                 - 68                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -1.0605      0.443     -2.393      0.017      -1.929      -0.192
-ar.L2         -1.0373      0.379     -2.734      0.006      -1.781      -0.294
-ar.L3         -1.0899      0.372     -2.931      0.003      -1.819      -0.361
-ar.L4         -0.4458      0.267     -1.667      0.096      -0.970       0.078
-ma.L1         -0.5155      0.450     -1.146      0.252      -1.397       0.366
-ma.L2          0.2139      0.544      0.393      0.694      -0.852       1.280
-ma.L3          0.3104      0.586      0.530      0.596      -0.838       1.459
-ma.L4         -0.7478      0.448     -1.668      0.095      -1.626       0.131
-sigma2      4.357e+12   4.79e-13    9.1e+24      0.000    4.36e+12    4.36e+12
-===================================================================================
-Ljung-Box (L1) (Q):                   0.04   Jarque-Bera (JB):              1244.08
-Prob(Q):                              0.85   Prob(JB):                         0.00
-Heteroskedasticity (H):              46.62   Skew:                             3.15
-Prob(H) (two-sided):                  0.00   Kurtosis:                        23.15
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 4.71e+40. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1A:
-          Date         Price    Price_Diff
-1   1995-07-31  2.588333e+05  5.883333e+04
-15  1996-09-30  3.400000e+05  9.800000e+04
-20  1997-02-28  5.650000e+05  2.400000e+05
-23  1997-05-31  1.550000e+05 -1.725000e+05
-24  1997-06-30  2.883333e+05  1.333333e+05
-..         ...           ...           ...
-268 2017-10-31  5.840000e+06  4.640000e+06
-269 2017-11-30  2.105500e+06 -3.734500e+06
-275 2018-05-31  1.550000e+06  2.500000e+04
-278 2018-08-31  1.125000e+06 -2.750000e+06
-310 2021-04-30  2.000000e+06 -8.000000e+05
-
-[68 rows x 3 columns]
-
 Key: CR5
 Test Statistic                -9.525075e+00
 p-value                        2.992946e-16
@@ -1331,7 +1217,7 @@ ARIMA Model Summary for CR5:
 Dep. Variable:             Price_Diff   No. Observations:                  271
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3230.348
 Date:                Thu, 28 Mar 2024   AIC                           6476.696
-Time:                        20:29:35   BIC                           6505.484
+Time:                        22:12:37   BIC                           6505.484
 Sample:                             0   HQIC                          6488.256
                                 - 271                                         
 Covariance Type:                  opg                                         
@@ -1390,7 +1276,7 @@ ARIMA Model Summary for SM6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -3541.919
 Date:                Thu, 28 Mar 2024   AIC                           7099.837
-Time:                        20:29:39   BIC                           7130.034
+Time:                        22:12:40   BIC                           7130.034
 Sample:                             0   HQIC                          7111.893
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1449,7 +1335,7 @@ ARIMA Model Summary for EN8:
 Dep. Variable:             Price_Diff   No. Observations:                   67
 Model:                 ARIMA(3, 1, 2)   Log Likelihood                -744.998
 Date:                Thu, 28 Mar 2024   AIC                           1501.997
-Time:                        20:29:40   BIC                           1515.135
+Time:                        22:12:41   BIC                           1515.135
 Sample:                             0   HQIC                          1507.188
                                  - 67                                         
 Covariance Type:                  opg                                         
@@ -1506,7 +1392,7 @@ ARIMA Model Summary for RM12:
 Dep. Variable:             Price_Diff   No. Observations:                  317
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3561.557
 Date:                Thu, 28 Mar 2024   AIC                           7129.114
-Time:                        20:29:45   BIC                           7140.382
+Time:                        22:12:44   BIC                           7140.382
 Sample:                             0   HQIC                          7133.616
                                 - 317                                         
 Covariance Type:                  opg                                         
@@ -1560,7 +1446,7 @@ ARIMA Model Summary for CR2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3602.418
 Date:                Thu, 28 Mar 2024   AIC                           7222.837
-Time:                        20:29:49   BIC                           7256.808
+Time:                        22:12:47   BIC                           7256.808
 Sample:                             0   HQIC                          7236.399
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1620,7 +1506,7 @@ ARIMA Model Summary for SM1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3489.828
 Date:                Thu, 28 Mar 2024   AIC                           6985.657
-Time:                        20:29:52   BIC                           6996.981
+Time:                        22:12:50   BIC                           6996.981
 Sample:                             0   HQIC                          6990.178
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1674,7 +1560,7 @@ ARIMA Model Summary for UB8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3619.619
 Date:                Thu, 28 Mar 2024   AIC                           7257.239
-Time:                        20:29:56   BIC                           7291.210
+Time:                        22:12:54   BIC                           7291.210
 Sample:                             0   HQIC                          7270.801
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1734,7 +1620,7 @@ ARIMA Model Summary for DA16:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3620.039
 Date:                Thu, 28 Mar 2024   AIC                           7246.077
-Time:                        20:30:00   BIC                           7257.363
+Time:                        22:12:57   BIC                           7257.363
 Sample:                             0   HQIC                          7250.585
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -1788,7 +1674,7 @@ ARIMA Model Summary for N8:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3755.764
 Date:                Thu, 28 Mar 2024   AIC                           7517.528
-Time:                        20:30:04   BIC                           7528.833
+Time:                        22:13:00   BIC                           7528.833
 Sample:                             0   HQIC                          7522.043
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -1842,7 +1728,7 @@ ARIMA Model Summary for W6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4193.517
 Date:                Thu, 28 Mar 2024   AIC                           8403.034
-Time:                        20:30:09   BIC                           8433.230
+Time:                        22:13:03   BIC                           8433.230
 Sample:                             0   HQIC                          8415.089
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1901,7 +1787,7 @@ ARIMA Model Summary for W1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4756.635
 Date:                Thu, 28 Mar 2024   AIC                           9531.271
-Time:                        20:30:12   BIC                           9565.242
+Time:                        22:13:06   BIC                           9565.242
 Sample:                             0   HQIC                          9544.833
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -1961,7 +1847,7 @@ ARIMA Model Summary for SE9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3584.487
 Date:                Thu, 28 Mar 2024   AIC                           7176.973
-Time:                        20:30:16   BIC                           7192.071
+Time:                        22:13:09   BIC                           7192.071
 Sample:                             0   HQIC                          7183.001
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2016,7 +1902,7 @@ ARIMA Model Summary for EC2:
 Dep. Variable:             Price_Diff   No. Observations:                  313
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4202.392
 Date:                Thu, 28 Mar 2024   AIC                           8420.783
-Time:                        20:30:20   BIC                           8450.727
+Time:                        22:13:13   BIC                           8450.727
 Sample:                             0   HQIC                          8432.751
                                 - 313                                         
 Covariance Type:                  opg                                         
@@ -2075,7 +1961,7 @@ ARIMA Model Summary for BR2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 0, 3)   Log Likelihood               -3711.772
 Date:                Thu, 28 Mar 2024   AIC                           7437.544
-Time:                        20:30:25   BIC                           7463.987
+Time:                        22:13:16   BIC                           7463.987
 Sample:                             0   HQIC                          7448.100
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2133,7 +2019,7 @@ ARIMA Model Summary for RM1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3531.825
 Date:                Thu, 28 Mar 2024   AIC                           7069.651
-Time:                        20:30:29   BIC                           7080.975
+Time:                        22:13:19   BIC                           7080.975
 Sample:                             0   HQIC                          7074.172
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2187,7 +2073,7 @@ ARIMA Model Summary for SE19:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3585.020
 Date:                Thu, 28 Mar 2024   AIC                           7188.040
-Time:                        20:30:33   BIC                           7222.011
+Time:                        22:13:22   BIC                           7222.011
 Sample:                             0   HQIC                          7201.602
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2230,66 +2116,6 @@ Monthly Average Price Data for SE19:
 
 [323 rows x 3 columns]
 
-Key: SW1X
-Test Statistic                  -5.202951
-p-value                          0.000009
-#Lags Used                      17.000000
-Number of Observations Used    303.000000
-Critical Value (1%)             -3.452118
-Critical Value (5%)             -2.871127
-Critical Value (10%)            -2.571878
-dtype: float64
-
-Best ARIMA(4, 1, 4) Model for SW1X - AIC: 9866.630251872502
-ARIMA Model Summary for SW1X:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  321
-Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4924.315
-Date:                Thu, 28 Mar 2024   AIC                           9866.630
-Time:                        20:30:37   BIC                           9900.545
-Sample:                             0   HQIC                          9880.173
-                                - 321                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -1.5755      0.083    -18.944      0.000      -1.739      -1.413
-ar.L2         -1.1154      0.157     -7.122      0.000      -1.422      -0.808
-ar.L3         -0.2112      0.153     -1.383      0.167      -0.511       0.088
-ar.L4         -0.1111      0.079     -1.397      0.162      -0.267       0.045
-ma.L1         -0.3721      0.047     -7.951      0.000      -0.464      -0.280
-ma.L2         -1.0384      0.041    -25.041      0.000      -1.120      -0.957
-ma.L3         -0.4770      0.047    -10.171      0.000      -0.569      -0.385
-ma.L4          0.8980      0.044     20.618      0.000       0.813       0.983
-sigma2      1.729e+12   1.23e-13    1.4e+25      0.000    1.73e+12    1.73e+12
-===================================================================================
-Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):              2010.69
-Prob(Q):                              0.99   Prob(JB):                         0.00
-Heteroskedasticity (H):              45.84   Skew:                             2.21
-Prob(H) (two-sided):                  0.00   Kurtosis:                        14.45
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 5.66e+41. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1X:
-          Date         Price    Price_Diff
-1   1995-02-28  4.198750e+05  1.539965e+05
-2   1995-03-31  2.850063e+05 -1.348687e+05
-3   1995-04-30  2.183029e+05 -6.670346e+04
-4   1995-05-31  1.413438e+05 -7.695912e+04
-5   1995-06-30  3.628636e+05  2.215199e+05
-..         ...           ...           ...
-319 2021-08-31  1.679333e+06 -5.270667e+06
-320 2021-09-30  1.665833e+06 -1.350000e+04
-321 2021-10-31  2.776667e+06  1.110833e+06
-322 2021-11-30  1.612500e+06 -1.164167e+06
-323 2021-12-31  1.863571e+06  2.510714e+05
-
-[321 rows x 3 columns]
-
 Key: DA7
 Test Statistic                  -5.500022
 p-value                          0.000002
@@ -2307,7 +2133,7 @@ ARIMA Model Summary for DA7:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3545.736
 Date:                Thu, 28 Mar 2024   AIC                           7107.472
-Time:                        20:30:41   BIC                           7137.618
+Time:                        22:13:26   BIC                           7137.618
 Sample:                             0   HQIC                          7119.510
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -2366,7 +2192,7 @@ ARIMA Model Summary for RM6:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3543.953
 Date:                Thu, 28 Mar 2024   AIC                           7105.905
-Time:                        20:30:45   BIC                           7139.764
+Time:                        22:13:29   BIC                           7139.764
 Sample:                             0   HQIC                          7119.429
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -2426,7 +2252,7 @@ ARIMA Model Summary for E7:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3700.399
 Date:                Thu, 28 Mar 2024   AIC                           7406.799
-Time:                        20:30:48   BIC                           7418.104
+Time:                        22:13:32   BIC                           7418.104
 Sample:                             0   HQIC                          7411.313
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -2480,7 +2306,7 @@ ARIMA Model Summary for N13:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 0, 4)   Log Likelihood                   0.000
 Date:                Thu, 28 Mar 2024   AIC                             20.000
-Time:                        20:30:53   BIC                             57.714
+Time:                        22:13:35   BIC                             57.714
 Sample:                             0   HQIC                            35.058
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -2541,7 +2367,7 @@ ARIMA Model Summary for SW8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -4197.302
 Date:                Thu, 28 Mar 2024   AIC                           8408.603
-Time:                        20:30:57   BIC                           8435.025
+Time:                        22:13:39   BIC                           8435.025
 Sample:                             0   HQIC                          8419.152
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2599,7 +2425,7 @@ ARIMA Model Summary for N14:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3845.719
 Date:                Thu, 28 Mar 2024   AIC                           7707.437
-Time:                        20:31:01   BIC                           7737.634
+Time:                        22:13:42   BIC                           7737.634
 Sample:                             0   HQIC                          7719.493
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2658,7 +2484,7 @@ ARIMA Model Summary for IG9:
 Dep. Variable:             Price_Diff   No. Observations:                   45
 Model:                 ARIMA(1, 1, 1)   Log Likelihood                -538.908
 Date:                Thu, 28 Mar 2024   AIC                           1083.815
-Time:                        20:31:03   BIC                           1089.168
+Time:                        22:13:43   BIC                           1089.168
 Sample:                             0   HQIC                          1085.800
                                  - 45                                         
 Covariance Type:                  opg                                         
@@ -2744,7 +2570,7 @@ ARIMA Model Summary for WC1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4120.600
 Date:                Thu, 28 Mar 2024   AIC                           8259.200
-Time:                        20:31:07   BIC                           8293.171
+Time:                        22:13:46   BIC                           8293.171
 Sample:                             0   HQIC                          8272.762
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -2804,7 +2630,7 @@ ARIMA Model Summary for UB9:
 Dep. Variable:             Price_Diff   No. Observations:                  223
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -2843.748
 Date:                Thu, 28 Mar 2024   AIC                           5701.496
-Time:                        20:31:10   BIC                           5725.314
+Time:                        22:13:49   BIC                           5725.314
 Sample:                             0   HQIC                          5711.112
                                 - 223                                         
 Covariance Type:                  opg                                         
@@ -2862,7 +2688,7 @@ ARIMA Model Summary for N22:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(1, 1, 3)   Log Likelihood               -3713.671
 Date:                Thu, 28 Mar 2024   AIC                           7437.341
-Time:                        20:31:14   BIC                           7456.183
+Time:                        22:13:52   BIC                           7456.183
 Sample:                             0   HQIC                          7444.865
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -2918,7 +2744,7 @@ ARIMA Model Summary for RM14:
 Dep. Variable:             Price_Diff   No. Observations:                  313
 Model:                 ARIMA(4, 0, 2)   Log Likelihood               -3800.281
 Date:                Thu, 28 Mar 2024   AIC                           7616.562
-Time:                        20:31:18   BIC                           7646.532
+Time:                        22:13:55   BIC                           7646.532
 Sample:                             0   HQIC                          7628.539
                                 - 313                                         
 Covariance Type:                  opg                                         
@@ -2977,7 +2803,7 @@ ARIMA Model Summary for RM13:
 Dep. Variable:             Price_Diff   No. Observations:                  307
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3463.014
 Date:                Thu, 28 Mar 2024   AIC                           6942.028
-Time:                        20:31:22   BIC                           6971.816
+Time:                        22:13:58   BIC                           6971.816
 Sample:                             0   HQIC                          6953.941
                                 - 307                                         
 Covariance Type:                  opg                                         
@@ -3036,7 +2862,7 @@ ARIMA Model Summary for CR4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3552.792
 Date:                Thu, 28 Mar 2024   AIC                           7111.584
-Time:                        20:31:26   BIC                           7122.907
+Time:                        22:14:01   BIC                           7122.907
 Sample:                             0   HQIC                          7116.104
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3090,7 +2916,7 @@ ARIMA Model Summary for TW8:
 Dep. Variable:             Price_Diff   No. Observations:                  317
 Model:                 ARIMA(2, 0, 4)   Log Likelihood               -3905.243
 Date:                Thu, 28 Mar 2024   AIC                           7826.486
-Time:                        20:31:30   BIC                           7856.557
+Time:                        22:14:05   BIC                           7856.557
 Sample:                             0   HQIC                          7838.498
                                 - 317                                         
 Covariance Type:                  opg                                         
@@ -3149,7 +2975,7 @@ ARIMA Model Summary for SE28:
 Dep. Variable:             Price_Diff   No. Observations:                  303
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3470.087
 Date:                Thu, 28 Mar 2024   AIC                           6948.175
-Time:                        20:31:34   BIC                           6963.017
+Time:                        22:14:08   BIC                           6963.017
 Sample:                             0   HQIC                          6954.113
                                 - 303                                         
 Covariance Type:                  opg                                         
@@ -3204,7 +3030,7 @@ ARIMA Model Summary for E18:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3672.453
 Date:                Thu, 28 Mar 2024   AIC                           7350.905
-Time:                        20:31:39   BIC                           7362.229
+Time:                        22:14:12   BIC                           7362.229
 Sample:                             0   HQIC                          7355.426
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3258,7 +3084,7 @@ ARIMA Model Summary for TW5:
 Dep. Variable:             Price_Diff   No. Observations:                  290
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3361.272
 Date:                Thu, 28 Mar 2024   AIC                           6738.544
-Time:                        20:31:42   BIC                           6767.876
+Time:                        22:14:14   BIC                           6767.876
 Sample:                             0   HQIC                          6750.297
                                 - 290                                         
 Covariance Type:                  opg                                         
@@ -3317,7 +3143,7 @@ ARIMA Model Summary for E12:
 Dep. Variable:             Price_Diff   No. Observations:                  304
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3539.140
 Date:                Thu, 28 Mar 2024   AIC                           7086.281
-Time:                        20:31:46   BIC                           7101.136
+Time:                        22:14:18   BIC                           7101.136
 Sample:                             0   HQIC                          7092.224
                                 - 304                                         
 Covariance Type:                  opg                                         
@@ -3372,7 +3198,7 @@ ARIMA Model Summary for SE22:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3706.893
 Date:                Thu, 28 Mar 2024   AIC                           7429.786
-Time:                        20:31:50   BIC                           7459.982
+Time:                        22:14:21   BIC                           7459.982
 Sample:                             0   HQIC                          7441.841
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3431,7 +3257,7 @@ ARIMA Model Summary for TW2:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(1, 1, 4)   Log Likelihood               -3700.455
 Date:                Thu, 28 Mar 2024   AIC                           7412.909
-Time:                        20:31:54   BIC                           7435.519
+Time:                        22:14:24   BIC                           7435.519
 Sample:                             0   HQIC                          7421.938
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -3488,7 +3314,7 @@ ARIMA Model Summary for E15:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3742.424
 Date:                Thu, 28 Mar 2024   AIC                           7500.849
-Time:                        20:31:58   BIC                           7531.045
+Time:                        22:14:27   BIC                           7531.045
 Sample:                             0   HQIC                          7512.904
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3547,7 +3373,7 @@ ARIMA Model Summary for SE25:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(1, 1, 3)   Log Likelihood               -3519.902
 Date:                Thu, 28 Mar 2024   AIC                           7049.805
-Time:                        20:32:02   BIC                           7068.646
+Time:                        22:14:31   BIC                           7068.646
 Sample:                             0   HQIC                          7057.329
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -3603,7 +3429,7 @@ ARIMA Model Summary for SW10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 0, 3)   Log Likelihood               -4448.204
 Date:                Thu, 28 Mar 2024   AIC                           8914.409
-Time:                        20:32:06   BIC                           8948.407
+Time:                        22:14:34   BIC                           8948.407
 Sample:                             0   HQIC                          8927.981
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3663,7 +3489,7 @@ ARIMA Model Summary for NW11:
 Dep. Variable:             Price_Diff   No. Observations:                  320
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -4186.314
 Date:                Thu, 28 Mar 2024   AIC                           8386.628
-Time:                        20:32:11   BIC                           8412.985
+Time:                        22:14:37   BIC                           8412.985
 Sample:                             0   HQIC                          8397.154
                                 - 320                                         
 Covariance Type:                  opg                                         
@@ -3721,7 +3547,7 @@ ARIMA Model Summary for SW17:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3688.460
 Date:                Thu, 28 Mar 2024   AIC                           7382.921
-Time:                        20:32:15   BIC                           7394.244
+Time:                        22:14:40   BIC                           7394.244
 Sample:                             0   HQIC                          7387.441
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3775,7 +3601,7 @@ ARIMA Model Summary for EN3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3535.275
 Date:                Thu, 28 Mar 2024   AIC                           7084.549
-Time:                        20:32:19   BIC                           7110.971
+Time:                        22:14:44   BIC                           7110.971
 Sample:                             0   HQIC                          7095.098
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3833,7 +3659,7 @@ ARIMA Model Summary for UB4:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3614.968
 Date:                Thu, 28 Mar 2024   AIC                           7235.937
-Time:                        20:32:23   BIC                           7247.223
+Time:                        22:14:47   BIC                           7247.223
 Sample:                             0   HQIC                          7240.444
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -3887,7 +3713,7 @@ ARIMA Model Summary for EN4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 0, 3)   Log Likelihood               -4078.112
 Date:                Thu, 28 Mar 2024   AIC                           8170.224
-Time:                        20:32:28   BIC                           8196.667
+Time:                        22:14:51   BIC                           8196.667
 Sample:                             0   HQIC                          8180.780
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -3945,7 +3771,7 @@ ARIMA Model Summary for UB3:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3608.137
 Date:                Thu, 28 Mar 2024   AIC                           7234.274
-Time:                        20:32:32   BIC                           7268.189
+Time:                        22:14:54   BIC                           7268.189
 Sample:                             0   HQIC                          7247.817
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -4005,7 +3831,7 @@ ARIMA Model Summary for W11:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -4319.617
 Date:                Thu, 28 Mar 2024   AIC                           8653.233
-Time:                        20:32:36   BIC                           8679.611
+Time:                        22:14:57   BIC                           8679.611
 Sample:                             0   HQIC                          8663.766
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -4046,65 +3872,6 @@ Monthly Average Price Data for W11:
 
 [321 rows x 3 columns]
 
-Key: E1W
-Test Statistic                -9.718062e+00
-p-value                        9.709317e-17
-#Lags Used                     6.000000e+00
-Number of Observations Used    3.160000e+02
-Critical Value (1%)           -3.451215e+00
-Critical Value (5%)           -2.870730e+00
-Critical Value (10%)          -2.571666e+00
-dtype: float64
-
-Best ARIMA(3, 1, 4) Model for E1W - AIC: 8248.741391176874
-ARIMA Model Summary for E1W:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  323
-Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4116.371
-Date:                Thu, 28 Mar 2024   AIC                           8248.741
-Time:                        20:32:40   BIC                           8278.938
-Sample:                             0   HQIC                          8260.797
-                                - 323                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -1.8484      0.074    -24.955      0.000      -1.994      -1.703
-ar.L2         -1.0944      0.123     -8.891      0.000      -1.336      -0.853
-ar.L3         -0.0776      0.070     -1.108      0.268      -0.215       0.060
-ma.L1          0.0571      0.097      0.591      0.554      -0.132       0.246
-ma.L2         -1.4100      0.087    -16.285      0.000      -1.580      -1.240
-ma.L3         -0.3833      0.071     -5.418      0.000      -0.522      -0.245
-ma.L4          0.7364      0.072     10.161      0.000       0.594       0.878
-sigma2      8.785e+09   2.33e-11   3.77e+20      0.000    8.78e+09    8.78e+09
-===================================================================================
-Ljung-Box (L1) (Q):                   0.02   Jarque-Bera (JB):               146.76
-Prob(Q):                              0.90   Prob(JB):                         0.00
-Heteroskedasticity (H):              12.21   Skew:                             0.48
-Prob(H) (two-sided):                  0.00   Kurtosis:                         6.17
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 1.29e+36. Standard errors may be unstable.
-
-Monthly Average Price Data for E1W:
-          Date          Price     Price_Diff
-1   1995-02-28  130950.000000   64350.000000
-2   1995-03-31  100468.750000  -30481.250000
-3   1995-04-30  128975.000000   28506.250000
-4   1995-05-31   82221.666667  -46753.333333
-5   1995-06-30  110833.333333   28611.666667
-..         ...            ...            ...
-319 2021-08-31  961286.842105  -70713.157895
-320 2021-09-30  836675.323529 -124611.518576
-321 2021-10-31  682416.666667 -154258.656863
-322 2021-11-30  796743.437500  114326.770833
-323 2021-12-31  676166.666667 -120576.770833
-
-[323 rows x 3 columns]
-
 Key: IG3
 Test Statistic                -1.007350e+01
 p-value                        1.241069e-17
@@ -4122,7 +3889,7 @@ ARIMA Model Summary for IG3:
 Dep. Variable:             Price_Diff   No. Observations:                  302
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3506.076
 Date:                Thu, 28 Mar 2024   AIC                           7018.152
-Time:                        20:32:44   BIC                           7029.273
+Time:                        22:15:00   BIC                           7029.273
 Sample:                             0   HQIC                          7022.602
                                 - 302                                         
 Covariance Type:                  opg                                         
@@ -4176,7 +3943,7 @@ ARIMA Model Summary for SW2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3642.897
 Date:                Thu, 28 Mar 2024   AIC                           7293.794
-Time:                        20:32:48   BIC                           7308.893
+Time:                        22:15:04   BIC                           7308.893
 Sample:                             0   HQIC                          7299.822
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4231,7 +3998,7 @@ ARIMA Model Summary for IG4:
 Dep. Variable:             Price_Diff   No. Observations:                  176
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -2122.746
 Date:                Thu, 28 Mar 2024   AIC                           4261.491
-Time:                        20:32:50   BIC                           4286.809
+Time:                        22:15:05   BIC                           4286.809
 Sample:                             0   HQIC                          4271.761
                                 - 176                                         
 Covariance Type:                  opg                                         
@@ -4273,60 +4040,6 @@ Monthly Average Price Data for IG4:
 
 [176 rows x 3 columns]
 
-Key: N1C
-Test Statistic                -7.348511e+00
-p-value                        1.020493e-10
-#Lags Used                     1.000000e+00
-Number of Observations Used    6.900000e+01
-Critical Value (1%)           -3.528890e+00
-Critical Value (5%)           -2.904440e+00
-Critical Value (10%)          -2.589656e+00
-dtype: float64
-
-Best ARIMA(0, 1, 2) Model for N1C - AIC: 2076.8846449284542
-ARIMA Model Summary for N1C:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                   71
-Model:                 ARIMA(0, 1, 2)   Log Likelihood               -1035.442
-Date:                Thu, 28 Mar 2024   AIC                           2076.885
-Time:                        20:32:52   BIC                           2083.630
-Sample:                             0   HQIC                          2079.564
-                                 - 71                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ma.L1         -1.3780      0.115    -11.942      0.000      -1.604      -1.152
-ma.L2          0.4396      0.107      4.100      0.000       0.229       0.650
-sigma2      4.358e+11   2.53e-14   1.72e+25      0.000    4.36e+11    4.36e+11
-===================================================================================
-Ljung-Box (L1) (Q):                   0.13   Jarque-Bera (JB):                27.55
-Prob(Q):                              0.72   Prob(JB):                         0.00
-Heteroskedasticity (H):               1.38   Skew:                             1.05
-Prob(H) (two-sided):                  0.44   Kurtosis:                         5.25
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 8.02e+40. Standard errors may be unstable.
-
-Monthly Average Price Data for N1C:
-          Date         Price    Price_Diff
-7   2013-12-31  7.750141e+05 -8.291484e+05
-8   2014-01-31  1.497500e+06  7.224859e+05
-9   2014-02-28  5.700000e+05 -9.275000e+05
-10  2014-03-31  5.800000e+05  1.000000e+04
-11  2014-04-30  1.750000e+06  1.170000e+06
-..         ...           ...           ...
-95  2021-04-30  2.600000e+06  1.121758e+06
-98  2021-07-31  1.605625e+06  7.146083e+05
-99  2021-08-31  8.837500e+05 -7.218750e+05
-100 2021-09-30  8.925000e+05  8.750000e+03
-101 2021-10-31  3.660000e+06  2.767500e+06
-
-[71 rows x 3 columns]
-
 Key: N19
 Test Statistic                -1.012901e+01
 p-value                        9.021388e-18
@@ -4344,7 +4057,7 @@ ARIMA Model Summary for N19:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3837.536
 Date:                Thu, 28 Mar 2024   AIC                           7693.072
-Time:                        20:32:56   BIC                           7727.043
+Time:                        22:15:08   BIC                           7727.043
 Sample:                             0   HQIC                          7706.634
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4404,7 +4117,7 @@ ARIMA Model Summary for SW5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 0, 3)   Log Likelihood               -4342.157
 Date:                Thu, 28 Mar 2024   AIC                           8702.313
-Time:                        20:33:00   BIC                           8736.312
+Time:                        22:15:11   BIC                           8736.312
 Sample:                             0   HQIC                          8715.885
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4464,7 +4177,7 @@ ARIMA Model Summary for N5:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3876.113
 Date:                Thu, 28 Mar 2024   AIC                           7770.226
-Time:                        20:33:04   BIC                           7804.141
+Time:                        22:15:15   BIC                           7804.141
 Sample:                             0   HQIC                          7783.769
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -4524,7 +4237,7 @@ ARIMA Model Summary for N2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4551.463
 Date:                Thu, 28 Mar 2024   AIC                           9118.927
-Time:                        20:33:07   BIC                           9149.123
+Time:                        22:15:17   BIC                           9149.123
 Sample:                             0   HQIC                          9130.982
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4583,7 +4296,7 @@ ARIMA Model Summary for NW1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -4254.072
 Date:                Thu, 28 Mar 2024   AIC                           8522.145
-Time:                        20:33:12   BIC                           8548.566
+Time:                        22:15:21   BIC                           8548.566
 Sample:                             0   HQIC                          8532.693
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4641,7 +4354,7 @@ ARIMA Model Summary for HA6:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3988.742
 Date:                Thu, 28 Mar 2024   AIC                           7991.484
-Time:                        20:33:15   BIC                           8017.818
+Time:                        22:15:24   BIC                           8017.818
 Sample:                             0   HQIC                          8002.002
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -4699,7 +4412,7 @@ ARIMA Model Summary for TW11:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 0, 4)   Log Likelihood               -3949.217
 Date:                Thu, 28 Mar 2024   AIC                           7918.433
-Time:                        20:33:20   BIC                           7956.210
+Time:                        22:15:27   BIC                           7956.210
 Sample:                             0   HQIC                          7933.513
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4760,7 +4473,7 @@ ARIMA Model Summary for SE13:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3633.384
 Date:                Thu, 28 Mar 2024   AIC                           7274.768
-Time:                        20:33:24   BIC                           7289.866
+Time:                        22:15:30   BIC                           7289.866
 Sample:                             0   HQIC                          7280.795
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4815,7 +4528,7 @@ ARIMA Model Summary for SE4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3707.468
 Date:                Thu, 28 Mar 2024   AIC                           7420.937
-Time:                        20:33:28   BIC                           7432.260
+Time:                        22:15:34   BIC                           7432.260
 Sample:                             0   HQIC                          7425.457
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4869,7 +4582,7 @@ ARIMA Model Summary for NW6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -3875.851
 Date:                Thu, 28 Mar 2024   AIC                           7767.702
-Time:                        20:33:32   BIC                           7797.899
+Time:                        22:15:37   BIC                           7797.899
 Sample:                             0   HQIC                          7779.758
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4928,7 +4641,7 @@ ARIMA Model Summary for HA1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3726.778
 Date:                Thu, 28 Mar 2024   AIC                           7459.556
-Time:                        20:33:36   BIC                           7470.880
+Time:                        22:15:40   BIC                           7470.880
 Sample:                             0   HQIC                          7464.077
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -4982,7 +4695,7 @@ ARIMA Model Summary for SE3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3803.391
 Date:                Thu, 28 Mar 2024   AIC                           7624.782
-Time:                        20:33:40   BIC                           7658.753
+Time:                        22:15:43   BIC                           7658.753
 Sample:                             0   HQIC                          7638.344
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5042,7 +4755,7 @@ ARIMA Model Summary for SE14:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3701.613
 Date:                Thu, 28 Mar 2024   AIC                           7419.226
-Time:                        20:33:44   BIC                           7449.422
+Time:                        22:15:46   BIC                           7449.422
 Sample:                             0   HQIC                          7431.281
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5101,7 +4814,7 @@ ARIMA Model Summary for SW16:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 3)   Log Likelihood               -3570.686
 Date:                Thu, 28 Mar 2024   AIC                           7151.373
-Time:                        20:33:48   BIC                           7170.246
+Time:                        22:15:49   BIC                           7170.246
 Sample:                             0   HQIC                          7158.908
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5157,7 +4870,7 @@ ARIMA Model Summary for NW10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3726.321
 Date:                Thu, 28 Mar 2024   AIC                           7458.642
-Time:                        20:33:52   BIC                           7469.965
+Time:                        22:15:53   BIC                           7469.965
 Sample:                             0   HQIC                          7463.162
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5211,7 +4924,7 @@ ARIMA Model Summary for SW11:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -4040.303
 Date:                Thu, 28 Mar 2024   AIC                           8094.607
-Time:                        20:33:57   BIC                           8121.028
+Time:                        22:15:56   BIC                           8121.028
 Sample:                             0   HQIC                          8105.155
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5269,7 +4982,7 @@ ARIMA Model Summary for UB2:
 Dep. Variable:             Price_Diff   No. Observations:                  315
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3693.769
 Date:                Thu, 28 Mar 2024   AIC                           7405.537
-Time:                        20:34:00   BIC                           7439.282
+Time:                        22:15:59   BIC                           7439.282
 Sample:                             0   HQIC                          7419.021
                                 - 315                                         
 Covariance Type:                  opg                                         
@@ -5329,7 +5042,7 @@ ARIMA Model Summary for EN5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3736.907
 Date:                Thu, 28 Mar 2024   AIC                           7479.814
-Time:                        20:34:05   BIC                           7491.137
+Time:                        22:16:03   BIC                           7491.137
 Sample:                             0   HQIC                          7484.335
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5383,7 +5096,7 @@ ARIMA Model Summary for CR8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3764.335
 Date:                Thu, 28 Mar 2024   AIC                           7534.669
-Time:                        20:34:09   BIC                           7545.993
+Time:                        22:16:06   BIC                           7545.993
 Sample:                             0   HQIC                          7539.190
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5437,7 +5150,7 @@ ARIMA Model Summary for UB5:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3474.507
 Date:                Thu, 28 Mar 2024   AIC                           6965.014
-Time:                        20:34:13   BIC                           6995.110
+Time:                        22:16:09   BIC                           6995.110
 Sample:                             0   HQIC                          6977.034
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -5496,7 +5209,7 @@ ARIMA Model Summary for EN2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 3)   Log Likelihood               -3774.270
 Date:                Thu, 28 Mar 2024   AIC                           7558.540
-Time:                        20:34:17   BIC                           7577.413
+Time:                        22:16:12   BIC                           7577.413
 Sample:                             0   HQIC                          7566.075
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5552,7 +5265,7 @@ ARIMA Model Summary for SE24:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3842.669
 Date:                Thu, 28 Mar 2024   AIC                           7703.339
-Time:                        20:34:21   BIC                           7737.254
+Time:                        22:16:15   BIC                           7737.254
 Sample:                             0   HQIC                          7716.882
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -5612,7 +5325,7 @@ ARIMA Model Summary for E14:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3782.720
 Date:                Thu, 28 Mar 2024   AIC                           7571.441
-Time:                        20:34:25   BIC                           7582.764
+Time:                        22:16:19   BIC                           7582.764
 Sample:                             0   HQIC                          7575.961
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5666,7 +5379,7 @@ ARIMA Model Summary for TW3:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3715.965
 Date:                Thu, 28 Mar 2024   AIC                           7447.930
-Time:                        20:34:29   BIC                           7478.026
+Time:                        22:16:22   BIC                           7478.026
 Sample:                             0   HQIC                          7459.950
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -5725,7 +5438,7 @@ ARIMA Model Summary for SE23:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3612.852
 Date:                Thu, 28 Mar 2024   AIC                           7239.704
-Time:                        20:34:33   BIC                           7266.126
+Time:                        22:16:25   BIC                           7266.126
 Sample:                             0   HQIC                          7250.253
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -5783,7 +5496,7 @@ ARIMA Model Summary for E13:
 Dep. Variable:             Price_Diff   No. Observations:                  308
 Model:                 ARIMA(2, 0, 3)   Log Likelihood               -3666.151
 Date:                Thu, 28 Mar 2024   AIC                           7346.303
-Time:                        20:34:37   BIC                           7372.414
+Time:                        22:16:28   BIC                           7372.414
 Sample:                             0   HQIC                          7356.743
                                 - 308                                         
 Covariance Type:                  opg                                         
@@ -5841,7 +5554,7 @@ ARIMA Model Summary for TW4:
 Dep. Variable:             Price_Diff   No. Observations:                  303
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3485.114
 Date:                Thu, 28 Mar 2024   AIC                           6978.228
-Time:                        20:34:41   BIC                           6993.070
+Time:                        22:16:31   BIC                           6993.070
 Sample:                             0   HQIC                          6984.166
                                 - 303                                         
 Covariance Type:                  opg                                         
@@ -5896,7 +5609,7 @@ ARIMA Model Summary for N3:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3980.681
 Date:                Thu, 28 Mar 2024   AIC                           7979.362
-Time:                        20:34:45   BIC                           8013.277
+Time:                        22:16:34   BIC                           8013.277
 Sample:                             0   HQIC                          7992.905
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -5956,7 +5669,7 @@ ARIMA Model Summary for N4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3813.235
 Date:                Thu, 28 Mar 2024   AIC                           7642.470
-Time:                        20:34:49   BIC                           7672.667
+Time:                        22:16:38   BIC                           7672.667
 Sample:                             0   HQIC                          7654.526
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6015,7 +5728,7 @@ ARIMA Model Summary for SE15:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3647.257
 Date:                Thu, 28 Mar 2024   AIC                           7302.514
-Time:                        20:34:53   BIC                           7317.612
+Time:                        22:16:41   BIC                           7317.612
 Sample:                             0   HQIC                          7308.541
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6070,7 +5783,7 @@ ARIMA Model Summary for SE2:
 Dep. Variable:             Price_Diff   No. Observations:                  252
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -2867.550
 Date:                Thu, 28 Mar 2024   AIC                           5741.100
-Time:                        20:34:57   BIC                           5751.677
+Time:                        22:16:44   BIC                           5751.677
 Sample:                             0   HQIC                          5745.356
                                 - 252                                         
 Covariance Type:                  opg                                         
@@ -6124,7 +5837,7 @@ ARIMA Model Summary for NW7:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 0, 4)   Log Likelihood               -4140.027
 Date:                Thu, 28 Mar 2024   AIC                           8296.053
-Time:                        20:35:01   BIC                           8326.275
+Time:                        22:16:47   BIC                           8326.275
 Sample:                             0   HQIC                          8308.117
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6183,7 +5896,7 @@ ARIMA Model Summary for HA0:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3649.875
 Date:                Thu, 28 Mar 2024   AIC                           7313.750
-Time:                        20:35:05   BIC                           7340.128
+Time:                        22:16:51   BIC                           7340.128
 Sample:                             0   HQIC                          7324.283
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -6241,7 +5954,7 @@ ARIMA Model Summary for SE5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3705.213
 Date:                Thu, 28 Mar 2024   AIC                           7428.426
-Time:                        20:35:10   BIC                           7462.397
+Time:                        22:16:54   BIC                           7462.397
 Sample:                             0   HQIC                          7441.988
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6301,7 +6014,7 @@ ARIMA Model Summary for SE12:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3620.585
 Date:                Thu, 28 Mar 2024   AIC                           7259.169
-Time:                        20:35:14   BIC                           7293.028
+Time:                        22:16:57   BIC                           7293.028
 Sample:                             0   HQIC                          7272.692
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -6361,7 +6074,7 @@ ARIMA Model Summary for TW10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4276.654
 Date:                Thu, 28 Mar 2024   AIC                           8571.307
-Time:                        20:35:18   BIC                           8605.278
+Time:                        22:17:00   BIC                           8605.278
 Sample:                             0   HQIC                          8584.870
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6421,7 +6134,7 @@ ARIMA Model Summary for HA7:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3982.599
 Date:                Thu, 28 Mar 2024   AIC                           7979.199
-Time:                        20:35:22   BIC                           8005.577
+Time:                        22:17:03   BIC                           8005.577
 Sample:                             0   HQIC                          7989.732
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -6479,7 +6192,7 @@ ARIMA Model Summary for W10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4247.977
 Date:                Thu, 28 Mar 2024   AIC                           8511.953
-Time:                        20:35:26   BIC                           8542.150
+Time:                        22:17:06   BIC                           8542.150
 Sample:                             0   HQIC                          8524.008
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6538,7 +6251,7 @@ ARIMA Model Summary for SW20:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -3950.010
 Date:                Thu, 28 Mar 2024   AIC                           7916.020
-Time:                        20:35:29   BIC                           7946.167
+Time:                        22:17:09   BIC                           7946.167
 Sample:                             0   HQIC                          7928.058
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -6597,7 +6310,7 @@ ARIMA Model Summary for SW4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3823.644
 Date:                Thu, 28 Mar 2024   AIC                           7665.288
-Time:                        20:35:33   BIC                           7699.259
+Time:                        22:17:12   BIC                           7699.259
 Sample:                             0   HQIC                          7678.850
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6657,7 +6370,7 @@ ARIMA Model Summary for N18:
 Dep. Variable:             Price_Diff   No. Observations:                  301
 Model:                 ARIMA(3, 1, 3)   Log Likelihood                   0.000
 Date:                Thu, 28 Mar 2024   AIC                             14.000
-Time:                        20:35:37   BIC                             39.926
+Time:                        22:17:15   BIC                             39.926
 Sample:                             0   HQIC                            24.376
                                 - 301                                         
 Covariance Type:                  opg                                         
@@ -6715,7 +6428,7 @@ ARIMA Model Summary for IG5:
 Dep. Variable:             Price_Diff   No. Observations:                  254
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -2921.625
 Date:                Thu, 28 Mar 2024   AIC                           5861.250
-Time:                        20:35:40   BIC                           5893.050
+Time:                        22:17:18   BIC                           5893.050
 Sample:                             0   HQIC                          5874.044
                                 - 254                                         
 Covariance Type:                  opg                                         
@@ -6775,7 +6488,7 @@ ARIMA Model Summary for SW3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 0, 3)   Log Likelihood               -4542.954
 Date:                Thu, 28 Mar 2024   AIC                           9101.907
-Time:                        20:35:45   BIC                           9132.129
+Time:                        22:17:21   BIC                           9132.129
 Sample:                             0   HQIC                          9113.971
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6834,7 +6547,7 @@ ARIMA Model Summary for IG2:
 Dep. Variable:             Price_Diff   No. Observations:                  311
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3574.364
 Date:                Thu, 28 Mar 2024   AIC                           7164.728
-Time:                        20:35:49   BIC                           7194.621
+Time:                        22:17:24   BIC                           7194.621
 Sample:                             0   HQIC                          7176.678
                                 - 311                                         
 Covariance Type:                  opg                                         
@@ -6893,7 +6606,7 @@ ARIMA Model Summary for UB7:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3686.131
 Date:                Thu, 28 Mar 2024   AIC                           7378.262
-Time:                        20:35:53   BIC                           7389.586
+Time:                        22:17:27   BIC                           7389.586
 Sample:                             0   HQIC                          7382.783
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -6947,7 +6660,7 @@ ARIMA Model Summary for SW13:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -4247.635
 Date:                Thu, 28 Mar 2024   AIC                           8509.269
-Time:                        20:35:57   BIC                           8535.648
+Time:                        22:17:30   BIC                           8535.648
 Sample:                             0   HQIC                          8519.803
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -7005,7 +6718,7 @@ ARIMA Model Summary for SW14:
 Dep. Variable:             Price_Diff   No. Observations:                  317
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3942.108
 Date:                Thu, 28 Mar 2024   AIC                           7902.217
-Time:                        20:36:18   BIC                           7936.018
+Time:                        22:17:33   BIC                           7936.018
 Sample:                             0   HQIC                          7915.720
                                 - 317                                         
 Covariance Type:                  opg                                         
@@ -7065,7 +6778,7 @@ ARIMA Model Summary for E11:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -3594.635
 Date:                Thu, 28 Mar 2024   AIC                           7205.271
-Time:                        20:36:22   BIC                           7235.467
+Time:                        22:17:36   BIC                           7235.467
 Sample:                             0   HQIC                          7217.326
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7124,7 +6837,7 @@ ARIMA Model Summary for SE21:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3881.842
 Date:                Thu, 28 Mar 2024   AIC                           7769.683
-Time:                        20:36:26   BIC                           7780.969
+Time:                        22:17:40   BIC                           7780.969
 Sample:                             0   HQIC                          7774.191
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -7178,7 +6891,7 @@ ARIMA Model Summary for E16:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(0, 1, 4)   Log Likelihood               -3875.767
 Date:                Thu, 28 Mar 2024   AIC                           7761.535
-Time:                        20:36:30   BIC                           7780.376
+Time:                        22:17:42   BIC                           7780.376
 Sample:                             0   HQIC                          7769.059
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -7234,7 +6947,7 @@ ARIMA Model Summary for TW1:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3941.313
 Date:                Thu, 28 Mar 2024   AIC                           7900.625
-Time:                        20:36:34   BIC                           7934.540
+Time:                        22:17:45   BIC                           7934.540
 Sample:                             0   HQIC                          7914.168
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -7294,7 +7007,7 @@ ARIMA Model Summary for SE26:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3659.772
 Date:                Thu, 28 Mar 2024   AIC                           7325.545
-Time:                        20:36:38   BIC                           7336.869
+Time:                        22:17:49   BIC                           7336.869
 Sample:                             0   HQIC                          7330.066
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7348,7 +7061,7 @@ ARIMA Model Summary for NW2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3790.713
 Date:                Thu, 28 Mar 2024   AIC                           7595.425
-Time:                        20:36:42   BIC                           7621.847
+Time:                        22:17:52   BIC                           7621.847
 Sample:                             0   HQIC                          7605.974
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7406,7 +7119,7 @@ ARIMA Model Summary for TW12:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3832.213
 Date:                Thu, 28 Mar 2024   AIC                           7670.426
-Time:                        20:36:46   BIC                           7681.750
+Time:                        22:17:55   BIC                           7681.750
 Sample:                             0   HQIC                          7674.947
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7460,7 +7173,7 @@ ARIMA Model Summary for HA5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3747.239
 Date:                Thu, 28 Mar 2024   AIC                           7500.478
-Time:                        20:36:50   BIC                           7511.802
+Time:                        22:17:58   BIC                           7511.802
 Sample:                             0   HQIC                          7504.999
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7514,7 +7227,7 @@ ARIMA Model Summary for E20:
 Dep. Variable:             Price_Diff   No. Observations:                   49
 Model:                 ARIMA(2, 1, 2)   Log Likelihood                   0.000
 Date:                Thu, 28 Mar 2024   AIC                             10.000
-Time:                        20:36:51   BIC                             19.356
+Time:                        22:17:59   BIC                             19.356
 Sample:                             0   HQIC                            13.536
                                  - 49                                         
 Covariance Type:                  opg                                         
@@ -7606,7 +7319,7 @@ ARIMA Model Summary for SE10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3847.575
 Date:                Thu, 28 Mar 2024   AIC                           7711.150
-Time:                        20:36:56   BIC                           7741.346
+Time:                        22:18:02   BIC                           7741.346
 Sample:                             0   HQIC                          7723.205
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7665,7 +7378,7 @@ ARIMA Model Summary for SE7:
 Dep. Variable:             Price_Diff   No. Observations:                  313
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3686.262
 Date:                Thu, 28 Mar 2024   AIC                           7380.524
-Time:                        20:36:59   BIC                           7395.496
+Time:                        22:18:05   BIC                           7395.496
 Sample:                             0   HQIC                          7386.508
                                 - 313                                         
 Covariance Type:                  opg                                         
@@ -7720,7 +7433,7 @@ ARIMA Model Summary for NW5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 0, 3)   Log Likelihood               -4031.520
 Date:                Thu, 28 Mar 2024   AIC                           8079.040
-Time:                        20:37:04   BIC                           8109.261
+Time:                        22:18:09   BIC                           8109.261
 Sample:                             0   HQIC                          8091.104
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7779,7 +7492,7 @@ ARIMA Model Summary for RM8:
 Dep. Variable:             Price_Diff   No. Observations:                  296
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -3400.616
 Date:                Thu, 28 Mar 2024   AIC                           6817.233
-Time:                        20:37:08   BIC                           6846.729
+Time:                        22:18:12   BIC                           6846.729
 Sample:                             0   HQIC                          6829.044
                                 - 296                                         
 Covariance Type:                  opg                                         
@@ -7821,65 +7534,6 @@ Monthly Average Price Data for RM8:
 
 [296 rows x 3 columns]
 
-Key: SW1V
-Test Statistic                -6.396426e+00
-p-value                        2.045463e-08
-#Lags Used                     1.700000e+01
-Number of Observations Used    3.050000e+02
-Critical Value (1%)           -3.451974e+00
-Critical Value (5%)           -2.871063e+00
-Critical Value (10%)          -2.571844e+00
-dtype: float64
-
-Best ARIMA(3, 1, 4) Model for SW1V - AIC: 8266.541317224357
-ARIMA Model Summary for SW1V:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  323
-Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4125.271
-Date:                Thu, 28 Mar 2024   AIC                           8266.541
-Time:                        20:37:12   BIC                           8296.738
-Sample:                             0   HQIC                          8278.597
-                                - 323                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -0.7130      0.091     -7.873      0.000      -0.890      -0.535
-ar.L2         -1.0277      0.055    -18.814      0.000      -1.135      -0.921
-ar.L3         -0.1239      0.080     -1.558      0.119      -0.280       0.032
-ma.L1         -1.1567      0.068    -17.119      0.000      -1.289      -1.024
-ma.L2          0.5857      0.088      6.632      0.000       0.413       0.759
-ma.L3         -1.1750      0.075    -15.662      0.000      -1.322      -1.028
-ma.L4          0.7497      0.059     12.676      0.000       0.634       0.866
-sigma2       9.67e+09   2.58e-12   3.75e+21      0.000    9.67e+09    9.67e+09
-===================================================================================
-Ljung-Box (L1) (Q):                   0.01   Jarque-Bera (JB):               122.88
-Prob(Q):                              0.92   Prob(JB):                         0.00
-Heteroskedasticity (H):               5.47   Skew:                             0.74
-Prob(H) (two-sided):                  0.00   Kurtosis:                         5.64
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 1.76e+38. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1V:
-          Date          Price     Price_Diff
-1   1995-02-28  125617.647059  -23504.227941
-2   1995-03-31  163097.222222   37479.575163
-3   1995-04-30  206790.416667   43693.194444
-4   1995-05-31  149019.230769  -57771.185897
-5   1995-06-30  188118.800000   39099.569231
-..         ...            ...            ...
-319 2021-08-31  712500.000000    1250.000000
-320 2021-09-30  723778.125000   11278.125000
-321 2021-10-31  782916.666667   59138.541667
-322 2021-11-30  960970.200000  178053.533333
-323 2021-12-31  684166.666667 -276803.533333
-
-[323 rows x 3 columns]
-
 Key: HA2
 Test Statistic                  -4.669559
 p-value                          0.000096
@@ -7897,7 +7551,7 @@ ARIMA Model Summary for HA2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3638.447
 Date:                Thu, 28 Mar 2024   AIC                           7284.894
-Time:                        20:37:16   BIC                           7299.992
+Time:                        22:18:15   BIC                           7299.992
 Sample:                             0   HQIC                          7290.921
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -7952,7 +7606,7 @@ ARIMA Model Summary for SE17:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3859.908
 Date:                Thu, 28 Mar 2024   AIC                           7733.815
-Time:                        20:37:20   BIC                           7760.237
+Time:                        22:18:18   BIC                           7760.237
 Sample:                             0   HQIC                          7744.363
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8010,7 +7664,7 @@ ARIMA Model Summary for W8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4698.755
 Date:                Thu, 28 Mar 2024   AIC                           9415.509
-Time:                        20:37:25   BIC                           9449.480
+Time:                        22:18:22   BIC                           9449.480
 Sample:                             0   HQIC                          9429.071
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8070,7 +7724,7 @@ ARIMA Model Summary for DA18:
 Dep. Variable:             Price_Diff   No. Observations:                   37
 Model:                 ARIMA(0, 1, 1)   Log Likelihood                -416.310
 Date:                Thu, 28 Mar 2024   AIC                            836.621
-Time:                        20:37:26   BIC                            839.788
+Time:                        22:18:23   BIC                            839.788
 Sample:                             0   HQIC                           837.726
                                  - 37                                         
 Covariance Type:                  opg                                         
@@ -8147,7 +7801,7 @@ ARIMA Model Summary for N6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4214.938
 Date:                Thu, 28 Mar 2024   AIC                           8447.876
-Time:                        20:37:30   BIC                           8481.847
+Time:                        22:18:25   BIC                           8481.847
 Sample:                             0   HQIC                          8461.439
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8191,48 +7845,47 @@ Monthly Average Price Data for N6:
 [323 rows x 3 columns]
 
 Key: N1
-Test Statistic                -9.223920e+00
-p-value                        1.749826e-15
-#Lags Used                     8.000000e+00
-Number of Observations Used    3.140000e+02
-Critical Value (1%)           -3.451349e+00
-Critical Value (5%)           -2.870789e+00
-Critical Value (10%)          -2.571698e+00
+Test Statistic                -7.616769e+00
+p-value                        2.181351e-11
+#Lags Used                     1.400000e+01
+Number of Observations Used    3.080000e+02
+Critical Value (1%)           -3.451761e+00
+Critical Value (5%)           -2.870970e+00
+Critical Value (10%)          -2.571794e+00
 dtype: float64
 
-Best ARIMA(4, 1, 4) Model for N1 - AIC: 7777.8814888875
+Best ARIMA(2, 0, 4) Model for N1 - AIC: 7981.724003389161
 ARIMA Model Summary for N1:
                                SARIMAX Results                                
 ==============================================================================
 Dep. Variable:             Price_Diff   No. Observations:                  323
-Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3879.941
-Date:                Thu, 28 Mar 2024   AIC                           7777.881
-Time:                        20:37:34   BIC                           7811.852
-Sample:                             0   HQIC                          7791.444
+Model:                 ARIMA(2, 0, 4)   Log Likelihood               -3982.862
+Date:                Thu, 28 Mar 2024   AIC                           7981.724
+Time:                        22:18:28   BIC                           8011.945
+Sample:                             0   HQIC                          7993.788
                                 - 323                                         
 Covariance Type:                  opg                                         
 ==============================================================================
                  coef    std err          z      P>|z|      [0.025      0.975]
 ------------------------------------------------------------------------------
-ar.L1         -1.4440      0.061    -23.636      0.000      -1.564      -1.324
-ar.L2         -0.9052      0.140     -6.450      0.000      -1.180      -0.630
-ar.L3         -0.0837      0.151     -0.554      0.579      -0.380       0.212
-ar.L4         -0.1296      0.075     -1.722      0.085      -0.277       0.018
-ma.L1         -0.2534      0.058     -4.366      0.000      -0.367      -0.140
-ma.L2         -0.9019      0.045    -20.124      0.000      -0.990      -0.814
-ma.L3         -0.5513      0.039    -14.302      0.000      -0.627      -0.476
-ma.L4          0.7094      0.061     11.590      0.000       0.589       0.829
-sigma2       2.03e+09   7.57e-11   2.68e+19      0.000    2.03e+09    2.03e+09
+const       2521.4717    540.720      4.663      0.000    1461.680    3581.264
+ar.L1         -1.5623      0.026    -59.610      0.000      -1.614      -1.511
+ar.L2         -0.9911      0.026    -37.923      0.000      -1.042      -0.940
+ma.L1          0.8695      0.055     15.734      0.000       0.761       0.978
+ma.L2         -0.2152      0.051     -4.227      0.000      -0.315      -0.115
+ma.L3         -0.9093      0.049    -18.638      0.000      -1.005      -0.814
+ma.L4         -0.1944      0.042     -4.652      0.000      -0.276      -0.113
+sigma2      3.318e+09      0.001   2.34e+12      0.000    3.32e+09    3.32e+09
 ===================================================================================
-Ljung-Box (L1) (Q):                   0.01   Jarque-Bera (JB):               215.57
-Prob(Q):                              0.92   Prob(JB):                         0.00
-Heteroskedasticity (H):              19.84   Skew:                             0.28
-Prob(H) (two-sided):                  0.00   Kurtosis:                         6.97
+Ljung-Box (L1) (Q):                   0.03   Jarque-Bera (JB):              6345.06
+Prob(Q):                              0.86   Prob(JB):                         0.00
+Heteroskedasticity (H):              36.97   Skew:                             2.36
+Prob(H) (two-sided):                  0.00   Kurtosis:                        24.20
 ===================================================================================
 
 Warnings:
 [1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 1.65e+36. Standard errors may be unstable.
+[2] Covariance matrix is singular or near-singular, with condition number 9.51e+26. Standard errors may be unstable.
 
 Monthly Average Price Data for N1:
           Date          Price     Price_Diff
@@ -8242,11 +7895,11 @@ Monthly Average Price Data for N1:
 4   1995-05-31   77245.000000  -12134.047619
 5   1995-06-30   80783.750000    3538.750000
 ..         ...            ...            ...
-319 2021-08-31  543735.285714 -265418.560440
-320 2021-09-30  582928.921875   39193.636161
-321 2021-10-31  435294.166667 -147634.755208
-322 2021-11-30  800172.678571  364878.511905
-323 2021-12-31  773715.885714  -26456.792857
+319 2021-08-31  566402.933333 -299641.709524
+320 2021-09-30  601138.985294   34736.051961
+321 2021-10-31  683348.461538   82209.476244
+322 2021-11-30  800172.678571  116824.217033
+323 2021-12-31  925812.324324  125639.645753
 
 [323 rows x 3 columns]
 
@@ -8267,7 +7920,7 @@ ARIMA Model Summary for KT9:
 Dep. Variable:             Price_Diff   No. Observations:                  313
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3533.903
 Date:                Thu, 28 Mar 2024   AIC                           7085.806
-Time:                        20:37:38   BIC                           7119.493
+Time:                        22:18:32   BIC                           7119.493
 Sample:                             0   HQIC                          7099.270
                                 - 313                                         
 Covariance Type:                  opg                                         
@@ -8310,6 +7963,66 @@ Monthly Average Price Data for KT9:
 
 [313 rows x 3 columns]
 
+Key: SW1
+Test Statistic                -9.428739e+00
+p-value                        5.259717e-16
+#Lags Used                     1.000000e+01
+Number of Observations Used    3.120000e+02
+Critical Value (1%)           -3.451484e+00
+Critical Value (5%)           -2.870849e+00
+Critical Value (10%)          -2.571730e+00
+dtype: float64
+
+Best ARIMA(4, 1, 4) Model for SW1 - AIC: 9027.47130506
+ARIMA Model Summary for SW1:
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             Price_Diff   No. Observations:                  323
+Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4504.736
+Date:                Thu, 28 Mar 2024   AIC                           9027.471
+Time:                        22:18:34   BIC                           9061.442
+Sample:                             0   HQIC                          9041.034
+                                - 323                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ar.L1         -1.4506      0.056    -26.057      0.000      -1.560      -1.342
+ar.L2         -0.4351      0.118     -3.689      0.000      -0.666      -0.204
+ar.L3          0.5126      0.133      3.868      0.000       0.253       0.772
+ar.L4          0.1751      0.071      2.454      0.014       0.035       0.315
+ma.L1         -0.2527      0.041     -6.235      0.000      -0.332      -0.173
+ma.L2         -1.3558      0.036    -37.227      0.000      -1.427      -1.284
+ma.L3         -0.3160      0.047     -6.709      0.000      -0.408      -0.224
+ma.L4          0.9373      0.035     26.464      0.000       0.868       1.007
+sigma2       1.03e+11   8.17e-13   1.26e+23      0.000    1.03e+11    1.03e+11
+===================================================================================
+Ljung-Box (L1) (Q):                   0.14   Jarque-Bera (JB):              5370.40
+Prob(Q):                              0.71   Prob(JB):                         0.00
+Heteroskedasticity (H):              68.25   Skew:                             2.64
+Prob(H) (two-sided):                  0.00   Kurtosis:                        22.30
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 1.05e+39. Standard errors may be unstable.
+
+Monthly Average Price Data for SW1:
+          Date         Price     Price_Diff
+1   1995-02-28  1.723811e+05  -11082.847490
+2   1995-03-31  1.783628e+05    5981.718919
+3   1995-04-30  2.019143e+05   23551.474510
+4   1995-05-31  1.549866e+05  -46927.689144
+5   1995-06-30  2.027820e+05   47795.464634
+..         ...           ...            ...
+319 2021-08-31  1.576462e+06 -520507.211538
+320 2021-09-30  9.581011e+05 -618360.402098
+321 2021-10-31  1.538681e+06  580579.419192
+322 2021-11-30  1.033793e+06 -504888.005556
+323 2021-12-31  1.171915e+06  138121.966129
+
+[323 rows x 3 columns]
+
 Key: IG7
 Test Statistic                -1.338303e+01
 p-value                        4.934816e-25
@@ -8327,7 +8040,7 @@ ARIMA Model Summary for IG7:
 Dep. Variable:             Price_Diff   No. Observations:                  222
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -2631.835
 Date:                Thu, 28 Mar 2024   AIC                           5281.669
-Time:                        20:37:41   BIC                           5312.253
+Time:                        22:18:36   BIC                           5312.253
 Sample:                             0   HQIC                          5294.019
                                 - 222                                         
 Covariance Type:                  opg                                         
@@ -8387,7 +8100,7 @@ ARIMA Model Summary for SW6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4108.538
 Date:                Thu, 28 Mar 2024   AIC                           8233.075
-Time:                        20:37:45   BIC                           8263.272
+Time:                        22:18:39   BIC                           8263.272
 Sample:                             0   HQIC                          8245.131
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8446,7 +8159,7 @@ ARIMA Model Summary for W12:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4048.571
 Date:                Thu, 28 Mar 2024   AIC                           8115.142
-Time:                        20:37:49   BIC                           8149.113
+Time:                        22:18:43   BIC                           8149.113
 Sample:                             0   HQIC                          8128.704
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8506,7 +8219,7 @@ ARIMA Model Summary for E9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3796.906
 Date:                Thu, 28 Mar 2024   AIC                           7611.812
-Time:                        20:37:53   BIC                           7645.783
+Time:                        22:18:46   BIC                           7645.783
 Sample:                             0   HQIC                          7625.374
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8566,7 +8279,7 @@ ARIMA Model Summary for SE27:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3868.338
 Date:                Thu, 28 Mar 2024   AIC                           7750.676
-Time:                        20:37:57   BIC                           7777.098
+Time:                        22:18:49   BIC                           7777.098
 Sample:                             0   HQIC                          7761.224
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8624,7 +8337,7 @@ ARIMA Model Summary for E17:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3477.727
 Date:                Thu, 28 Mar 2024   AIC                           6973.455
-Time:                        20:38:00   BIC                           7007.426
+Time:                        22:18:52   BIC                           7007.426
 Sample:                             0   HQIC                          6987.017
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8684,7 +8397,7 @@ ARIMA Model Summary for SE20:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3635.255
 Date:                Thu, 28 Mar 2024   AIC                           7276.510
-Time:                        20:38:04   BIC                           7287.834
+Time:                        22:18:54   BIC                           7287.834
 Sample:                             0   HQIC                          7281.031
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8738,7 +8451,7 @@ ARIMA Model Summary for TW7:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 4)   Log Likelihood               -3785.674
 Date:                Thu, 28 Mar 2024   AIC                           7583.349
-Time:                        20:38:09   BIC                           7605.996
+Time:                        22:18:58   BIC                           7605.996
 Sample:                             0   HQIC                          7592.390
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8795,7 +8508,7 @@ ARIMA Model Summary for E10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3616.085
 Date:                Thu, 28 Mar 2024   AIC                           7238.171
-Time:                        20:38:13   BIC                           7249.494
+Time:                        22:19:01   BIC                           7249.494
 Sample:                             0   HQIC                          7242.691
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -8849,7 +8562,7 @@ ARIMA Model Summary for UB1:
 Dep. Variable:             Price_Diff   No. Observations:                  293
 Model:                 ARIMA(2, 1, 3)   Log Likelihood               -3462.736
 Date:                Thu, 28 Mar 2024   AIC                           6937.473
-Time:                        20:38:17   BIC                           6959.533
+Time:                        22:19:04   BIC                           6959.533
 Sample:                             0   HQIC                          6946.309
                                 - 293                                         
 Covariance Type:                  opg                                         
@@ -8906,7 +8619,7 @@ ARIMA Model Summary for UB6:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3634.104
 Date:                Thu, 28 Mar 2024   AIC                           7284.208
-Time:                        20:38:21   BIC                           7314.354
+Time:                        22:19:07   BIC                           7314.354
 Sample:                             0   HQIC                          7296.246
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -8965,7 +8678,7 @@ ARIMA Model Summary for EN1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3634.369
 Date:                Thu, 28 Mar 2024   AIC                           7274.737
-Time:                        20:38:25   BIC                           7286.061
+Time:                        22:19:11   BIC                           7286.061
 Sample:                             0   HQIC                          7279.258
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9019,7 +8732,7 @@ ARIMA Model Summary for SW15:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3828.507
 Date:                Thu, 28 Mar 2024   AIC                           7665.014
-Time:                        20:38:29   BIC                           7680.112
+Time:                        22:19:14   BIC                           7680.112
 Sample:                             0   HQIC                          7671.041
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9074,7 +8787,7 @@ ARIMA Model Summary for SW12:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3733.612
 Date:                Thu, 28 Mar 2024   AIC                           7473.224
-Time:                        20:38:34   BIC                           7484.548
+Time:                        22:19:17   BIC                           7484.548
 Sample:                             0   HQIC                          7477.745
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9111,66 +8824,6 @@ Monthly Average Price Data for SW12:
 
 [323 rows x 3 columns]
 
-Key: SW1H
-Test Statistic                   1.225094
-p-value                          0.996155
-#Lags Used                      14.000000
-Number of Observations Used    142.000000
-Critical Value (1%)             -3.477262
-Critical Value (5%)             -2.882118
-Critical Value (10%)            -2.577743
-dtype: float64
-
-Best ARIMA(4, 1, 4) Model for SW1H - AIC: 4727.570921192319
-ARIMA Model Summary for SW1H:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  157
-Model:                 ARIMA(4, 1, 4)   Log Likelihood               -2354.785
-Date:                Thu, 28 Mar 2024   AIC                           4727.571
-Time:                        20:38:36   BIC                           4755.020
-Sample:                             0   HQIC                          4738.719
-                                - 157                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1          0.7011      0.097      7.240      0.000       0.511       0.891
-ar.L2         -1.0647      0.093    -11.410      0.000      -1.248      -0.882
-ar.L3          0.3556      0.107      3.323      0.001       0.146       0.565
-ar.L4         -0.0893      0.070     -1.271      0.204      -0.227       0.048
-ma.L1         -2.0440      0.083    -24.751      0.000      -2.206      -1.882
-ma.L2          2.2199      0.163     13.634      0.000       1.901       2.539
-ma.L3         -1.9842      0.150    -13.218      0.000      -2.278      -1.690
-ma.L4          0.9045      0.073     12.424      0.000       0.762       1.047
-sigma2      8.212e+11    2.3e-13   3.58e+24      0.000    8.21e+11    8.21e+11
-===================================================================================
-Ljung-Box (L1) (Q):                   0.06   Jarque-Bera (JB):               345.06
-Prob(Q):                              0.81   Prob(JB):                         0.00
-Heteroskedasticity (H):              48.71   Skew:                             0.01
-Prob(H) (two-sided):                  0.00   Kurtosis:                        10.29
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 1.67e+40. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1H:
-          Date      Price    Price_Diff
-1   1995-03-31    55000.0 -1.850000e+04
-7   1995-09-30    66250.0  1.625000e+04
-22  1996-12-31   215750.0  1.257500e+05
-23  1997-01-31    80000.0 -1.357500e+05
-26  1997-04-30    67250.0 -2.275000e+04
-..         ...        ...           ...
-314 2021-04-30   375000.0 -1.975833e+06
-315 2021-05-31  5255000.0  4.880000e+06
-316 2021-06-30  1053000.0 -4.202000e+06
-319 2021-09-30  1510000.0 -4.990000e+06
-320 2021-10-31   560000.0 -9.500000e+05
-
-[157 rows x 3 columns]
-
 Key: SW7
 Test Statistic                -6.708758e+00
 p-value                        3.726777e-09
@@ -9188,7 +8841,7 @@ ARIMA Model Summary for SW7:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -4647.913
 Date:                Thu, 28 Mar 2024   AIC                           9309.826
-Time:                        20:38:41   BIC                           9336.248
+Time:                        22:19:20   BIC                           9336.248
 Sample:                             0   HQIC                          9320.374
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9246,7 +8899,7 @@ ARIMA Model Summary for IG6:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3647.678
 Date:                Thu, 28 Mar 2024   AIC                           7301.357
-Time:                        20:38:44   BIC                           7312.643
+Time:                        22:19:23   BIC                           7312.643
 Sample:                             0   HQIC                          7305.864
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -9300,7 +8953,7 @@ ARIMA Model Summary for IG1:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3684.521
 Date:                Thu, 28 Mar 2024   AIC                           7383.043
-Time:                        20:38:48   BIC                           7409.421
+Time:                        22:19:26   BIC                           7409.421
 Sample:                             0   HQIC                          7393.576
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -9358,7 +9011,7 @@ ARIMA Model Summary for W14:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 0, 4)   Log Likelihood               -4286.019
 Date:                Thu, 28 Mar 2024   AIC                           8590.038
-Time:                        20:38:52   BIC                           8624.037
+Time:                        22:19:29   BIC                           8624.037
 Sample:                             0   HQIC                          8603.610
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9418,7 +9071,7 @@ ARIMA Model Summary for E8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3839.217
 Date:                Thu, 28 Mar 2024   AIC                           7684.433
-Time:                        20:38:56   BIC                           7695.757
+Time:                        22:19:32   BIC                           7695.757
 Sample:                             0   HQIC                          7688.954
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9472,7 +9125,7 @@ ARIMA Model Summary for W13:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3825.556
 Date:                Thu, 28 Mar 2024   AIC                           7669.113
-Time:                        20:39:00   BIC                           7703.084
+Time:                        22:19:35   BIC                           7703.084
 Sample:                             0   HQIC                          7682.675
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9532,7 +9185,7 @@ ARIMA Model Summary for SE16:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3808.671
 Date:                Thu, 28 Mar 2024   AIC                           7635.342
-Time:                        20:39:04   BIC                           7669.313
+Time:                        22:19:38   BIC                           7669.313
 Sample:                             0   HQIC                          7648.904
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9592,7 +9245,7 @@ ARIMA Model Summary for SE1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4168.707
 Date:                Thu, 28 Mar 2024   AIC                           8353.414
-Time:                        20:39:08   BIC                           8383.611
+Time:                        22:19:42   BIC                           8383.611
 Sample:                             0   HQIC                          8365.470
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9651,7 +9304,7 @@ ARIMA Model Summary for RM9:
 Dep. Variable:             Price_Diff   No. Observations:                  257
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -2911.795
 Date:                Thu, 28 Mar 2024   AIC                           5839.589
-Time:                        20:39:12   BIC                           5867.951
+Time:                        22:19:44   BIC                           5867.951
 Sample:                             0   HQIC                          5850.996
                                 - 257                                         
 Covariance Type:                  opg                                         
@@ -9710,7 +9363,7 @@ ARIMA Model Summary for NW4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3940.706
 Date:                Thu, 28 Mar 2024   AIC                           7899.412
-Time:                        20:39:16   BIC                           7933.383
+Time:                        22:19:48   BIC                           7933.383
 Sample:                             0   HQIC                          7912.975
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9770,7 +9423,7 @@ ARIMA Model Summary for HA3:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3727.656
 Date:                Thu, 28 Mar 2024   AIC                           7471.311
-Time:                        20:39:19   BIC                           7501.458
+Time:                        22:19:50   BIC                           7501.458
 Sample:                             0   HQIC                          7483.349
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -9829,7 +9482,7 @@ ARIMA Model Summary for DA8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3616.495
 Date:                Thu, 28 Mar 2024   AIC                           7250.989
-Time:                        20:39:23   BIC                           7284.960
+Time:                        22:19:53   BIC                           7284.960
 Sample:                             0   HQIC                          7264.552
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -9872,65 +9525,6 @@ Monthly Average Price Data for DA8:
 
 [323 rows x 3 columns]
 
-Key: SW1W
-Test Statistic                  -4.123795
-p-value                          0.000884
-#Lags Used                      16.000000
-Number of Observations Used    302.000000
-Critical Value (1%)             -3.452190
-Critical Value (5%)             -2.871158
-Critical Value (10%)            -2.571895
-dtype: float64
-
-Best ARIMA(3, 1, 4) Model for SW1W - AIC: 9722.680010574679
-ARIMA Model Summary for SW1W:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  319
-Model:                 ARIMA(3, 1, 4)   Log Likelihood               -4853.340
-Date:                Thu, 28 Mar 2024   AIC                           9722.680
-Time:                        20:39:27   BIC                           9752.776
-Sample:                             0   HQIC                          9734.701
-                                - 319                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -0.4973      0.258     -1.928      0.054      -1.003       0.008
-ar.L2         -0.7914      0.087     -9.047      0.000      -0.963      -0.620
-ar.L3         -0.4857      0.156     -3.121      0.002      -0.791      -0.181
-ma.L1         -0.8574      0.250     -3.427      0.001      -1.348      -0.367
-ma.L2          0.5973      0.387      1.542      0.123      -0.162       1.356
-ma.L3         -0.3544      0.342     -1.036      0.300      -1.025       0.316
-ma.L4         -0.3731      0.228     -1.639      0.101      -0.819       0.073
-sigma2      1.196e+12   5.02e-13   2.38e+24      0.000     1.2e+12     1.2e+12
-===================================================================================
-Ljung-Box (L1) (Q):                   0.01   Jarque-Bera (JB):              8054.83
-Prob(Q):                              0.92   Prob(JB):                         0.00
-Heteroskedasticity (H):              64.42   Skew:                            -2.09
-Prob(H) (two-sided):                  0.00   Kurtosis:                        27.30
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 5.04e+40. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1W:
-          Date         Price    Price_Diff
-1   1995-02-28  2.258333e+05  7.083333e+04
-2   1995-03-31  1.443750e+05 -8.145833e+04
-3   1995-04-30  1.541000e+05  9.725000e+03
-4   1995-05-31  1.885000e+05  3.440000e+04
-5   1995-06-30  5.200000e+04 -1.365000e+05
-..         ...           ...           ...
-319 2021-08-31  1.229625e+06  4.625000e+03
-320 2021-09-30  1.632500e+06  4.028750e+05
-321 2021-10-31  3.675000e+06  2.042500e+06
-322 2021-11-30  1.083200e+06 -2.591800e+06
-323 2021-12-31  1.234412e+06  1.512125e+05
-
-[319 rows x 3 columns]
-
 Key: SE6
 Test Statistic                  -3.745674
 p-value                          0.003515
@@ -9948,7 +9542,7 @@ ARIMA Model Summary for SE6:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3648.543
 Date:                Thu, 28 Mar 2024   AIC                           7305.086
-Time:                        20:39:31   BIC                           7320.184
+Time:                        22:19:57   BIC                           7320.184
 Sample:                             0   HQIC                          7311.113
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10003,7 +9597,7 @@ ARIMA Model Summary for SE11:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3914.370
 Date:                Thu, 28 Mar 2024   AIC                           7844.740
-Time:                        20:39:35   BIC                           7874.886
+Time:                        22:19:59   BIC                           7874.886
 Sample:                             0   HQIC                          7856.778
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -10062,7 +9656,7 @@ ARIMA Model Summary for NW3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4155.915
 Date:                Thu, 28 Mar 2024   AIC                           8329.831
-Time:                        20:39:38   BIC                           8363.802
+Time:                        22:20:02   BIC                           8363.802
 Sample:                             0   HQIC                          8343.393
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10122,7 +9716,7 @@ ARIMA Model Summary for HA4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3638.902
 Date:                Thu, 28 Mar 2024   AIC                           7285.805
-Time:                        20:39:43   BIC                           7300.903
+Time:                        22:20:05   BIC                           7300.903
 Sample:                             0   HQIC                          7291.833
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10177,7 +9771,7 @@ ARIMA Model Summary for TW13:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(1, 1, 3)   Log Likelihood               -3569.937
 Date:                Thu, 28 Mar 2024   AIC                           7149.874
-Time:                        20:39:47   BIC                           7168.684
+Time:                        22:20:09   BIC                           7168.684
 Sample:                             0   HQIC                          7157.387
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -10216,63 +9810,6 @@ Monthly Average Price Data for TW13:
 
 [319 rows x 3 columns]
 
-Key: SW1P
-Test Statistic                -9.499464e+00
-p-value                        3.476533e-16
-#Lags Used                     8.000000e+00
-Number of Observations Used    3.120000e+02
-Critical Value (1%)           -3.451484e+00
-Critical Value (5%)           -2.870849e+00
-Critical Value (10%)          -2.571730e+00
-dtype: float64
-
-Best ARIMA(2, 1, 3) Model for SW1P - AIC: 8883.762376481272
-ARIMA Model Summary for SW1P:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  321
-Model:                 ARIMA(2, 1, 3)   Log Likelihood               -4435.881
-Date:                Thu, 28 Mar 2024   AIC                           8883.762
-Time:                        20:39:51   BIC                           8906.372
-Sample:                             0   HQIC                          8892.791
-                                - 321                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1         -0.7894      0.091     -8.653      0.000      -0.968      -0.611
-ar.L2          0.2051      0.056      3.646      0.000       0.095       0.315
-ma.L1         -0.8569      0.094     -9.104      0.000      -1.041      -0.672
-ma.L2         -0.9635      0.139     -6.925      0.000      -1.236      -0.691
-ma.L3          0.8214      0.067     12.237      0.000       0.690       0.953
-sigma2      7.877e+10   8.06e-12   9.77e+21      0.000    7.88e+10    7.88e+10
-===================================================================================
-Ljung-Box (L1) (Q):                   0.01   Jarque-Bera (JB):              8416.05
-Prob(Q):                              0.94   Prob(JB):                         0.00
-Heteroskedasticity (H):              88.53   Skew:                             2.73
-Prob(H) (two-sided):                  0.00   Kurtosis:                        27.52
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 3.49e+36. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1P:
-          Date         Price    Price_Diff
-1   1995-02-28  1.510083e+05 -1.184954e+04
-2   1995-03-31  9.162500e+04 -5.938333e+04
-3   1995-04-30  1.681250e+05  7.650000e+04
-4   1995-05-31  1.206950e+05 -4.743000e+04
-5   1995-06-30  9.118750e+04 -2.950750e+04
-..         ...           ...           ...
-319 2021-08-31  9.100000e+05 -2.300000e+06
-320 2021-09-30  8.380000e+05 -7.200000e+04
-321 2021-10-31  1.011944e+06  1.739444e+05
-322 2021-11-30  8.542857e+05 -1.576587e+05
-323 2021-12-31  8.851545e+05  3.086883e+04
-
-[321 rows x 3 columns]
-
 Key: KT8
 Test Statistic                -1.290086
 p-value                        0.633696
@@ -10290,7 +9827,7 @@ ARIMA Model Summary for KT8:
 Dep. Variable:             Price_Diff   No. Observations:                   15
 Model:                 ARIMA(1, 1, 0)   Log Likelihood                -183.984
 Date:                Thu, 28 Mar 2024   AIC                            371.968
-Time:                        20:39:52   BIC                            373.246
+Time:                        22:20:10   BIC                            373.246
 Sample:                             0   HQIC                           371.850
                                  - 15                                         
 Covariance Type:                  opg                                         
@@ -10345,7 +9882,7 @@ ARIMA Model Summary for N7:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3785.966
 Date:                Thu, 28 Mar 2024   AIC                           7577.933
-Time:                        20:39:56   BIC                           7589.256
+Time:                        22:20:13   BIC                           7589.256
 Sample:                             0   HQIC                          7582.453
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10399,7 +9936,7 @@ ARIMA Model Summary for W9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 0, 3)   Log Likelihood               -4054.904
 Date:                Thu, 28 Mar 2024   AIC                           8123.807
-Time:                        20:40:01   BIC                           8150.251
+Time:                        22:20:16   BIC                           8150.251
 Sample:                             0   HQIC                          8134.363
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10457,7 +9994,7 @@ ARIMA Model Summary for DA5:
 Dep. Variable:             Price_Diff   No. Observations:                  241
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -2880.514
 Date:                Thu, 28 Mar 2024   AIC                           5777.028
-Time:                        20:40:04   BIC                           5804.873
+Time:                        22:20:19   BIC                           5804.873
 Sample:                             0   HQIC                          5788.247
                                 - 241                                         
 Covariance Type:                  opg                                         
@@ -10516,7 +10053,7 @@ ARIMA Model Summary for NW9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3704.377
 Date:                Thu, 28 Mar 2024   AIC                           7414.754
-Time:                        20:40:08   BIC                           7426.078
+Time:                        22:20:23   BIC                           7426.078
 Sample:                             0   HQIC                          7419.275
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10570,7 +10107,7 @@ ARIMA Model Summary for BR7:
 Dep. Variable:             Price_Diff   No. Observations:                  315
 Model:                 ARIMA(1, 1, 3)   Log Likelihood               -3952.610
 Date:                Thu, 28 Mar 2024   AIC                           7915.220
-Time:                        20:40:12   BIC                           7933.967
+Time:                        22:20:26   BIC                           7933.967
 Sample:                             0   HQIC                          7922.711
                                 - 315                                         
 Covariance Type:                  opg                                         
@@ -10626,7 +10163,7 @@ ARIMA Model Summary for HA9:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3827.333
 Date:                Thu, 28 Mar 2024   AIC                           7672.666
-Time:                        20:40:16   BIC                           7706.637
+Time:                        22:20:28   BIC                           7706.637
 Sample:                             0   HQIC                          7686.228
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10686,7 +10223,7 @@ ARIMA Model Summary for RM3:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3655.035
 Date:                Thu, 28 Mar 2024   AIC                           7318.070
-Time:                        20:40:20   BIC                           7333.118
+Time:                        22:20:32   BIC                           7333.118
 Sample:                             0   HQIC                          7324.081
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -10741,7 +10278,7 @@ ARIMA Model Summary for TN16:
 Dep. Variable:             Price_Diff   No. Observations:                  284
 Model:                 ARIMA(2, 1, 3)   Log Likelihood               -3341.459
 Date:                Thu, 28 Mar 2024   AIC                           6694.918
-Time:                        20:40:23   BIC                           6716.790
+Time:                        22:20:34   BIC                           6716.790
 Sample:                             0   HQIC                          6703.688
                                 - 284                                         
 Covariance Type:                  opg                                         
@@ -10798,7 +10335,7 @@ ARIMA Model Summary for W3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 2)   Log Likelihood               -3756.678
 Date:                Thu, 28 Mar 2024   AIC                           7525.357
-Time:                        20:40:28   BIC                           7548.004
+Time:                        22:20:38   BIC                           7548.004
 Sample:                             0   HQIC                          7534.398
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10855,7 +10392,7 @@ ARIMA Model Summary for KT5:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3719.575
 Date:                Thu, 28 Mar 2024   AIC                           7457.149
-Time:                        20:40:32   BIC                           7491.008
+Time:                        22:20:41   BIC                           7491.008
 Sample:                             0   HQIC                          7470.672
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -10915,7 +10452,7 @@ ARIMA Model Summary for W4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 4)   Log Likelihood               -3915.897
 Date:                Thu, 28 Mar 2024   AIC                           7843.794
-Time:                        20:40:36   BIC                           7866.441
+Time:                        22:20:44   BIC                           7866.441
 Sample:                             0   HQIC                          7852.835
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -10972,7 +10509,7 @@ ARIMA Model Summary for KT2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3871.916
 Date:                Thu, 28 Mar 2024   AIC                           7757.833
-Time:                        20:40:40   BIC                           7784.255
+Time:                        22:20:47   BIC                           7784.255
 Sample:                             0   HQIC                          7768.381
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11030,7 +10567,7 @@ ARIMA Model Summary for BR5BR8:
 Dep. Variable:             Price_Diff   No. Observations:                  317
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3587.599
 Date:                Thu, 28 Mar 2024   AIC                           7181.199
-Time:                        20:40:44   BIC                           7192.466
+Time:                        22:20:50   BIC                           7192.466
 Sample:                             0   HQIC                          7185.700
                                 - 317                                         
 Covariance Type:                  opg                                         
@@ -11084,7 +10621,7 @@ ARIMA Model Summary for DA14:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3613.910
 Date:                Thu, 28 Mar 2024   AIC                           7233.821
-Time:                        20:40:48   BIC                           7245.145
+Time:                        22:20:54   BIC                           7245.145
 Sample:                             0   HQIC                          7238.342
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11138,7 +10675,7 @@ ARIMA Model Summary for N16:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3733.893
 Date:                Thu, 28 Mar 2024   AIC                           7485.786
-Time:                        20:40:52   BIC                           7519.757
+Time:                        22:20:57   BIC                           7519.757
 Sample:                             0   HQIC                          7499.349
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11198,7 +10735,7 @@ ARIMA Model Summary for N11:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3788.416
 Date:                Thu, 28 Mar 2024   AIC                           7592.832
-Time:                        20:40:56   BIC                           7622.929
+Time:                        22:21:00   BIC                           7622.929
 Sample:                             0   HQIC                          7604.853
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -11257,7 +10794,7 @@ ARIMA Model Summary for E5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3766.577
 Date:                Thu, 28 Mar 2024   AIC                           7547.153
-Time:                        20:41:00   BIC                           7573.575
+Time:                        22:21:03   BIC                           7573.575
 Sample:                             0   HQIC                          7557.702
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11315,7 +10852,7 @@ ARIMA Model Summary for E2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3816.308
 Date:                Thu, 28 Mar 2024   AIC                           7648.616
-Time:                        20:41:04   BIC                           7678.812
+Time:                        22:21:07   BIC                           7678.812
 Sample:                             0   HQIC                          7660.671
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11374,7 +10911,7 @@ ARIMA Model Summary for SM5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3579.050
 Date:                Thu, 28 Mar 2024   AIC                           7164.099
-Time:                        20:41:08   BIC                           7175.423
+Time:                        22:21:10   BIC                           7175.423
 Sample:                             0   HQIC                          7168.620
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11428,7 +10965,7 @@ ARIMA Model Summary for RM11:
 Dep. Variable:             Price_Diff   No. Observations:                  313
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3628.025
 Date:                Thu, 28 Mar 2024   AIC                           7262.051
-Time:                        20:41:12   BIC                           7273.280
+Time:                        22:21:13   BIC                           7273.280
 Sample:                             0   HQIC                          7266.539
                                 - 313                                         
 Covariance Type:                  opg                                         
@@ -11482,7 +11019,7 @@ ARIMA Model Summary for SM2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 3)   Log Likelihood               -3498.811
 Date:                Thu, 28 Mar 2024   AIC                           7005.621
-Time:                        20:41:16   BIC                           7020.719
+Time:                        22:21:16   BIC                           7020.719
 Sample:                             0   HQIC                          7011.649
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11537,7 +11074,7 @@ ARIMA Model Summary for N20:
 Dep. Variable:             Price_Diff   No. Observations:                  316
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -3933.241
 Date:                Thu, 28 Mar 2024   AIC                           7882.482
-Time:                        20:41:20   BIC                           7912.503
+Time:                        22:21:20   BIC                           7912.503
 Sample:                             0   HQIC                          7894.477
                                 - 316                                         
 Covariance Type:                  opg                                         
@@ -11596,7 +11133,7 @@ ARIMA Model Summary for SW18:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3825.439
 Date:                Thu, 28 Mar 2024   AIC                           7656.879
-Time:                        20:41:25   BIC                           7668.202
+Time:                        22:21:23   BIC                           7668.202
 Sample:                             0   HQIC                          7661.400
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11633,63 +11170,6 @@ Monthly Average Price Data for SW18:
 
 [323 rows x 3 columns]
 
-Key: SW1E
-Test Statistic                -1.427136e+01
-p-value                        1.372515e-26
-#Lags Used                     0.000000e+00
-Number of Observations Used    1.240000e+02
-Critical Value (1%)           -3.484220e+00
-Critical Value (5%)           -2.885145e+00
-Critical Value (10%)          -2.579359e+00
-dtype: float64
-
-Best ARIMA(2, 1, 3) Model for SW1E - AIC: 3647.120861147215
-ARIMA Model Summary for SW1E:
-                               SARIMAX Results                                
-==============================================================================
-Dep. Variable:             Price_Diff   No. Observations:                  125
-Model:                 ARIMA(2, 1, 3)   Log Likelihood               -1817.560
-Date:                Thu, 28 Mar 2024   AIC                           3647.121
-Time:                        20:41:27   BIC                           3664.043
-Sample:                             0   HQIC                          3653.995
-                                - 125                                         
-Covariance Type:                  opg                                         
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-ar.L1          0.7478      0.169      4.433      0.000       0.417       1.078
-ar.L2         -0.4874      0.181     -2.687      0.007      -0.843      -0.132
-ma.L1         -2.0502      0.161    -12.711      0.000      -2.366      -1.734
-ma.L2          1.7801      0.256      6.942      0.000       1.277       2.283
-ma.L3         -0.7244      0.156     -4.645      0.000      -1.030      -0.419
-sigma2      3.728e+11      2e-12   1.87e+23      0.000    3.73e+11    3.73e+11
-===================================================================================
-Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               183.62
-Prob(Q):                              0.99   Prob(JB):                         0.00
-Heteroskedasticity (H):              21.90   Skew:                            -0.90
-Prob(H) (two-sided):                  0.00   Kurtosis:                         8.69
-===================================================================================
-
-Warnings:
-[1] Covariance matrix calculated using the outer product of gradients (complex-step).
-[2] Covariance matrix is singular or near-singular, with condition number 7.99e+38. Standard errors may be unstable.
-
-Monthly Average Price Data for SW1E:
-          Date         Price    Price_Diff
-5   1995-06-30  8.500000e+04 -2.150000e+05
-12  1996-01-31  1.750000e+05  7.500000e+04
-15  1996-04-30  1.078167e+05  7.816667e+03
-18  1996-07-31  1.288000e+05  1.880000e+04
-19  1996-08-31  6.175000e+04 -6.705000e+04
-..         ...           ...           ...
-302 2020-03-31  1.600000e+06 -1.833333e+05
-303 2020-04-30  1.957500e+06  3.575000e+05
-318 2021-07-31  2.032000e+06  1.261400e+06
-319 2021-08-31  5.950000e+05 -1.437000e+06
-320 2021-09-30  7.220000e+05  1.270000e+05
-
-[125 rows x 3 columns]
-
 Key: IG11
 Test Statistic                -1.001060e+01
 p-value                        1.782945e-17
@@ -11707,7 +11187,7 @@ ARIMA Model Summary for IG11:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3570.008
 Date:                Thu, 28 Mar 2024   AIC                           7146.016
-Time:                        20:41:31   BIC                           7157.340
+Time:                        22:21:26   BIC                           7157.340
 Sample:                             0   HQIC                          7150.537
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11761,7 +11241,7 @@ ARIMA Model Summary for UB10:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3766.104
 Date:                Thu, 28 Mar 2024   AIC                           7538.209
-Time:                        20:41:34   BIC                           7549.514
+Time:                        22:21:29   BIC                           7549.514
 Sample:                             0   HQIC                          7542.723
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -11815,7 +11295,7 @@ ARIMA Model Summary for N10:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3931.232
 Date:                Thu, 28 Mar 2024   AIC                           7880.464
-Time:                        20:41:38   BIC                           7914.434
+Time:                        22:21:32   BIC                           7914.434
 Sample:                             0   HQIC                          7894.026
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11875,7 +11355,7 @@ ARIMA Model Summary for N17:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3686.072
 Date:                Thu, 28 Mar 2024   AIC                           7378.144
-Time:                        20:41:42   BIC                           7389.467
+Time:                        22:21:35   BIC                           7389.467
 Sample:                             0   HQIC                          7382.664
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11929,7 +11409,7 @@ ARIMA Model Summary for E3:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3667.450
 Date:                Thu, 28 Mar 2024   AIC                           7340.900
-Time:                        20:41:46   BIC                           7352.223
+Time:                        22:21:38   BIC                           7352.223
 Sample:                             0   HQIC                          7345.420
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -11983,7 +11463,7 @@ ARIMA Model Summary for E4:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(3, 1, 3)   Log Likelihood               -3592.579
 Date:                Thu, 28 Mar 2024   AIC                           7199.158
-Time:                        20:41:50   BIC                           7225.579
+Time:                        22:21:42   BIC                           7225.579
 Sample:                             0   HQIC                          7209.706
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12041,7 +11521,7 @@ ARIMA Model Summary for EC1:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4127.750
 Date:                Thu, 28 Mar 2024   AIC                           8273.500
-Time:                        20:41:54   BIC                           8307.414
+Time:                        22:21:45   BIC                           8307.414
 Sample:                             0   HQIC                          8287.042
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -12101,7 +11581,7 @@ ARIMA Model Summary for HA8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3754.939
 Date:                Thu, 28 Mar 2024   AIC                           7515.879
-Time:                        20:41:59   BIC                           7527.202
+Time:                        22:21:48   BIC                           7527.202
 Sample:                             0   HQIC                          7520.400
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12155,7 +11635,7 @@ ARIMA Model Summary for RM2:
 Dep. Variable:             Price_Diff   No. Observations:                  314
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3653.276
 Date:                Thu, 28 Mar 2024   AIC                           7312.552
-Time:                        20:42:03   BIC                           7323.790
+Time:                        22:21:52   BIC                           7323.790
 Sample:                             0   HQIC                          7317.043
                                 - 314                                         
 Covariance Type:                  opg                                         
@@ -12209,7 +11689,7 @@ ARIMA Model Summary for BR1:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 0, 4)   Log Likelihood               -3713.801
 Date:                Thu, 28 Mar 2024   AIC                           7443.602
-Time:                        20:42:07   BIC                           7473.823
+Time:                        22:21:55   BIC                           7473.823
 Sample:                             0   HQIC                          7455.666
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12268,7 +11748,7 @@ ARIMA Model Summary for RM5:
 Dep. Variable:             Price_Diff   No. Observations:                  266
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3069.029
 Date:                Thu, 28 Mar 2024   AIC                           6154.058
-Time:                        20:42:10   BIC                           6182.696
+Time:                        22:21:57   BIC                           6182.696
 Sample:                             0   HQIC                          6165.564
                                 - 266                                         
 Covariance Type:                  opg                                         
@@ -12327,7 +11807,7 @@ ARIMA Model Summary for BR6:
 Dep. Variable:             Price_Diff   No. Observations:                  317
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3632.205
 Date:                Thu, 28 Mar 2024   AIC                           7270.410
-Time:                        20:42:15   BIC                           7281.678
+Time:                        22:22:01   BIC                           7281.678
 Sample:                             0   HQIC                          7274.912
                                 - 317                                         
 Covariance Type:                  opg                                         
@@ -12381,7 +11861,7 @@ ARIMA Model Summary for NW8:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 3)   Log Likelihood               -4305.066
 Date:                Thu, 28 Mar 2024   AIC                           8626.132
-Time:                        20:42:18   BIC                           8656.329
+Time:                        22:22:04   BIC                           8656.329
 Sample:                             0   HQIC                          8638.188
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12440,7 +11920,7 @@ ARIMA Model Summary for KT3:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3699.488
 Date:                Thu, 28 Mar 2024   AIC                           7416.977
-Time:                        20:42:22   BIC                           7450.835
+Time:                        22:22:07   BIC                           7450.835
 Sample:                             0   HQIC                          7430.500
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -12500,7 +11980,7 @@ ARIMA Model Summary for DA15:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3578.909
 Date:                Thu, 28 Mar 2024   AIC                           7171.817
-Time:                        20:42:27   BIC                           7198.152
+Time:                        22:22:10   BIC                           7198.152
 Sample:                             0   HQIC                          7182.335
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -12558,7 +12038,7 @@ ARIMA Model Summary for W5:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3901.207
 Date:                Thu, 28 Mar 2024   AIC                           7816.414
-Time:                        20:42:31   BIC                           7842.836
+Time:                        22:22:13   BIC                           7842.836
 Sample:                             0   HQIC                          7826.962
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12616,7 +12096,7 @@ ARIMA Model Summary for WD3:
 Dep. Variable:             Price_Diff   No. Observations:                   17
 Model:                 ARIMA(0, 1, 1)   Log Likelihood                -180.867
 Date:                Thu, 28 Mar 2024   AIC                            365.734
-Time:                        20:42:32   BIC                            367.279
+Time:                        22:22:14   BIC                            367.279
 Sample:                             0   HQIC                           365.813
                                  - 17                                         
 Covariance Type:                  opg                                         
@@ -12673,7 +12153,7 @@ ARIMA Model Summary for KT4:
 Dep. Variable:             Price_Diff   No. Observations:                  313
 Model:                 ARIMA(4, 0, 3)   Log Likelihood                   0.000
 Date:                Thu, 28 Mar 2024   AIC                             18.000
-Time:                        20:42:36   BIC                             51.716
+Time:                        22:22:17   BIC                             51.716
 Sample:                             0   HQIC                            31.474
                                 - 313                                         
 Covariance Type:                  opg                                         
@@ -12733,7 +12213,7 @@ ARIMA Model Summary for W2:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4283.003
 Date:                Thu, 28 Mar 2024   AIC                           8584.005
-Time:                        20:42:40   BIC                           8617.976
+Time:                        22:22:20   BIC                           8617.976
 Sample:                             0   HQIC                          8597.567
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12793,7 +12273,7 @@ ARIMA Model Summary for N21:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -3768.042
 Date:                Thu, 28 Mar 2024   AIC                           7554.085
-Time:                        20:42:44   BIC                           7588.056
+Time:                        22:22:23   BIC                           7588.056
 Sample:                             0   HQIC                          7567.647
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12853,7 +12333,7 @@ ARIMA Model Summary for CR0:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(1, 1, 2)   Log Likelihood               -3471.266
 Date:                Thu, 28 Mar 2024   AIC                           6950.532
-Time:                        20:42:48   BIC                           6965.630
+Time:                        22:22:26   BIC                           6965.630
 Sample:                             0   HQIC                          6956.559
                                 - 323                                         
 Covariance Type:                  opg                                         
@@ -12908,7 +12388,7 @@ ARIMA Model Summary for SM3:
 Dep. Variable:             Price_Diff   No. Observations:                  321
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3776.916
 Date:                Thu, 28 Mar 2024   AIC                           7559.833
-Time:                        20:42:51   BIC                           7571.138
+Time:                        22:22:29   BIC                           7571.138
 Sample:                             0   HQIC                          7564.347
                                 - 321                                         
 Covariance Type:                  opg                                         
@@ -12962,7 +12442,7 @@ ARIMA Model Summary for RM10:
 Dep. Variable:             Price_Diff   No. Observations:                  309
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3406.900
 Date:                Thu, 28 Mar 2024   AIC                           6827.801
-Time:                        20:42:55   BIC                           6853.911
+Time:                        22:22:32   BIC                           6853.911
 Sample:                             0   HQIC                          6838.241
                                 - 309                                         
 Covariance Type:                  opg                                         
@@ -13020,7 +12500,7 @@ ARIMA Model Summary for CR7:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(0, 1, 2)   Log Likelihood               -3563.902
 Date:                Thu, 28 Mar 2024   AIC                           7133.803
-Time:                        20:42:59   BIC                           7145.089
+Time:                        22:22:35   BIC                           7145.089
 Sample:                             0   HQIC                          7138.311
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -13074,7 +12554,7 @@ ARIMA Model Summary for SM4:
 Dep. Variable:             Price_Diff   No. Observations:                  319
 Model:                 ARIMA(3, 1, 4)   Log Likelihood               -3577.014
 Date:                Thu, 28 Mar 2024   AIC                           7170.027
-Time:                        20:43:04   BIC                           7200.123
+Time:                        22:22:39   BIC                           7200.123
 Sample:                             0   HQIC                          7182.048
                                 - 319                                         
 Covariance Type:                  opg                                         
@@ -13133,7 +12613,7 @@ ARIMA Model Summary for WC2:
 Dep. Variable:             Price_Diff   No. Observations:                  311
 Model:                 ARIMA(4, 1, 4)   Log Likelihood               -4458.459
 Date:                Thu, 28 Mar 2024   AIC                           8934.918
-Time:                        20:43:08   BIC                           8968.547
+Time:                        22:22:42   BIC                           8968.547
 Sample:                             0   HQIC                          8948.362
                                 - 311                                         
 Covariance Type:                  opg                                         
@@ -13193,7 +12673,7 @@ ARIMA Model Summary for SW19:
 Dep. Variable:             Price_Diff   No. Observations:                  323
 Model:                 ARIMA(2, 1, 4)   Log Likelihood               -3744.044
 Date:                Thu, 28 Mar 2024   AIC                           7502.088
-Time:                        20:43:12   BIC                           7528.510
+Time:                        22:22:45   BIC                           7528.510
 Sample:                             0   HQIC                          7512.636
                                 - 323                                         
 Covariance Type:                  opg                                         
