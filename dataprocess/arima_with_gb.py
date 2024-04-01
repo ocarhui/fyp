@@ -19,7 +19,6 @@ def load_data(data_dir):
     return borough_data
 
 def prepare_features(flats_data):
-    # Assuming flats_data has the columns 'Newbuild', 'BuildDate', 'EnergyEfficiency', 'tfarea', 'numberrooms'
 
     # Process 'Newbuild' into a binary variable
     isNewBuild = flats_data['Newbuild']
@@ -28,7 +27,7 @@ def prepare_features(flats_data):
     build_date = flats_data['BuildDate']
 
     # Standardize numerical features
-    numerical_features = flats_data[['EnergyEfficiency', 'tfarea', 'numberrooms']]
+    numerical_features = flats_data[['EnergyEfficiency', 'HouseSize', 'NumOfRms', 'PricePer']]
     scaler = StandardScaler()
     numerical_features_scaled = scaler.fit_transform(numerical_features)
     numerical_features_df = pd.DataFrame(numerical_features_scaled, columns=numerical_features.columns)
@@ -69,6 +68,7 @@ for borough in borough_data:
     # Combine ARIMA predictions with additional features
     features = additional_features.copy()
     print(features.size)
+    print(arima_in_sample_predictions)
     features['ARIMA_Prediction'] = arima_in_sample_predictions.values
     
     # Define target
