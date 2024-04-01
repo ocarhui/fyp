@@ -27,7 +27,6 @@ def sort_csv_files_by_date():
         df = pd.read_csv(file_path)
         df.sort_values(by="Date", inplace=True)  # Replace "date" with the actual column name
         df['BuildDate'] = df['BuildDate'].apply(convert_build_date)
-        df['Newbuild'] = df['Newbuild'].map({'N': 0, 'Y': 1})
 
         # Columns to drop
         columns_to_drop = [
