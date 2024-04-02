@@ -63,18 +63,19 @@ def load_data(data_dir):
             borough_data[borough] = df
     return borough_data
 
-borough_data = load_data(DATA_DIR)
+if __name__ == '__main__':
+    borough_data = load_data(DATA_DIR)
 
-# Read ARIMA parameters
-arima_file_path = 'arima_params.csv'
-df = pd.read_csv(arima_file_path)
-arima_params = df.set_index('Borough').to_dict()['ARIMA_Params']
+    # Read ARIMA parameters
+    arima_file_path = 'arima_params.csv'
+    df = pd.read_csv(arima_file_path)
+    arima_params = df.set_index('Borough').to_dict()['ARIMA_Params']
 
-borough_df = df_with_arima('SW11', borough_data["SW11"], arima_params)
+    borough_df = df_with_arima('SW11', borough_data["SW11"], arima_params)
 
-plt.figure(figsize=(20, 16), dpi=150)
-sns.heatmap(borough_df.drop(['ID', 'Postcode', 'Date', 'Street Number', 'Flat Number', 'Street Name', 'Area', 'Town', 'City', 'County'], axis=1).dropna().corr(), annot=False, cmap='coolwarm', center=0)
-plt.show()
+    plt.figure(figsize=(20, 20), dpi=150)
+    sns.heatmap(borough_df.drop(['ID', 'Postcode', 'Date', 'Street Number', 'Flat Number', 'Street Name', 'Area', 'Town', 'City', 'County'], axis=1).dropna().corr(), annot=False, cmap='coolwarm', center=0)
+    plt.show()
 
 
 
