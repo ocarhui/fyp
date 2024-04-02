@@ -5,19 +5,20 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 DATA_DIR = "./data"
 
 
 def prepare_features(flats_data):
+    
+    # Standardize numerical features
+    numerical_features = flats_data[['Date','Price','EnergyEfficiency', 'HouseSize', 'NumOfRms', 'PricePer', 'BuildDate']]
+    numerical_features_df = pd.DataFrame(numerical_features, columns=numerical_features.columns)
+
     # One-hot encode 'BuildDate'
     build_date = flats_data['BuildDate']
-
-    # Standardize numerical features
-    numerical_features = flats_data[['Price','EnergyEfficiency', 'HouseSize', 'NumOfRms', 'PricePer', 'BuildDate']]
-    scaler = StandardScaler()
-    numerical_features_scaled = scaler.fit_transform(numerical_features)
-    numerical_features_df = pd.DataFrame(numerical_features_scaled, columns=numerical_features.columns)
 
     # Combine all features
     features = pd.concat([build_date, numerical_features_df], axis=1)
@@ -37,13 +38,19 @@ def df_with_arima(borough, borough_data, arima_params):
     arima_model = ARIMA(monthly_avg_price_cleaned['Price_Diff'], order=(p, d, q))
     arima_model_fit = arima_model.fit()
     arima_in_sample_predictions = arima_model_fit.predict(start=0, end=len(monthly_avg_price) - 1)
+    arima_results_df = pd.DataFrame({'Month_Index': range(1, len(monthly_avg_price) + 1), 'ARIMA_Predictions': arima_in_sample_predictions})
+    
+    start_date = "1995-01"
 
-    prediction_dates = pd.date_range(start="1995-01", periods=324, freq='ME')
-    arima_predictions_series = pd.Series(arima_in_sample_predictions, index=prediction_dates)
+    arima_results_df['Date'] = pd.to_datetime(start_date) + pd.to_timedelta((arima_results_df['Month_Index'] - 1) * 31, unit='D')
+    arima_results_df['YearMonth'] = arima_results_df['Date'].dt.to_period('M')
 
-    combined_df = pd.concat([features, arima_predictions_series], axis=1)
+    flats_data['YearMonth'] = flats_data['Date'].dt.to_period('M')
 
-    combined_df.to_csv('out.csv')
+    combined_df = pd.merge(flats_data, arima_results_df[['ARIMA_Predictions', 'YearMonth']], on='YearMonth', how='left')
+    combined_df = combined_df.drop(["Type", "Newbuild", "Ownership", "Postcode Prefix", "Year", "YearMonth"], axis=1)
+
+    return combined_df
     
 
 def load_data(data_dir):
@@ -63,7 +70,11 @@ arima_file_path = 'arima_params.csv'
 df = pd.read_csv(arima_file_path)
 arima_params = df.set_index('Borough').to_dict()['ARIMA_Params']
 
-df_with_arima('SW11', borough_data["SW11"], arima_params)
+borough_df = df_with_arima('SW11', borough_data["SW11"], arima_params)
+
+plt.figure(figsize=(20, 16), dpi=150)
+sns.heatmap(borough_df.drop(['ID', 'Postcode', 'Date', 'Street Number', 'Flat Number', 'Street Name', 'Area', 'Town', 'City', 'County'], axis=1).dropna().corr(), annot=False, cmap='coolwarm', center=0)
+plt.show()
 
 
 
