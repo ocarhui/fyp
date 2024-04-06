@@ -1,0 +1,5 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+wards.csv filter=lfs diff=lfs merge=lfs -text
+data/other_data/wards.csv filter=lfs diff=lfs merge=lfs -text
+data/other_data_2/London_postcodes.csv filter=lfs diff=lfs merge=lfs -text
