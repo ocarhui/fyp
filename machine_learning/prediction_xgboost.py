@@ -134,6 +134,36 @@ def perform_grid_search(model_name, X, y):
 
     return grid.best_params_
 
+def plot_predictions(historical_data, predictions, borough_name):
+    """
+    Plots historical prices along with the predictions and saves the plot.
+
+    :param historical_data: DataFrame with columns 'Date' and 'Price' for historical data
+    :param predictions: DataFrame with columns 'Date' and 'Predicted_Price' for predictions
+    :param borough_name: The name of the borough for title and filename
+    """
+    plt.figure(figsize=(12, 6))
+
+    historical_data['Date'] = pd.to_datetime(historical_data['Date'])
+    monthly_avg_price = historical_data.resample('M', on='Date')['Price'].mean().reset_index()
+    monthly_avg_price['Price_Diff'] = monthly_avg_price['Price'].diff().dropna()
+    monthly_avg_price_cleaned = monthly_avg_price.dropna(subset=['Price_Diff']) 
+
+    monthly_means = monthly_avg_price_cleaned.groupby(monthly_avg_price_cleaned['Date'].dt.to_period('M')).mean()
+    monthly_means.index = monthly_means.index.to_timestamp()
+    
+    # Plot historical data
+    if monthly_avg_price is not None and not monthly_avg_price.empty:
+        plt.plot(monthly_means.index, monthly_means['Price'], label='Historical Prices', color='blue')
+    
+    # Plot predictions
+    plt.plot(predictions['Date'], predictions['Predicted_Price'], color='red', label='Predicted Prices')
+    plt.title(f'Price Predictions for {borough_name}')
+    plt.xlabel('Date')
+    plt.ylabel('Price')
+    plt.legend()
+    plt.savefig(f'./xgboost_predictions/{borough_name}_price_predictions.png')
+
 borough_data = load_data(DATA_DIR)
 integrated_data = pd.read_csv(DATA_DIR+'/other_data_2/integrated.csv')
 arima_data = load_arima_only_predictions(ARIMA_DIR)
@@ -141,6 +171,7 @@ xgboost_params = pd.read_csv('xgboost_params.csv')
 
 for borough in borough_data:
     borough_df = borough_data[borough].copy()
+    print(f"processing {borough}")
     X_train, X_test, y_train, y_test, scaler, postcode_mapping = preprocess_data(borough, borough_df)
 
     learning_rate = xgboost_params[xgboost_params['Borough'] == borough]['learning_rate'].values[0]
@@ -199,12 +230,24 @@ for borough in borough_data:
             predicted_price = model.predict(features_scaled)[0]
             monthly_prices[month].append(predicted_price)
 
+    mae, rmse = evaluate_model(model, X_test, y_test)
+
+    last_date = borough_df['Date'].iloc[-1]
+    forecast_dates = pd.date_range(start=last_date + pd.offsets.MonthBegin(1), periods=12, freq='M')
     # Average the predictions for each month to get the borough-wide average
     average_monthly_prices = {month: np.mean(prices) for month, prices in monthly_prices.items()}
-    average_prices_df = pd.DataFrame(list(average_monthly_prices.items()), columns=['Month', 'Average Price'])
+
+    average_prices_df = pd.DataFrame({
+            'Date': forecast_dates,
+            'Predicted_Price': average_monthly_prices.values(),
+            'rmse': rmse,
+            'mae': mae
+        })
+    #average_prices_df = pd.DataFrame(list(average_monthly_prices.items()), columns=['Month', 'Average Price'])
 
     # Export to CSV
     average_prices_df.to_csv(f'xgboost_predictions/{borough}_forecast_xgboost.csv', index=False)
+    plot_predictions(borough_df, average_prices_df, borough)
 
 
 """xgboost_params_dict = xgboost_params.set_index('Borough').to_dict(orient='index')
