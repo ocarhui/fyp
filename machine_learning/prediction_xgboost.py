@@ -7,7 +7,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold, train_test_split
 import xgboost as xgb
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-from data_preparation import preprocess_data, preprocess_data_without_arima
+from data_preparation import preprocess_data, preprocess_data_without_arima, preprocess_data_with_date
 import numpy as np
 import pandas as pd
 
@@ -172,7 +172,7 @@ xgboost_params = pd.read_csv('xgboost_params.csv')
 for borough in borough_data:
     borough_df = borough_data[borough].copy()
     print(f"processing {borough}")
-    X_train, X_test, y_train, y_test, scaler, postcode_mapping = preprocess_data(borough, borough_df)
+    X_train, X_test, y_train, y_test, scaler, postcode_mapping = preprocess_data_with_date(borough, borough_df)
 
     learning_rate = xgboost_params[xgboost_params['Borough'] == borough]['learning_rate'].values[0]
     max_depth = xgboost_params[xgboost_params['Borough'] == borough]['max_depth'].values[0]
@@ -193,7 +193,7 @@ for borough in borough_data:
     'IMD decile': integrated_data[integrated_data['Postcode'] == postcode_query]['IMD decile'].values[0],
     'NumOfRms': borough_df['NumOfRms'].mean(),     # average number of rooms
     'ARIMA_Predictions': 94048.27005310703,
-    'Month': 1,
+    'Timestamp': int(datetime.datetime(2022,1,1).timestamp()),
     'PTAL2021': ptal_mapping[integrated_data[integrated_data['Postcode'] == postcode_query]['PTAL2021'].values[0]],
     'London zone': integrated_data[integrated_data['Postcode'] == postcode_query]['London zone'].values[0]
     }
@@ -215,15 +215,17 @@ for borough in borough_data:
             # Prepare the feature set for each postcode and month
             current_df = borough_df[borough_df['Postcode'] == postcode_mapping[postcode]]
             features = feature_template.copy()  # Your base features excluding 'Month' and 'Postcode'
-            features['Month'] = month
             features['Postcode'] = postcode_mapping[postcode] # Assuming postcode mapping to integer
             features['Distance to station'] = current_df['Distance to station'].values[0]
             features['Average Income'] = current_df['Average Income'].values[0]
             features['IMD decile'] = current_df['IMD decile'].values[0]
             features['PTAL2021'] = current_df['PTAL2021'].values[0]
             features['London zone'] = current_df['London zone'].values[0]
+            features['Timestamp'] = int(datetime.datetime(2022,month,1).timestamp()), 
+            features['Timestamp'] = pd.to_numeric(features['Timestamp'], downcast='integer')
             features['ARIMA_Predictions'] = arima_data[borough]['Difference'][month-1]
             features_df = pd.DataFrame([features])  # Convert to DataFrame
+            print(features_df['Timestamp'].dtype)
             features_scaled = scaler.transform(features_df)  # Scale features
 
             # Predict the price

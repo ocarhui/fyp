@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 import keras
 from keras import layers
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-from data_preparation import preprocess_data, preprocess_data_without_arima
+from data_preparation import preprocess_data, preprocess_data_without_arima, preprocess_data_with_date
 import optuna
 
 DATA_DIR = "./data"
@@ -185,7 +185,7 @@ tf_params = pd.read_csv("tf_params.csv")
 for borough in borough_data:
 
     borough_df = borough_data[borough].copy()
-    X_train, X_test, y_train, y_test, scaler, postcode_mapping = preprocess_data(borough, borough_df)
+    X_train, X_test, y_train, y_test, scaler, postcode_mapping = preprocess_data_with_date(borough, borough_df)
     print(f"processing {borough}")
     y_train = y_train.astype(float)
     y_test = y_test.astype(float)
@@ -216,13 +216,16 @@ for borough in borough_data:
                 'IMD decile': current_df['IMD decile'].values[0],
                 'NumOfRms': borough_df['NumOfRms'].mean(),
                 'ARIMA_Predictions': arima_data[borough]['Difference'][month-1],
-                'Month': month,
+                'Timestamp': pd.to_datetime(f'2022-{month}-01'),
                 'PTAL2021': current_df['PTAL2021'].values[0],
                 'London zone': current_df['London zone'].values[0]
             }
 
+            
+
         features_list.append(features)
         features_df = pd.DataFrame(features_list)
+        features_df['Timestamp'] = features_df['Timestamp'].astype('int64') // 10**9
         X_pred = features_df
         X_pred_scaled = scaler.transform(X_pred)
         predictions = make_predictions(model, X_pred_scaled)
