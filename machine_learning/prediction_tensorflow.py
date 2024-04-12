@@ -180,7 +180,6 @@ borough_data = load_data(DATA_DIR)
 integrated_data = pd.read_csv(DATA_DIR+'/other_data_2/integrated.csv')
 arima_data = load_arima_only_predictions(ARIMA_DIR)
 tf_params = pd.read_csv("tf_params.csv")
-#borough = "SW8"
 
 for borough in borough_data:
 

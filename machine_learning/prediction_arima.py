@@ -1,3 +1,4 @@
+from math import sqrt
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
@@ -20,6 +21,26 @@ def load_data(data_dir):
             borough_data[borough] = df
     return borough_data
 
+def eval_arima(borough, monthly_avg_price_cleaned):
+    training_arima = pd.DataFrame(monthly_avg_price_cleaned.iloc[:int(len(monthly_avg_price_cleaned) * 0.8)])
+    testing_arima = pd.DataFrame(monthly_avg_price_cleaned.iloc[int(len(monthly_avg_price_cleaned) * 0.8):])
+
+
+    arima_model = ARIMA(training_arima['Price_Diff'], order=(p_range, d_range, q_range))
+    arima_model_fit = arima_model.fit()
+
+    forecast_result = arima_model_fit.get_forecast(steps=len(testing_arima))
+
+    forecast_mean = forecast_result.predicted_mean
+    cumulative_forecast = np.cumsum(forecast_mean)
+
+    rmse = np.sqrt(mean_squared_error(testing_arima['Price_Diff'], cumulative_forecast))
+    mae = mean_absolute_error(testing_arima['Price_Diff'], cumulative_forecast)
+
+    metrics_df = pd.DataFrame({'RMSE': [rmse], 'MAE': [mae]})
+    metrics_df.to_csv(f'./arima_only_predictions/{borough}_metrics.csv', index=False)
+
+
 borough_data = load_data(DATA_DIR)
 
 arima_file_path = 'arima_params.csv'
@@ -29,6 +50,7 @@ arima_params = df.set_index('Borough').to_dict()['ARIMA_Params']
 last_real_value = {}
 
 for borough in borough_data:
+    print(borough)
     current_borough = borough_data[borough]
     flats_data = current_borough[current_borough['Type'] == 'F'].copy()
     flats_data['Date'] = pd.to_datetime(flats_data['Date'])
@@ -47,6 +69,8 @@ for borough in borough_data:
 
         arima_model = ARIMA(monthly_avg_price_cleaned['Price_Diff'], order=(p_range, d_range, q_range))
         arima_model_fit = arima_model.fit()
+        
+
 
         forecast_result = arima_model_fit.get_forecast(steps=12)
 
@@ -77,6 +101,9 @@ for borough in borough_data:
             'Lower_Confidence_Interval': forecast_conf_int.iloc[:, 0] + last_real_value,
             'Upper_Confidence_Interval': forecast_conf_int.iloc[:, 1] + last_real_value
         })
+
+        
+        
 
         # Print the forecast results
         print(f"Forecasted Monthly Average Price of Flats in {borough} {last_month_mean}:")
