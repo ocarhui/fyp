@@ -1,0 +1,1519 @@
+E6
+ADF Statistic: -0.2913338845827361
+p-value: 0.9267227772367219
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+E1
+ADF Statistic: -0.5375114739482612
+p-value: 0.8844862013059729
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+IG8
+ADF Statistic: 0.46079597647094167
+p-value: 0.9836315315483978
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+N15
+ADF Statistic: 0.850504089366825
+p-value: 0.9924091708373406
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+SW9
+ADF Statistic: -0.06032082993992324
+p-value: 0.9532501006401944
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+N12
+ADF Statistic: 0.054406577423663414
+p-value: 0.9628067761451754
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+KT6
+ADF Statistic: -0.7638436555567479
+p-value: 0.8295127487453692
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+W7
+ADF Statistic: 0.25846080182395026
+p-value: 0.9753563377100045
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+KT1
+ADF Statistic: 0.9386139120958124
+p-value: 0.99357411333122
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+N9
+ADF Statistic: 0.25697598443926056
+p-value: 0.9752821409666143
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+DA17
+ADF Statistic: 0.4627222273308682
+p-value: 0.9836949279364768
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+DA6
+ADF Statistic: -0.9825023630803315
+p-value: 0.7595925467182294
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+RM7
+ADF Statistic: 0.43972514470058155
+p-value: 0.9829212547796327
+Critical Value (1%): -3.4510167751522642
+Critical Value (5%): -2.87064334231426
+Critical Value (10%): -2.5716201744283174
+The series is likely non-stationary.
+BR4
+ADF Statistic: 0.7077676147357366
+p-value: 0.9899916176215423
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+SE18
+ADF Statistic: -0.5763105865227434
+p-value: 0.8762455234934556
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+EC4
+ADF Statistic: -1.5303429077945785
+p-value: 0.5184513246111233
+Critical Value (1%): -3.457437824930831
+Critical Value (5%): -2.873459364726563
+Critical Value (10%): -2.573122099570008
+The series is likely non-stationary.
+DA1
+ADF Statistic: -0.36126246139397833
+p-value: 0.9163684253280909
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+BR3
+ADF Statistic: -0.34821745699160644
+p-value: 0.918392240035284
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SE8
+ADF Statistic: -0.8839523740640332
+p-value: 0.7932111854104016
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+EC3
+ADF Statistic: 3.8414926811249672
+p-value: 1.0
+Critical Value (1%): -3.487517288664615
+Critical Value (5%): -2.8865777180380032
+Critical Value (10%): -2.5801239192052012
+The series is likely non-stationary.
+E15E20
+ADF Statistic: 0.13771853802835635
+p-value: 0.9685439413883092
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+TW9
+ADF Statistic: 0.07741053767676304
+p-value: 0.9644845321906385
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+CR5
+ADF Statistic: -0.2994240666646553
+p-value: 0.9255858620070799
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+SM6
+ADF Statistic: 0.045293509261084886
+p-value: 0.9621213452818099
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+RM12
+ADF Statistic: 0.10552247121641561
+p-value: 0.9664361224653798
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+CR2
+ADF Statistic: 0.2307170983021602
+p-value: 0.9739327455883257
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+SM1
+ADF Statistic: 0.4515691308201599
+p-value: 0.9833243196277583
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+UB8
+ADF Statistic: -0.1798787300328691
+p-value: 0.9408779055238398
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+DA16
+ADF Statistic: 0.8885838591422222
+p-value: 0.9929395193356875
+Critical Value (1%): -3.451082300831733
+Critical Value (5%): -2.87067210822307
+Critical Value (10%): -2.5716355136268345
+The series is likely non-stationary.
+N8
+ADF Statistic: 0.013805187192066781
+p-value: 0.9596589834247566
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+W6
+ADF Statistic: -0.32446540542512275
+p-value: 0.9219671147867541
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+W1
+ADF Statistic: -0.8742102373944655
+p-value: 0.7963466894535327
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+SE9
+ADF Statistic: 0.3320171145207844
+p-value: 0.9787666593583558
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+EC2
+ADF Statistic: -0.05816763046495679
+p-value: 0.9534490573810394
+Critical Value (1%): -3.4525611751768914
+Critical Value (5%): -2.87132117782556
+Critical Value (10%): -2.5719816428028888
+The series is likely non-stationary.
+BR2
+ADF Statistic: -0.3296891702805132
+p-value: 0.9211929342132327
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+RM1
+ADF Statistic: -0.4036109071553951
+p-value: 0.9094941371941015
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+SE19
+ADF Statistic: -0.49530107784597693
+p-value: 0.8929302025155258
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+DA7
+ADF Statistic: 0.9777263022165775
+p-value: 0.9940252862359714
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+RM6
+ADF Statistic: 0.9975037631219325
+p-value: 0.9942395404016782
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+E7
+ADF Statistic: 0.9017057884172124
+p-value: 0.9931125469973757
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+N13
+ADF Statistic: -0.348481666712672
+p-value: 0.9183516793632741
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+SW8
+ADF Statistic: -2.2166866487444468
+p-value: 0.20024500340655343
+Critical Value (1%): -3.4510167751522642
+Critical Value (5%): -2.87064334231426
+Critical Value (10%): -2.5716201744283174
+The series is likely non-stationary.
+N14
+ADF Statistic: 1.2128461972312012
+p-value: 0.9960734475056066
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+IG9
+ADF Statistic: 1.2110574474979736
+p-value: 0.9960613963145731
+Critical Value (1%): -3.469413468959902
+Critical Value (5%): -2.8786964197028295
+Critical Value (10%): -2.5759166089965397
+The series is likely non-stationary.
+WC1
+ADF Statistic: -0.3387682633479327
+p-value: 0.9198312886146822
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+UB9
+ADF Statistic: -0.8378738528822472
+p-value: 0.8077430417909544
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+N22
+ADF Statistic: 0.5524541802361367
+p-value: 0.9863831506058609
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+RM14
+ADF Statistic: -0.03771591257351245
+p-value: 0.9552996265985509
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+RM13
+ADF Statistic: 1.2694417236264002
+p-value: 0.9964322352250423
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+CR4
+ADF Statistic: -0.14847262784398738
+p-value: 0.9443912906070178
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+TW8
+ADF Statistic: -1.0371991849140112
+p-value: 0.7394561987643857
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+SE28
+ADF Statistic: -0.40422960946838676
+p-value: 0.909390185214157
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+E18
+ADF Statistic: 0.4075055604567664
+p-value: 0.9817734627054033
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+TW5
+ADF Statistic: 1.1697606783791035
+p-value: 0.9957701520767148
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+E12
+ADF Statistic: 1.1367528158797726
+p-value: 0.9955184033253924
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+SE22
+ADF Statistic: 0.6529595624273886
+p-value: 0.9888507931948958
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+TW2
+ADF Statistic: 0.19493710793172364
+p-value: 0.9719761978559458
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+SE25
+ADF Statistic: 0.11274789516683252
+p-value: 0.9669207514314422
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+SW10
+ADF Statistic: -0.8701880946504278
+p-value: 0.7976313384933096
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+NW11
+ADF Statistic: -0.04704310627771032
+p-value: 0.9544643914798139
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+SW17
+ADF Statistic: 0.6209588580882152
+p-value: 0.9881209961042746
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+UB4
+ADF Statistic: -0.500509747925367
+p-value: 0.8919169842923595
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+EN4
+ADF Statistic: 0.198906397274583
+p-value: 0.972200190346507
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+EN3EN8
+ADF Statistic: 0.5292347500009654
+p-value: 0.9857350926256719
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+UB3
+ADF Statistic: 0.29530575729285163
+p-value: 0.9771280893857675
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+W11
+ADF Statistic: 0.08626869865392983
+p-value: 0.9651109930562594
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+IG3
+ADF Statistic: 0.6801574156650376
+p-value: 0.989433443250491
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SW2
+ADF Statistic: 0.01831293645729979
+p-value: 0.9600206038009478
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+N19
+ADF Statistic: -0.2795123465483817
+p-value: 0.9283562928675387
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+SW5
+ADF Statistic: -0.8085906163466797
+p-value: 0.8165856054781662
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+N5
+ADF Statistic: 0.6100843412536989
+p-value: 0.9878615712399621
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+N2
+ADF Statistic: -1.176626841376545
+p-value: 0.683568587231215
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+NW1
+ADF Statistic: 0.6521157417463384
+p-value: 0.9888321752899848
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+HA6
+ADF Statistic: -0.03641093730430373
+p-value: 0.9554153301258804
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+TW11
+ADF Statistic: -0.0048024922062360025
+p-value: 0.958133116719679
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+SE13
+ADF Statistic: 1.2118453973824341
+p-value: 0.9960667104987365
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+SE4
+ADF Statistic: 0.6210959485026338
+p-value: 0.9881242287699235
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+NW6
+ADF Statistic: 0.4819509171055419
+p-value: 0.9843140608243686
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+HA1
+ADF Statistic: 0.5087674930175653
+p-value: 0.9851371550987689
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+SE3
+ADF Statistic: -0.8229372627735074
+p-value: 0.8122914021503511
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+SE14
+ADF Statistic: 0.8553989885244179
+p-value: 0.9924797729541814
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+SW16
+ADF Statistic: 0.0033113480636361814
+p-value: 0.9588050770186046
+Critical Value (1%): -3.451082300831733
+Critical Value (5%): -2.87067210822307
+Critical Value (10%): -2.5716355136268345
+The series is likely non-stationary.
+NW10
+ADF Statistic: 1.6616576393329732
+p-value: 0.9980312545845703
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+SW11
+ADF Statistic: 0.127475647060686
+p-value: 0.967887686014549
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+UB2
+ADF Statistic: -0.23255599984057254
+p-value: 0.9345281286391515
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+EN5
+ADF Statistic: 1.1467330129902962
+p-value: 0.9955963817862992
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+CR8
+ADF Statistic: -0.5986433994011636
+p-value: 0.8712882684714915
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+UB5
+ADF Statistic: -0.3864017613075114
+p-value: 0.9123445586052146
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+EN2
+ADF Statistic: -0.6419406272339943
+p-value: 0.8612208187756413
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+SE24
+ADF Statistic: 1.0567572484630119
+p-value: 0.9948301290048721
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+E14
+ADF Statistic: -0.8090614206416974
+p-value: 0.8164458419975047
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+TW3
+ADF Statistic: 0.6330550519739646
+p-value: 0.9884026652842379
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+SE23
+ADF Statistic: 0.4917982889246948
+p-value: 0.9846216684736476
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+E13
+ADF Statistic: -0.08727413444287829
+p-value: 0.9506914193358779
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+TW4
+ADF Statistic: -0.1618516912191491
+p-value: 0.9429186530495292
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+N3
+ADF Statistic: 0.27705331569563846
+p-value: 0.9762668629828922
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+N4
+ADF Statistic: -0.28649245310818855
+p-value: 0.9273957379419839
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+SE15
+ADF Statistic: 2.2294213951373996
+p-value: 0.9989058532717642
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SE2
+ADF Statistic: 0.3531081285647746
+p-value: 0.9796540743678185
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+NW7
+ADF Statistic: 0.11082692926287206
+p-value: 0.9667925717687651
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+HA0
+ADF Statistic: 0.5901871678530757
+p-value: 0.9873712457236845
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SE5
+ADF Statistic: -0.7533689356533929
+p-value: 0.8324374682757886
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+SE12
+ADF Statistic: 0.156417008901493
+p-value: 0.9697084474799401
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+TW10
+ADF Statistic: -0.1370673354012415
+p-value: 0.9456190248084837
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+HA7
+ADF Statistic: 0.04426541960411712
+p-value: 0.9620432645731947
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+W10
+ADF Statistic: -0.036425559563954296
+p-value: 0.9554140352287469
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+SW20
+ADF Statistic: -0.13599934489313834
+p-value: 0.9457327026025978
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+SW4
+ADF Statistic: 0.6087028050523503
+p-value: 0.9878281855206607
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+N18
+ADF Statistic: 0.6824716161987199
+p-value: 0.9894814901226165
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+IG5
+ADF Statistic: -0.01402183063063953
+p-value: 0.9573570145585696
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SW3
+ADF Statistic: -0.40053995045780183
+p-value: 0.9100085859289149
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+IG2
+ADF Statistic: 1.0109487530702923
+p-value: 0.9943801377830789
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+UB7
+ADF Statistic: -0.24832439472860504
+p-value: 0.9325109668846302
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+SW13
+ADF Statistic: 0.422140936099598
+p-value: 0.9823043149938295
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+SW14
+ADF Statistic: 0.23595376313524782
+p-value: 0.9742075510034651
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+E11
+ADF Statistic: 1.193814109325013
+p-value: 0.9959428646345375
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SE21
+ADF Statistic: -0.11861053190506941
+p-value: 0.9475530126587404
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+E16
+ADF Statistic: -0.8499714748201255
+p-value: 0.804001040673425
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+TW1
+ADF Statistic: 1.0279268799869103
+p-value: 0.9945520422316723
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+SE26
+ADF Statistic: -0.21028532622102314
+p-value: 0.9372844776057803
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+NW2
+ADF Statistic: 0.5441840670882555
+p-value: 0.9861559348803831
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+TW12
+ADF Statistic: 0.3491686094726931
+p-value: 0.9794912081120408
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+HA5
+ADF Statistic: -0.11141248753154555
+p-value: 0.9482898745698909
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+SE10
+ADF Statistic: -0.24531305541549625
+p-value: 0.9329004547994102
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+SE7
+ADF Statistic: -0.3817940711975435
+p-value: 0.9130944253310634
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+NW5
+ADF Statistic: -0.10929507731330784
+p-value: 0.9485048015853209
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+RM8
+ADF Statistic: 0.13669754306626808
+p-value: 0.968479116249404
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+HA2
+ADF Statistic: -0.669707323464645
+p-value: 0.8544407873915023
+Critical Value (1%): -3.4510167751522642
+Critical Value (5%): -2.87064334231426
+Critical Value (10%): -2.5716201744283174
+The series is likely non-stationary.
+SE17
+ADF Statistic: -0.4474725881381891
+p-value: 0.9018657514511998
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+W8
+ADF Statistic: 0.1814912535815476
+p-value: 0.9712041780979629
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+DA18
+ADF Statistic: 0.4434881741286618
+p-value: 0.9830503889053086
+Critical Value (1%): -3.468952197801766
+Critical Value (5%): -2.878495056473015
+Critical Value (10%): -2.57580913601947
+The series is likely non-stationary.
+N6
+ADF Statistic: 0.7075070537630938
+p-value: 0.9899865011111979
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+N1
+ADF Statistic: 0.8697450354729587
+p-value: 0.9926825116308385
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+KT9
+ADF Statistic: -0.5025769584788283
+p-value: 0.8915126385732813
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+SW1
+ADF Statistic: -1.0020604392825754
+p-value: 0.7525120616593542
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+IG7
+ADF Statistic: -0.9635903896486001
+p-value: 0.7663112339095822
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+SW6
+ADF Statistic: 0.33726690085760513
+p-value: 0.978991131636928
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+W12
+ADF Statistic: -0.3424240668012581
+p-value: 0.919277196327599
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+E9
+ADF Statistic: 0.24881078150354372
+p-value: 0.9748701406882131
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+SE27
+ADF Statistic: 0.6245875190331589
+p-value: 0.9882062477976418
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+E17
+ADF Statistic: 0.6076266503680674
+p-value: 0.9878021121638195
+Critical Value (1%): -3.450951662384033
+Critical Value (5%): -2.8706147570800784
+Critical Value (10%): -2.571604931640625
+The series is likely non-stationary.
+SE20
+ADF Statistic: 0.7587445000514634
+p-value: 0.9909401794429155
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+IG1IG4
+ADF Statistic: 0.08374717228189847
+p-value: 0.9649337586787369
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+TW7
+ADF Statistic: -0.36664491537663935
+p-value: 0.9155206960020363
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+E10
+ADF Statistic: 1.3378776823441185
+p-value: 0.9968128191811936
+Critical Value (1%): -3.451082300831733
+Critical Value (5%): -2.87067210822307
+Critical Value (10%): -2.5716355136268345
+The series is likely non-stationary.
+UB1
+ADF Statistic: -0.790186198008342
+p-value: 0.8219878140140466
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+UB6
+ADF Statistic: 0.319979289150383
+p-value: 0.9782427830702072
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+EN1
+ADF Statistic: 0.5035999819759573
+p-value: 0.9849821051076946
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+SW15
+ADF Statistic: 0.6214990899346948
+p-value: 0.9881337296512188
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+SW12
+ADF Statistic: 0.4365377455058547
+p-value: 0.982811084341707
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+SW7
+ADF Statistic: -0.854547842998792
+p-value: 0.8025719079999784
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+IG6
+ADF Statistic: 0.1464532754484652
+p-value: 0.9690932523924521
+Critical Value (1%): -3.4510167751522642
+Critical Value (5%): -2.87064334231426
+Critical Value (10%): -2.5716201744283174
+The series is likely non-stationary.
+W14
+ADF Statistic: -0.30670332139521195
+p-value: 0.9245495610867561
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+E8
+ADF Statistic: 0.41849814130762986
+p-value: 0.9821736795117182
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+W13
+ADF Statistic: 0.3629854948162107
+p-value: 0.980056694663697
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+SE16
+ADF Statistic: -1.0223519052260677
+p-value: 0.7450249168925795
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+SE1
+ADF Statistic: -1.0295974996895134
+p-value: 0.7423168358876351
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+RM9
+ADF Statistic: 0.3162669850295647
+p-value: 0.9780786195292409
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+NW4
+ADF Statistic: 0.11615084594634745
+p-value: 0.9671466441401819
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+HA3
+ADF Statistic: -0.0024080941021209653
+p-value: 0.9583324847102752
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+DA8
+ADF Statistic: 0.7418945227821633
+p-value: 0.9906379141053951
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+SE6
+ADF Statistic: 0.031753186630921915
+p-value: 0.9610805904161448
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+SE11
+ADF Statistic: -0.4200642647489893
+p-value: 0.9066944795829768
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+NW3
+ADF Statistic: 0.24015607767298178
+p-value: 0.9744260009473947
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+HA4
+ADF Statistic: 0.4091001359289363
+p-value: 0.9818320822176061
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+TW13
+ADF Statistic: 0.3331632772154903
+p-value: 0.9788158726927151
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+KT8
+ADF Statistic: -3.666383680453709
+p-value: 0.004611627784207974
+Critical Value (1%): -3.653519805908203
+Critical Value (5%): -2.9572185644531253
+Critical Value (10%): -2.6175881640625
+The series is likely stationary.
+N7
+ADF Statistic: -0.005779348422008942
+p-value: 0.9580515203490473
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+W9
+ADF Statistic: -0.7274960158990915
+p-value: 0.8394983316912801
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+DA5
+ADF Statistic: 0.058549598237456535
+p-value: 0.9631144491326562
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+NW9
+ADF Statistic: 0.13334857386841628
+p-value: 0.9682655701218279
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+BR7
+ADF Statistic: 0.21114646653334443
+p-value: 0.9728798814170616
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+HA9
+ADF Statistic: -0.07614430730345269
+p-value: 0.9517634205120691
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+RM3
+ADF Statistic: 0.2081953055452428
+p-value: 0.9727175159053332
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+TN16
+ADF Statistic: -0.9027574589573681
+p-value: 0.7870629905322124
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+W3
+ADF Statistic: 0.09845442756488486
+p-value: 0.9659554121279441
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+KT5
+ADF Statistic: 0.20060310220502547
+p-value: 0.9722953998194117
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+W4
+ADF Statistic: -0.0911801016568699
+p-value: 0.9503099742551709
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+KT2
+ADF Statistic: 0.22148621992348044
+p-value: 0.9734412677557237
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+BR5BR8
+ADF Statistic: 1.146322663429881
+p-value: 0.9955932079167568
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+DA14
+ADF Statistic: -0.1020367972547023
+p-value: 0.9492352823296419
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+N16
+ADF Statistic: 0.6954104244454318
+p-value: 0.9897458303320531
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+N11
+ADF Statistic: -0.007332204539745359
+p-value: 0.9579215011190423
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+E5
+ADF Statistic: 0.9605608777638919
+p-value: 0.9938318882271198
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+E2
+ADF Statistic: -0.5076622229865706
+p-value: 0.8905125719123133
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+SM5
+ADF Statistic: 0.949710101142137
+p-value: 0.993705945007693
+Critical Value (1%): -3.4519023023726696
+Critical Value (5%): -2.8710320399170537
+Critical Value (10%): -2.57182745012602
+The series is likely non-stationary.
+RM11
+ADF Statistic: -0.011184063197991506
+p-value: 0.9575973409413291
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+SM2
+ADF Statistic: 1.074546587911527
+p-value: 0.9949934252776245
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+N20
+ADF Statistic: -0.5364496324703488
+p-value: 0.884705204433418
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+SW18
+ADF Statistic: 0.008017995073161815
+p-value: 0.9591901670192716
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+IG11
+ADF Statistic: -0.29267492509738957
+p-value: 0.9265353939747412
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+UB10
+ADF Statistic: -0.41661685252861386
+p-value: 0.9072871705665548
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+N10
+ADF Statistic: 0.6255290077868307
+p-value: 0.988228260773075
+Critical Value (1%): -3.45176116018037
+Critical Value (5%): -2.870970093607691
+Critical Value (10%): -2.571794416006072
+The series is likely non-stationary.
+N17
+ADF Statistic: 0.6455755718893913
+p-value: 0.9886867436240031
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+E3
+ADF Statistic: -0.43189204325320457
+p-value: 0.9046362305421203
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+E4
+ADF Statistic: 1.0229147606966713
+p-value: 0.9945019372524981
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+EC1
+ADF Statistic: -0.055048995604074544
+p-value: 0.9537358151565773
+Critical Value (1%): -3.4521175397304784
+Critical Value (5%): -2.8711265007266666
+Critical Value (10%): -2.571877823851692
+The series is likely non-stationary.
+HA8
+ADF Statistic: 0.2375677341899253
+p-value: 0.9742916681629514
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+RM2
+ADF Statistic: 0.1317462456324905
+p-value: 0.9681629014747722
+Critical Value (1%): -3.451552879535732
+Critical Value (5%): -2.8708786756338407
+Critical Value (10%): -2.571745666091128
+The series is likely non-stationary.
+BR1
+ADF Statistic: 0.38889811887092757
+p-value: 0.9810749907324127
+Critical Value (1%): -3.4514843502727306
+Critical Value (5%): -2.8708485956333556
+Critical Value (10%): -2.571729625657462
+The series is likely non-stationary.
+RM5
+ADF Statistic: 0.41589547813630734
+p-value: 0.9820797407677624
+Critical Value (1%): -3.4510167751522642
+Critical Value (5%): -2.87064334231426
+Critical Value (10%): -2.5716201744283174
+The series is likely non-stationary.
+BR6
+ADF Statistic: 0.3686148522437149
+p-value: 0.9802825399032462
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+NW8
+ADF Statistic: 1.0772367336950799
+p-value: 0.9950175876667228
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+KT3
+ADF Statistic: 0.9998141187782181
+p-value: 0.9942639868978833
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+DA15
+ADF Statistic: 0.5487351596866442
+p-value: 0.9862814601083622
+Critical Value (1%): -3.451281394993741
+Critical Value (5%): -2.8707595072926293
+Critical Value (10%): -2.571682118921643
+The series is likely non-stationary.
+W5
+ADF Statistic: 0.3322034482582413
+p-value: 0.9787746678899364
+Critical Value (1%): -3.4513486122290717
+Critical Value (5%): -2.870789013306053
+Critical Value (10%): -2.5716978530569192
+The series is likely non-stationary.
+WD3
+ADF Statistic: 0.6633515085040435
+p-value: 0.9890773787454094
+Critical Value (1%): -3.7883858816542486
+Critical Value (5%): -3.013097747543462
+Critical Value (10%): -2.6463967573696143
+The series is likely non-stationary.
+KT4
+ADF Statistic: 0.013554247307393697
+p-value: 0.9596387614819302
+Critical Value (1%): -3.4512146067362317
+Critical Value (5%): -2.870730188960711
+Critical Value (10%): -2.5716664849383113
+The series is likely non-stationary.
+W2
+ADF Statistic: 0.13656699149924498
+p-value: 0.9684708178920617
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.
+N21
+ADF Statistic: 0.32690329054808687
+p-value: 0.9785456783156312
+Critical Value (1%): -3.4518314994261337
+Critical Value (5%): -2.8710009653519166
+Critical Value (10%): -2.571810878948318
+The series is likely non-stationary.
+CR0
+ADF Statistic: -0.6629210356606225
+p-value: 0.8561215227130042
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+SM3
+ADF Statistic: -0.19683733027359215
+p-value: 0.9388975507519045
+Critical Value (1%): -3.451148243362826
+Critical Value (5%): -2.8707010565250752
+Critical Value (10%): -2.571650950153748
+The series is likely non-stationary.
+RM10
+ADF Statistic: 0.41947893444946566
+p-value: 0.9822089488171366
+Critical Value (1%): -3.4514162625887037
+Critical Value (5%): -2.8708187088091406
+Critical Value (10%): -2.5717136883095675
+The series is likely non-stationary.
+CR7
+ADF Statistic: -0.15833340264723264
+p-value: 0.9433093398564041
+Critical Value (1%): -3.451621854687657
+Critical Value (5%): -2.870908950689806
+Critical Value (10%): -2.571761810613944
+The series is likely non-stationary.
+SM4
+ADF Statistic: 0.22837278606641706
+p-value: 0.9738087860719422
+Critical Value (1%): -3.45169128009473
+Critical Value (5%): -2.8709394227049154
+Critical Value (10%): -2.5717780602423517
+The series is likely non-stationary.
+WC2
+ADF Statistic: -1.273784325809982
+p-value: 0.6410790645213363
+Critical Value (1%): -3.452636878592149
+Critical Value (5%): -2.8713543954331433
+Critical Value (10%): -2.5719993576515705
+The series is likely non-stationary.
+SW19
+ADF Statistic: 1.3367381441873236
+p-value: 0.9968069183629752
+Critical Value (1%): -3.451973573620699
+Critical Value (5%): -2.8710633193086648
+Critical Value (10%): -2.5718441306100512
+The series is likely non-stationary.

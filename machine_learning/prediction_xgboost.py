@@ -27,7 +27,7 @@ def load_data(data_dir):
 def load_arima_only_predictions(data_dir):
     arima_only_predictions = {}
     for filename in os.listdir(data_dir):
-        if filename.endswith('.csv'):
+        if filename.endswith('forecast.csv'):
             file_path = os.path.join(data_dir, filename)
             borough = filename.split('_')[0]
             df = pd.read_csv(file_path)
@@ -195,7 +195,8 @@ for borough in borough_data:
     'ARIMA_Predictions': 94048.27005310703,
     'Timestamp': int(datetime.datetime(2022,1,1).timestamp()),
     'PTAL2021': ptal_mapping[integrated_data[integrated_data['Postcode'] == postcode_query]['PTAL2021'].values[0]],
-    'London zone': integrated_data[integrated_data['Postcode'] == postcode_query]['London zone'].values[0]
+    'London zone': integrated_data[integrated_data['Postcode'] == postcode_query]['London zone'].values[0],
+    'AI2021': 10
     }
     
     """user_input = {
@@ -224,6 +225,7 @@ for borough in borough_data:
             features['Timestamp'] = int(datetime.datetime(2022,month,1).timestamp()), 
             features['Timestamp'] = pd.to_numeric(features['Timestamp'], downcast='integer')
             features['ARIMA_Predictions'] = arima_data[borough]['Difference'][month-1]
+            features['AI2021'] = current_df['AI2021'].values[0]
             features_df = pd.DataFrame([features])  # Convert to DataFrame
             print(features_df['Timestamp'].dtype)
             features_scaled = scaler.transform(features_df)  # Scale features

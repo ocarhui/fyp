@@ -48,18 +48,18 @@ df = pd.read_csv(arima_file_path)
 arima_params = df.set_index('Borough').to_dict()['ARIMA_Params']
 
 last_real_value = {}
+output = []
 
 for borough in borough_data:
-    print(borough)
-    current_borough = borough_data[borough]
-    flats_data = current_borough[current_borough['Type'] == 'F'].copy()
+    current_borough = borough_data[borough].copy()
+    flats_data = current_borough
     flats_data['Date'] = pd.to_datetime(flats_data['Date'])
     monthly_avg_price = flats_data.resample('M', on='Date')['Price'].mean().reset_index()
 
     # Drop rows with NaN values in 'Price' column
 
     monthly_avg_price['Price_Diff'] = monthly_avg_price['Price'].diff().dropna()
-    monthly_avg_price_cleaned = monthly_avg_price.dropna(subset=['Price_Diff']) 
+    monthly_avg_price_cleaned = monthly_avg_price.dropna(subset=['Price_Diff'])
 
     if monthly_avg_price_cleaned['Price_Diff'].nunique() > 1:
         current_borough = borough_data[borough]
@@ -106,7 +106,7 @@ for borough in borough_data:
         
 
         # Print the forecast results
-        print(f"Forecasted Monthly Average Price of Flats in {borough} {last_month_mean}:")
+        print(f"Forecasted Monthly Average Price in {borough} {last_month_mean}:")
         for index, row in forecast_df.iterrows():
             print(f"{row['Date'].strftime('%Y-%m')}: £{row['Predicted_Price']:.2f} (Confidence Interval: £{row['Lower_Confidence_Interval']:.2f} - £{row['Upper_Confidence_Interval']:.2f})")
 
@@ -127,7 +127,7 @@ for borough in borough_data:
         plt.plot(forecast_dates, absolute_forecast, color='red', label='Forecasted Monthly Mean Price')  # This is your forecast mean
         plt.fill_between(forecast_dates, forecast_conf_int.iloc[:, 0] + last_real_value,
                         forecast_conf_int.iloc[:, 1] + last_real_value, color='pink', alpha=0.5, label='Confidence Interval')
-        plt.title(f'Forecast of Monthly Average Price of Flats in {borough}')
+        plt.title(f'Forecast of Monthly Average Price in {borough}')
         plt.xlabel('Date')
         plt.ylabel('Price')
         plt.legend()

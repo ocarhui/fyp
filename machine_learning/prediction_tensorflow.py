@@ -31,7 +31,7 @@ def save_results(results_str, file_path):
 def load_arima_only_predictions(data_dir):
     arima_only_predictions = {}
     for filename in os.listdir(data_dir):
-        if filename.endswith('.csv'):
+        if filename.endswith('forecast.csv'):
             file_path = os.path.join(data_dir, filename)
             borough = filename.split('_')[0]
             df = pd.read_csv(file_path)
@@ -217,7 +217,8 @@ for borough in borough_data:
                 'ARIMA_Predictions': arima_data[borough]['Difference'][month-1],
                 'Timestamp': pd.to_datetime(f'2022-{month}-01'),
                 'PTAL2021': current_df['PTAL2021'].values[0],
-                'London zone': current_df['London zone'].values[0]
+                'London zone': current_df['London zone'].values[0],
+                'AI2021': current_df['AI2021'].values[0]
             }
 
             

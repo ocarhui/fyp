@@ -120,7 +120,7 @@ def preprocess_data_with_date(borough, data):
     
     # Select features for training
     features_to_use = [ 'Postcode', 'HouseSize', 'EnergyEfficiency', 'BuildDate', 'Distance to station',
-                       'Average Income', 'IMD decile', 'NumOfRms', 'ARIMA_Predictions', 'Timestamp', 'PTAL2021', 'London zone']
+                       'Average Income', 'IMD decile', 'NumOfRms', 'ARIMA_Predictions', 'Timestamp', 'PTAL2021', 'London zone', 'AI2021']
     features = data[features_to_use]
     target = data['Price']
     
